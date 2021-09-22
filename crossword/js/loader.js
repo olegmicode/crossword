@@ -64,6 +64,7 @@ const loadJsonFile = () => {
 };
 
 const jsonLoaded = (data) => {
+  console.log('jsonLoaded');
   puzzle = data;
   acrossClues = puzzle.acrossClues;
   downClues = puzzle.downClues;
@@ -203,9 +204,9 @@ const setOnboardSetting = () => {
 const permalinkHandler = () => {
   let urlParams = new URLSearchParams(window.location.search);
   let permalinkParam = urlParams.get('l');
-
   let gameLevel = null;
-  if(permalinkParam){
+  
+  if (permalinkParam) {
     if(gameLevels){
       gameLevels.forEach((v) => {
         if(v.permalink == permalinkParam && v.status == 1 && v.deleted == 0){
@@ -215,22 +216,23 @@ const permalinkHandler = () => {
     }
   }
 
-  if(gameLevel){
-    getScore();
+  if (gameLevel) {
+    goPage('intro');
+    // getScore();
 
-    difficulty.id = parseInt(gameLevel.id);
-    difficulty.grid = parseInt(gameLevel.width);
-    fetchQuestions(parseInt(gameLevel.id), parseInt(gameLevel.width));
-    gameData.levelId = parseInt(gameLevel.id);
-    gameData.boardJSON = gameLevel.board_json;
+    // difficulty.id = parseInt(gameLevel.id);
+    // difficulty.grid = parseInt(gameLevel.width);
+    // fetchQuestions(parseInt(gameLevel.id), parseInt(gameLevel.width));
+    // gameData.levelId = parseInt(gameLevel.id);
+    // gameData.boardJSON = gameLevel.board_json;
 
-    let loaderTimer = setInterval(() => {
-      if(isOnTheGame){
-        $('#loader').fadeOut('fast', function () {});
-        clearInterval(loaderTimer);
-      }
-    }, 1000);
-  }else {
+    // let loaderTimer = setInterval(() => {
+    //   if(isOnTheGame){
+    //     $('#loader').fadeOut('fast', function () {});
+    //     clearInterval(loaderTimer);
+    //   }
+    // }, 1000);
+  } else {
     goPage('intro');
   }
 }

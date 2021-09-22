@@ -1775,6 +1775,7 @@ function resetTimer() {
 }
 
 function setupConfiguration() {
+  console.log('setupConfiguration');
   fetchLevels();
   setEvents();
   checkMute();
@@ -1798,6 +1799,7 @@ function setBottomInfoHeight() {
 
 //__info: API Handler
 function fetchLevels() {
+  console.log('fetchLevels');
   $.ajax({
     url:
       'https://seniorsdiscountclub.com.au/games/crossword/api/level/read.php',
@@ -1903,6 +1905,8 @@ function displayLevels() {
 
 //__info: Game Page
 function goPage(page) {
+  console.log('goPage', page);
+
   $('#hintWrapper').hide();
   $('#confettiWrapper').hide();
   $('#intro').hide();

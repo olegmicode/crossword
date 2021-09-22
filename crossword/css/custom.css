@@ -4255,6 +4255,7 @@ nav {
     top: 60px !important; }
 
 #result {
+  display: none;
   background-color: #ffffff;
   min-height: 100vh; }
   #result .result-wrapper {
