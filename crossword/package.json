@@ -1,0 +1,24 @@
+{
+  "name": "crossword-trial",
+  "version": "1.0.0",
+  "description": "Test compare-club",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css",
+    "prod": "webpack --config webpack.config.js && node-sass scss -o css"
+  },
+  "author": "Firman Adetia Putra",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^2.1.4",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.0",
+    "serve": "^11.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

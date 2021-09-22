@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordsearch Game</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MD44XGV');</script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+    if ( window.location !== window.parent.location ) {
+      // The page is in an iframe
+    } else {
+      console.log('opening game not in YLC iframe');
+      console.log('window.location: ' + window.location);
+      console.log('window.parent.location: ' + window.parent.location);
+    }
+    </script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD44XGV"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="orientationWarning" class="orientation d-none fade">
+      <img src="./img/icon/rotate-icon.svg" alt="">
+      <h1>For better experience,<br>
+        please rotate the device to portrait</h1>
+    </div>
+
+    <div id="topBar" class="topbar d-none">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <div class="topbar__score fadeIn" id="scoreWrapper">
+          <img src="./img/icon/trophy-icon.svg" alt="Score" />
+          <span
+            id="scoreText"
+            class="topbar__score__text ml-1 h5 text-white text-bold"
+            >3000</span
+          >
+        </div>
+        <p class="topbar__title h3 text-white mx-auto">WordSearch</p>
+        <img
+          id="btnReset"
+          src="./img/icon/reset-icon.svg"
+          alt="Reset"
+          class="clickable fadeIn"
+        />
+      </div>
+    </div>
+
+    <div id="main" class="main">
+      <div class="ellipse-top">
+        <img src="./img/ellipse-top.png" alt="Ornament">
+      </div>
+      <div class="ellipse-bottom">
+        <img src="./img/ellipse-bottom.png" alt="Ornament">
+      </div>
+      <div class="main__wrapper container-fluid flex-column">
+        <div id="setting" class="setting fadeIn">
+          <button id="btnSetting" class="btn btn--icon btn--red tooltiped">
+            <img src="./img/icon/cog-icon.svg" alt="Setting" />
+            <div class="tooltip tooltip--top">Setting</div>
+          </button>
+          <div id="settingDropdown" class="setting__dropdown">
+            <button
+              id="btnSound"
+              class="btn btn--icon btn--yellow mb-1 tooltiped"
+            >
+              <img src="./img/icon/mute-icon.svg" alt="Sound" />
+              <div class="tooltip tooltip--left">Mute</div>
+            </button>
+            <button id="btnHelp" class="btn btn--icon btn--yellow mb-1 tooltiped">
+              <img src="./img/icon/help-icon.svg" alt="Sound" />
+              <div class="tooltip tooltip--left">Help</div>
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="intro"
+          class="intro my-auto flex-column align-items-center d-none"
+        >
+          <div class="d-flex flex-column">
+            <img
+              class="logo"
+              src="./img/logo.svg"
+              alt="Wordsearch"
+            />
+            <img
+              class="logo-secondary"
+              src="./img/logo-secondary.svg"
+              alt="Wordsearch"
+            />
+            <img
+              class="logo-bottom"
+              src="./img/logo.svg"
+              alt="Wordsearch"
+            />
+          </div>
+
+          <div
+            id="progressWrapper"
+            class="intro__loader align-self-center mt-5"
+          >
+            <div class="intro__loader__wrapper">
+              <div id="progressBar" class="intro__loader__progress-bar"></div>
+              <div
+                id="progressPercentage"
+                class="intro__loader__percentage text-bold text-white"
+              ></div>
+            </div>
+          </div>
+          <div class="intro__action">
+            <button
+              id="btnStart"
+              href="#"
+              class="btn btn--lg btn--yellow fadeIn"
+            >
+              START
+            </button>
+          </div>
+        </div>
+
+        <div id="onboard" class="onboard d-none align-items-center flex-column">
+          <div class="onboard__header d-none d-md-flex align-items-center">
+            <img src="./img/wordsearch-logo.svg" alt="WordSearch" class="onboard__header__game-logo mr-2" />
+            <img src="./img/logo.svg" alt="Your Life Choices" class="onboard__header__ylc-logo" />
+          </div>
+          <div class="onboard__wrapper d-flex flex-column justify-content-between">
+            <div class="onboard__content flex-fill d-none flex-column align-items-center">
+              <h1 class="onboard__content__title">How do you gain points?</h1>
+              <div class="onboard__content__image">
+                <img src="./img/onboard-stars.svg" alt="Get Point">
+              </div>
+              <div class="onboard__content__desc d-flex flex-column">
+                <ul>
+                  <li class="list">Every word found will get +10 points<li/>
+                  <li class="list">Use reveal word feature will deduct the score -10 points</li>
+                  <li class="list">Use reveal letter will not reduce the score</li>
+                </ul>
+              </div>
+            </div>
+            <div class="onboard__content flex-fill d-none flex-column align-items-center">
+              <h1 class="onboard__content__title">Timer</h1>
+              <div class="onboard__content__image">
+                <img src="./img/onboard-timer.svg" alt="Timer">
+              </div>
+              <div class="onboard__content__desc d-flex flex-column">
+                <p>Your time will be recorded here. If you want to take a break or surrender, simply press the button and the time will be paused.</p>
+              </div>
+            </div>
+            <div class="onboard__content flex-fill d-none flex-column align-items-center">
+              <h1 class="onboard__content__title">Hints</h1>
+              <div class="onboard__content__image">
+                <img src="./img/onboard-hints.svg" alt="Hints ">
+              </div>
+              <div class="onboard__content__desc d-flex flex-column">
+                <ul>
+                  <li class="list">You can use some help to reveal the words or letters, these two buttons will help you to reveal letter location so you can guessing the word easier, or just reveal the word right away by pressing the reveal the word button</li>
+                  <li class="list">these hints can be used up to 3 times each.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="onboard__action mt-auto d-flex align-items-center justify-content-center">
+              <button id="btnSkipOnboard" type="button" class="btn btn--onboard btn--onboard--outlined mx-1">Skip Tour</a>
+              <button id="btnNextOnboard" type="button" class="btn btn--onboard mx-1">Next</a>
+                <button id="btnStartOnboard" type="button" class="btn btn--onboard ">Start Now</a>
+            </div>
+            <div id="onboardPagination" class="onboard__pagination d-flex align-items-center justify-content-center">
+              <div class="onboard__pagination__index active"></div>
+              <div class="onboard__pagination__index"></div>
+              <div class="onboard__pagination__index"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="category" class="category flex-column d-none flex-fill">
+          <div class="category__header d-flex align-items-center">
+            <img
+              src="./img/logo-secondary.svg"
+              alt="WordSearch"
+              class="category__header__game-logo mr-2"
+            />
+
+          </div>
+          <div id="todayText" class="category__date h3 text-white">
+            Friday, 5 June 2020
+          </div>
+          <div
+            id="categoryWrapper"
+            class="category__list d-flex flex-wrap py-3"
+          ></div>
+        </div>
+
+        <div id="game" class="game flex-column d-none">
+          <div class="game__header align-items-center justify-content-between">
+            <button class="btn timer mr-2" id="btnTimer">
+              <div
+                id="timerText"
+                class="timer__wrapper flex-fill align-items-center justify-content-center h4 text-bold align-self-stretch"
+              >
+                00:00:00
+              </div>
+              <div class="tooltiped">
+                <img
+                  id="btnTimer"
+                  src="./img/icon/pause-icon.svg"
+                  alt="Pause"
+                />
+                <div class="tooltip tooltip--top">Pause</div>
+              </div>
+            </button>
+            <div id="hintTextWrapper" class="game__header__hint fadeIn">
+              <div id="hintText" class="game__header__hint__text">
+                HINT ACTIVE. SELECT WORD TO SEE THE PATTERN.
+              </div>
+            </div>
+            <button
+              id="btnCheckWord"
+              class="btn btn--icon btn--yellow btn--tools tooltiped ml-auto mr-1"
+            >
+              <img src="./img/icon/hint-icon.svg" alt="Setting" />
+              <div class="tooltip tooltip--top">
+                Check Word : <span>1</span>
+              </div>
+            </button>
+            <button
+              id="btnCheckLetter"
+              class="btn btn--icon btn--yellow btn--tools tooltiped mx-1"
+            >
+              <img src="./img/icon/bulb-icon.svg" alt="Setting" />
+              <div class="tooltip tooltip--top">
+                Check First Letter : <span>1</span>
+              </div>
+            </button>
+          </div>
+          <div
+            id="gameWrapper"
+            class="game__wrapper d-flex flex-column flex-md-row py-3 container-fluid"
+          >
+            <div id="boardWrapper" class="flex-fill fadeIn">
+              <canvas id="boardCanvas"></canvas>
+              <div
+                id="board"
+                class="board d-flex flex-wrap justify-content-center align-items-center"
+              ></div>
+            </div>
+            <div class="words d-flex flex-column">
+              <div class="words__title d-flex flex-md-column justify-content-between mb-3 mt-3 mt-md-0">
+                <p id="categoryText">Find these words:</p>
+                <p id="wordCount">Word remaining: <span>20</span></p>
+              </div>
+              <div id="words" class="words__wrapper"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="result" class="result d-none">
+          <div class="result__wrapper flex-fill">
+            <div class="result__header">
+              <canvas
+                id="confettiWrapper"
+                class="result__header__confetti"
+              ></canvas>
+              <div
+                class="result__header__title d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/icon/result-trophy-icon.svg" alt="Trophy" />
+                <h1 class="text-bold text-center h2 mx-3">GAME FINISHED</h1>
+                <img src="./img/icon/result-trophy-icon.svg" alt="Trophy" />
+              </div>
+              <!-- <div class="result__header__stars d-flex justify-content-center">
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+              </div> -->
+              <div
+                class="result__header__score d-flex flex-column align-items-center justify-content-center"
+              >
+                <h2 class="h3 mb-3 text-bolder">TOTAL POINTS</h2>
+                <div class="result-score h1 text-bolder" id="scoreResultText">
+                  401
+                </div>
+              </div>
+            </div>
+
+            <div class="result__action d-flex flex-column mt-3">
+              <button
+                id="btnReplay"
+                class="btn btn--result mb-3 align-self-md-center"
+              >
+                Play Again
+              </button>
+              <div class="result__action__divider my-1"></div>
+              <span class="align-self-center text-small text-grey mt-2"
+                >Share to:</span
+              >
+              <div
+                class="result__action__share d-flex justify-content-center align-self-center mt-3"
+              >
+                <div class="btn btn--icon mx-2">
+                  <button id="btnFacebook" class="btn btn--icon btn--facebook">
+                    <img
+                      src="./img/icon/facebook-icon.svg"
+                      alt="Share to Facebook"
+                    />
+                  </button>
+                </div>
+                <div class="btn btn--icon mx-2">
+                  <button id="btnTwitter" class="btn btn--icon btn--twitter">
+                    <img
+                      src="./img/icon/twitter-icon.svg"
+                      alt="Share to Twitter"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="pageIndex" class="page-index fadeIn">
+          <div class="d-flex justify-content-between container-fluid">
+            <button
+              id="btnPrevIndex"
+              class="hide btn btn--icon btn--red btn-page fadeIn"
+            >
+              <img src="./img/icon/arrow-left-icon.svg" alt="" />
+            </button>
+            <button
+              id="btnNextIndex"
+              class="hide btn btn--icon btn--red btn-page fadeIn"
+            >
+              <img src="./img/icon/arrow-right-icon.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="gameBg" class="main__fullbg fadeIn"></div>
+
+      <div class="modal modal--pause" id="modalPause">
+        <div
+          class="modal__wrapper d-flex flex-column align-items-center justify-content-between"
+        >
+          <div class="modal__title text-bold h4">Game Paused</div>
+          <div class="modal__action d-flex flex-column mt-3">
+            <button
+              id="btnContinue"
+              href="#"
+              class="btn btn--modal btn--modal--yellow mb-3"
+            >
+              CONTINUE
+            </button>
+            <button
+              id="btnSurrender"
+              href="#"
+              class="btn btn--modal btn--modal--yellow"
+            >
+              SURRENDER
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal modal--reset" id="modalReset">
+        <div
+          class="modal__wrapper d-flex flex-column align-items-center justify-content-between"
+        >
+          <div class="modal__title text-bold text-center h4">
+            You're about to reset the game.<br />All your progress will be
+            lost.<br />Do you want to proceed?
+          </div>
+          <div class="modal__action d-flex mt-3 d-flex">
+            <button
+              id="btnResetYes"
+              href="#"
+              class="btn btn--modal btn--modal--yellow mx-1"
+            >
+              YES
+            </button>
+            <button
+              id="btnResetNo"
+              href="#"
+              class="btn btn--modal btn--modal--green mx-1"
+            >
+              NO
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal modal--help" id="modalOnboard">
+        <div class="modal__wrapper d-flex flex-column align-items-center">
+          <div class="modal--help__content d-none flex-column align-items-center">
+            <h1>How do you gain points?</h1>
+            <img src="./img/onboard-stars.svg" alt="">
+            <ul>
+              <li class="list">Every word found will get +10 points
+                <li />
+              <li class="list">Use reveal word feature will deduct the score</li>
+              <li class="list">Use reveal letter will not reduce the score</li>
+            </ul>
+          </div>
+          <div class="modal--help__content d-none flex-column align-items-center">
+            <h1>Timer</h1>
+            <img src="./img/onboard-timer.svg" alt="">
+            <p>Your time will be recorded here. If you want to take a break or surrender, simply press the button and the time will be paused.</p>
+          </div>
+          <div class="modal--help__content d-none flex-column align-items-center">
+            <h1>Hints</h1>
+            <img src="./img/onboard-hints.svg" alt="">
+            <ul>
+              <li class="list">You can use some help to reveal the words or letters, these two buttons will help you to reveal letter location so you
+              can guessing the word easier, or just reveal the word right away by pressing the reveal the word button
+                <li />
+              <li class="list">these hints can be used up to <span id="hintCountText">3</span> times each.</li>
+            </ul>
+          </div>
+          <div class="modal--help__action d-flex">
+            <a id="btnOnboardModalSkip" href="#" class="btn btn--onboard btn--onboard--outlined mx-1">Close</a>
+            <a id="btnOnboardModalNext" href="#" class="btn btn--onboard mx-1">Next</a>
+            <a id="btnOnboardModalStart" href="#" class="btn btn--onboard mx-1">Continue</a>
+          </div>
+          <div class="modal--help__indicator d-flex justify-content-center">
+            <div class="modal--help__indicator__item active mx-1"></div>
+            <div class="modal--help__indicator__item mx-1"></div>
+            <div class="modal--help__indicator__item mx-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal__backdrop" id="modalBackdrop"></div>
+
+      <div id="loader" class="loader__wrapper d-none">
+        <div class="loader">Loading...</div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./js/bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "trivia-quiz",
+  "version": "1.0.0",
+  "description": "Test Trivia Quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css --output-style compressed",
+    "prod": "webpack --config webpack.config.js && node-sass scss -o css"
+  },
+  "author": "Firman Adetia Putra",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^1.12.4",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.0",
+    "serve": "^11.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

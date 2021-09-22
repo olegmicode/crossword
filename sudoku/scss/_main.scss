@@ -1,0 +1,709 @@
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // height: 400px;
+  width: 100%;
+
+  // min-height: 90%;
+  &__game-logo {
+    width: 240px;
+    height: 240px;
+  }
+
+  &__ylc-logo {
+    height: 40px;
+    width: auto;
+    transform: translateY(-10px);
+  }
+
+  &__loader {
+    height: 30px;
+    background-color: $white;
+    border-radius: 40px;
+    padding: 3px;
+    max-width: 400px;
+    width: 90%;
+
+    &__wrapper {
+      height: 24px;
+      background-color: $grey;
+      border-radius: 40px;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+        0 1px rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      position: relative;
+    }
+
+    &__progress-bar {
+      border-radius: 40px;
+      width: 0;
+      background-color: $primary;
+      background-image: linear-gradient(
+        45deg,
+        $primary 25%,
+        transparent 25%,
+        transparent 50%,
+        $primary 50%,
+        $primary 75%,
+        transparent 75%,
+        transparent
+      );
+      height: 100%;
+      position: relative;
+    }
+
+    &__percentage {
+      position: absolute;
+      content: null;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff !important;
+    }
+  }
+}
+
+.level {
+  &__header {
+    display: flex;
+    height: 80px;
+
+    @media screen and (min-width: 768px) {
+      height: 90px;
+    }
+
+    &__game-logo {
+      width: 100px;
+      height: 100px;
+      padding-top: 10px;
+    }
+
+    &__ylc-logo {
+      height: 24px;
+    }
+  }
+
+  &__date {
+    margin-top: 5px;
+  }
+
+  // &__list {
+
+  // }
+
+  &__thumb {
+    flex-basis: 47%;
+    height: 125px;
+    margin: 0 1.5% 10px !important;
+    padding: 10px !important;
+    display: flex;
+    border-bottom: 5px solid;
+    border-radius: 10px;
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+      flex-basis: 24%;
+      margin: 0 0.5% 8px !important;
+      height: 100px;
+      padding: 15px !important;
+    }
+
+    @media screen and (min-width: 1024px) {
+      flex-basis: 19%;
+      margin: 0 0.5% 8px !important;
+      height: 130px;
+      padding: 15px;
+    }
+
+    // iPhone 5, 5s, 5c and 5se
+    @media only screen and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 95px;
+      margin: 0 1.5% 10px !important;
+      padding: 10px !important;
+    }
+
+    // iPhone 6+, 7+, 8+
+    @media only screen and (device-width: 414px) and (device-height: 736px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 150px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px !important;
+    }
+
+    // iPhone 6+, 7+, 8+
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 150px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px !important;
+    }
+
+    // iphone x
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 150px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px !important;
+    }
+
+    // iPhone 6, 6s, 7 and 8
+    @media only screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 125px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px !important;
+    }
+
+    // iPad 3, 4 and Pro 9.7"
+    @media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+      flex-basis: 30%;
+      margin: 0 1.5% 20px !important;
+      height: 200px !important;
+    }
+
+    &::after {
+      position: absolute;
+      content: url("./../img/icon/thumb-icon.svg");
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+      // width: 100%;
+    }
+
+    &--green {
+      background-color: $green;
+      border-bottom-color: $green-shade;
+
+      &:hover {
+        background-color: $green-shade;
+      }
+    }
+
+    &--tosca {
+      background-color: $tosca;
+      border-bottom-color: $tosca-shade;
+
+      &:hover {
+        background-color: $tosca-shade;
+      }
+    }
+
+    &--brick {
+      background-color: $brick;
+      border-bottom-color: $brick-shade;
+
+      &:hover {
+        background-color: $brick-shade;
+      }
+    }
+
+    &--red {
+      background-color: $red;
+      border-bottom-color: $red-shade;
+
+      &:hover {
+        background-color: $red-shade;
+      }
+    }
+
+    &__star-icon {
+      height: auto;
+      width: 20px;
+    }
+  }
+}
+
+.game {
+  &__header {
+    display: flex;
+    height: 80px;
+    // width: calc(100% - 55px);
+  }
+
+  &__wrapper {
+    @media screen and (min-width: 768px) {
+      justify-content: space-between;
+    }
+  }
+
+  &__board {
+    font-size: 16px;
+
+    @media screen and (min-width: 1024px) {
+      flex: 1 0 auto;
+    }
+
+    // #board {
+    //   // position: relative;
+    //   // left: 50%;
+    //   // transform: translateX(-50%);
+    // }
+
+    @media screen and (min-width: 768px) {
+      // flex-basis: 0 0 50% !important;
+      font-size: 24px;
+    }
+
+    &__grid {
+      box-sizing: border-box;
+    }
+
+    &__cell {
+      position: relative;
+      background-color: $white;
+      border: 1px solid $blue-cell;
+      box-sizing: border-box;
+      user-select: none;
+      transition: all 0.2s ease-in-out;
+
+      &.showNote {
+        & > div {
+          display: flex;
+        }
+      }
+
+      &__note {
+        display: none;
+        font-size: 10px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+
+        @media screen and (min-width: 768px) {
+          font-size: 14px;
+        }
+
+        @media screen and (min-width: 1024px) {
+          font-size: 18px;
+        }
+
+        & > div {
+          color: $black;
+          display: flex;
+          flex: 0 0 33%;
+          height: 33%;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      &:hover {
+        background-color: $blue-light !important;
+      }
+
+      &.selected {
+        background-color: $selected !important;
+
+        &::after {
+          z-index: 10;
+          position: absolute;
+          top: -3px;
+          right: -3px;
+          bottom: -3px;
+          left: -3px;
+          content: "";
+          border: 3px solid $selected-border;
+        }
+      }
+
+      &.highlight {
+        background-color: $highlight;
+      }
+
+      &.wrong {
+        background-color: $wrong !important;
+        color: $wrong-border;
+        &::after {
+          border: 3px solid $wrong-border !important;
+        }
+      }
+
+      &.clue-wrong {
+        background-color: $wrong !important;
+      }
+
+      // &.repeat {
+      //   color: $wrong-border;
+      // }
+
+      &.correct {
+        background-color: $correct !important;
+        color: $correct-border;
+
+        &::after {
+          border: none !important;
+        }
+      }
+
+      // &.disabled {
+      // background-color: #eeeeee;
+      // }
+    }
+  }
+
+  &__control {
+    // background-color: yellow;
+    padding: 10px 0;
+
+    @media screen and (min-width: 768px) {
+      flex: 0 0 250px;
+      padding: 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+      flex: 0 0 300px;
+    }
+
+    &__number {
+      margin-bottom: 10px;
+
+      .game__control__wrapper {
+        flex: 0 0 10%;
+
+        .btn {
+          flex: 0 0 100%;
+          width: 100% !important;
+        }
+
+        @media screen and (min-width: 768px) {
+          flex: 0 0 33%;
+          margin-bottom: 10px;
+
+          .btn {
+            flex: 0 0 60px;
+            height: 60px;
+          }
+        }
+
+        @media screen and (min-width: 1024px) {
+          .btn {
+            flex: 0 0 80px;
+            height: 80px;
+          }
+        }
+      }
+    }
+
+    &__tools {
+      .game__control__wrapper {
+        flex: 0 0 24%;
+
+        .btn {
+          flex: 0 0 100%;
+          height: 40px;
+        }
+
+        @media screen and (min-width: 768px) {
+          flex: 0 0 50%;
+          margin-bottom: 10px;
+
+          .btn {
+            flex: 0 0 80%;
+            height: 60px;
+          }
+        }
+
+        @media screen and (min-width: 1024px) {
+          flex: 0 0 33%;
+          .btn {
+            flex: 0 0 80px;
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.result {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+
+  @media screen and (min-width: 768px) {
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    right: unset;
+    transform: translate(-50%, -47%);
+  }
+
+  &__wrapper {
+    padding: 32px 10px;
+    background-color: $white;
+
+    @media screen and (min-width: 768px) {
+      padding: 32px;
+    }
+  }
+
+  &__header {
+    position: relative;
+    padding-top: 10px;
+
+    &__confetti {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      content: null;
+      z-index: 0;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    &__stars {
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      @media screen and (min-width: 375px) {
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+
+    &__score {
+      position: relative;
+      z-index: 1;
+      padding: 10px 0;
+
+      .result-score {
+        background-color: #ebebeb;
+        padding: 0 40px;
+        color: #383838;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &__action {
+    span {
+      color: $grey-dark;
+    }
+
+    &__divider {
+      width: 100%;
+      height: 2px;
+      background-color: $grey;
+      margin: 20px 0;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+.modal {
+  display: none;
+  z-index: 2;
+  position: absolute;
+
+  background-color: #fff;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 6px;
+
+  &--help {
+    background-color: $white;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    // height: fit-content;
+    min-height: 100vh;
+
+    @media screen and (min-width: 768px) {
+      top: 50%;
+      left: 50%;
+      bottom: unset;
+      transform: translate(-50%, -50%);
+      border-radius: 10px;
+      min-height: 300px;
+    }
+
+    & > .modal__wrapper {
+      padding: 15px 0;
+      min-height: calc(100vh - 20px);
+
+      @media screen and (min-width: 375px) {
+        padding: 15px;
+      }
+
+      @media screen and (min-width: 768px) {
+        min-height: 300px;
+      }
+    }
+
+    &__content {
+      // min-width: 300px;
+      // width: 300px;
+      // min-height: 300px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      margin-bottom: 20px;
+
+      @media screen and (min-width: 375px) {
+        width: auto;
+      }
+
+      @media screen and (min-width: 768px) {
+        font-size: 18px;
+        min-height: 200px;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        // margin-bottom: 20px;
+      }
+
+      img {
+        margin: 20px 0;
+      }
+
+      ul {
+        // margin-top: 20px;
+        li.list {
+          padding-left: 40px;
+          position: relative;
+
+          &::before {
+            position: absolute;
+            left: 0;
+            content: url("./../img/icon/list-arrow-icon.svg");
+          }
+
+          strong {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    &__action {
+      margin-top: auto;
+
+      // @media screen and (min-width: 375px) {
+      //   margin-top: auto;
+      // }
+
+      // @media screen and (min-width: 768px) {
+      //   margin-top: auto;
+      // }
+    }
+
+    &__indicator {
+      margin-top: 20px;
+      div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba($color: $primary, $alpha: 0.2);
+
+        &.active {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  &--pause {
+    width: 320px;
+    height: 280px;
+  }
+
+  &--reset {
+    width: 320px;
+    height: 230px;
+
+    & > .modal__action {
+      & > .btn {
+        width: 30% !important;
+      }
+    }
+  }
+
+  &__wrapper {
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 24px !important;
+  }
+
+  &__backdrop {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+  }
+}
+
+.game__control__wrapper{
+  @media screen and (max-width: 768px) {
+    .tooltip--top{
+      bottom: -7px !important;
+      top: unset !important;
+      transform: translateY(100%) !important;
+
+      &:before {
+        width: 14px;
+        height: 7px;
+        bottom: unset;
+        top: 0;
+        left: 50%;
+        background-color: #ffffff;
+        transform: translate(-50%, -100%);
+        -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
+        clip-path: polygon(50% 0, 100% 100%, 0 100%);
+      }
+    }
+  }
+}

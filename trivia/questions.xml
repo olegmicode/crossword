@@ -1,0 +1,4217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+  <category>
+    <thumb name="Books">assets/gamepad.svg</thumb>
+    <thumb name="Geography">assets/gamepad.svg</thumb>
+    <thumb name="Science &amp; Technology">assets/gamepad.svg</thumb>
+    <thumb name="Music">assets/gamepad.svg</thumb>
+    <thumb name="TV &amp; Movies">assets/gamepad.svg</thumb>
+    <thumb name="Sports">assets/gamepad.svg</thumb>
+    <thumb name="History">assets/gamepad.svg</thumb>
+    <thumb name="World Politics">assets/gamepad.svg</thumb>
+    <thumb name="General Knowledge">assets/gamepad.svg</thumb>
+    <thumb name="Plants &amp; Animals">assets/gamepad.svg</thumb>
+    <thumb name="All">assets/gamepad.svg</thumb>
+  </category>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Who wrote Pride and Prejudice?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Jane Austen]]></answer>
+        <answer><![CDATA[Emily Bronte]]></answer>
+        <answer><![CDATA[Emily Dickinson]]></answer>
+        <answer><![CDATA[Daphne du Maurier]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who wrote Pride and Prejudice?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Jane Austen]]></answer>
+        <answer><![CDATA[Emily Bronte]]></answer>
+        <answer><![CDATA[Emily Dickinson]]></answer>
+        <answer><![CDATA[Daphne du Maurier]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the capital of New York]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Albany]]></answer>
+        <answer><![CDATA[New York City]]></answer>
+        <answer><![CDATA[Buffalo]]></answer>
+        <answer><![CDATA[Syracuse]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the capital of New York]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Albany]]></answer>
+        <answer><![CDATA[New York City]]></answer>
+        <answer><![CDATA[Buffalo]]></answer>
+        <answer><![CDATA[Syracuse]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[What is the longest roller coaster in the USA by length in feet?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Beast]]></answer>
+        <answer><![CDATA[Fury 325]]></answer>
+        <answer><![CDATA[Millennium Force]]></answer>
+        <answer><![CDATA[The Voyage]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the longest roller coaster in the USA by length in feet?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Beast]]></answer>
+        <answer><![CDATA[Fury 325]]></answer>
+        <answer><![CDATA[Millennium Force]]></answer>
+        <answer><![CDATA[The Voyage]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[Which rapper released "The Black Album" in 2003]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Jay-Z]]></answer>
+        <answer><![CDATA[Kanye West]]></answer>
+        <answer><![CDATA[Common]]></answer>
+        <answer><![CDATA[Lupe Fiasco]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which rapper released "The Black Album" in 2003]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Jay-Z]]></answer>
+        <answer><![CDATA[Kanye West]]></answer>
+        <answer><![CDATA[Common]]></answer>
+        <answer><![CDATA[Lupe Fiasco]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Sabrina Spellman is a magical being called what?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[A Witch]]></answer>
+        <answer><![CDATA[A Warlock]]></answer>
+        <answer><![CDATA[A Wizard]]></answer>
+        <answer><![CDATA[A Psychic]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Sabrina Spellman is a magical being called what?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[A Witch]]></answer>
+        <answer><![CDATA[A Warlock]]></answer>
+        <answer><![CDATA[A Wizard]]></answer>
+        <answer><![CDATA[A Psychic]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[What drug class does cialis belong to?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[PDE5 inhibitor]]></answer>
+        <answer><![CDATA[ACE inhibitor]]></answer>
+        <answer><![CDATA[H2 blocker]]></answer>
+        <answer><![CDATA[Proton Pump Inhibitor (PPI)]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What drug class does cialis belong to?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[PDE5 inhibitor]]></answer>
+        <answer><![CDATA[ACE inhibitor]]></answer>
+        <answer><![CDATA[H2 blocker]]></answer>
+        <answer><![CDATA[Proton Pump Inhibitor (PPI)]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[How old is the actor who played Luke Skywalker?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[68]]></answer>
+        <answer><![CDATA[56]]></answer>
+        <answer><![CDATA[60]]></answer>
+        <answer><![CDATA[65]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How old is the actor who played Luke Skywalker?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[68]]></answer>
+        <answer><![CDATA[56]]></answer>
+        <answer><![CDATA[60]]></answer>
+        <answer><![CDATA[65]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who won the 2020 Royal Rumble for the men?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Drew McIntyre]]></answer>
+        <answer><![CDATA[Otis]]></answer>
+        <answer><![CDATA[Aleister Black]]></answer>
+        <answer><![CDATA[Seth Rollins]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who won the 2020 Royal Rumble for the men?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Drew McIntyre]]></answer>
+        <answer><![CDATA[Otis]]></answer>
+        <answer><![CDATA[Aleister Black]]></answer>
+        <answer><![CDATA[Seth Rollins]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[What war saw the first award of the Congressional Medal Of Honor?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Civil War]]></answer>
+        <answer><![CDATA[Revolutionary War]]></answer>
+        <answer><![CDATA[War of 1812]]></answer>
+        <answer><![CDATA[Spanish American War]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What war saw the first award of the Congressional Medal Of Honor?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Civil War]]></answer>
+        <answer><![CDATA[Revolutionary War]]></answer>
+        <answer><![CDATA[War of 1812]]></answer>
+        <answer><![CDATA[Spanish American War]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[In which U.S. State was Donald Trump born?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[New York]]></answer>
+        <answer><![CDATA[New Jersey]]></answer>
+        <answer><![CDATA[Florida]]></answer>
+        <answer><![CDATA[Michigan]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In which U.S. State was Donald Trump born?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[New York]]></answer>
+        <answer><![CDATA[New Jersey]]></answer>
+        <answer><![CDATA[Florida]]></answer>
+        <answer><![CDATA[Michigan]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Where is President Millard Fillmore buried?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Buffalo, NY]]></answer>
+        <answer><![CDATA[Tampa, FL]]></answer>
+        <answer><![CDATA[Nashville, TN]]></answer>
+        <answer><![CDATA[San Francisco, CA]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Where is President Millard Fillmore buried?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Buffalo, NY]]></answer>
+        <answer><![CDATA[Tampa, FL]]></answer>
+        <answer><![CDATA[Nashville, TN]]></answer>
+        <answer><![CDATA[San Francisco, CA]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who played John McClane in the Die Hard series?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Bruce Willis]]></answer>
+        <answer><![CDATA[Tom Cruise]]></answer>
+        <answer><![CDATA[Sylvester Stallone]]></answer>
+        <answer><![CDATA[Arnold Schwarzenegger]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who played John McClane in the Die Hard series?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Bruce Willis]]></answer>
+        <answer><![CDATA[Tom Cruise]]></answer>
+        <answer><![CDATA[Sylvester Stallone]]></answer>
+        <answer><![CDATA[Arnold Schwarzenegger]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[Everyone knows who is the first man to walk on the moon, but who is the last person to set foot on the moon?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Gene Cernan]]></answer>
+        <answer><![CDATA[Harrison Schmitt]]></answer>
+        <answer><![CDATA[Alan Shepard]]></answer>
+        <answer><![CDATA[John Glenn]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Everyone knows who is the first man to walk on the moon, but who is the last person to set foot on the moon?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Gene Cernan]]></answer>
+        <answer><![CDATA[Harrison Schmitt]]></answer>
+        <answer><![CDATA[Alan Shepard]]></answer>
+        <answer><![CDATA[John Glenn]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who won the 1980 World Series?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Philadelphia Phillies]]></answer>
+        <answer><![CDATA[Kansas City Royals]]></answer>
+        <answer><![CDATA[Detroit Tigers]]></answer>
+        <answer><![CDATA[Atlanta Braves]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who won the 1980 World Series?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Philadelphia Phillies]]></answer>
+        <answer><![CDATA[Kansas City Royals]]></answer>
+        <answer><![CDATA[Detroit Tigers]]></answer>
+        <answer><![CDATA[Atlanta Braves]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[who started uber]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Travis Kalanick]]></answer>
+        <answer><![CDATA[Tim cook]]></answer>
+        <answer><![CDATA[Dave Wang]]></answer>
+        <answer><![CDATA[Chen Ming]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[who started uber]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Travis Kalanick]]></answer>
+        <answer><![CDATA[Tim cook]]></answer>
+        <answer><![CDATA[Dave Wang]]></answer>
+        <answer><![CDATA[Chen Ming]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What Progressive Rock band is lead by guitarist Robert Fripp?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[King Crimson]]></answer>
+        <answer><![CDATA[ELP]]></answer>
+        <answer><![CDATA[Curved Air]]></answer>
+        <answer><![CDATA[Yes]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What Progressive Rock band is lead by guitarist Robert Fripp?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[King Crimson]]></answer>
+        <answer><![CDATA[ELP]]></answer>
+        <answer><![CDATA[Curved Air]]></answer>
+        <answer><![CDATA[Yes]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Which spice is known as the king of spices?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Black Pepper]]></answer>
+        <answer><![CDATA[Cinnamon]]></answer>
+        <answer><![CDATA[Turmeric]]></answer>
+        <answer><![CDATA[Cloves]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which spice is known as the king of spices?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Black Pepper]]></answer>
+        <answer><![CDATA[Cinnamon]]></answer>
+        <answer><![CDATA[Turmeric]]></answer>
+        <answer><![CDATA[Cloves]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Which country was not involved in the War of 1812?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[France]]></answer>
+        <answer><![CDATA[United States of America]]></answer>
+        <answer><![CDATA[Great Britain]]></answer>
+        <answer><![CDATA[American Indigenous]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which country was not involved in the War of 1812?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[France]]></answer>
+        <answer><![CDATA[United States of America]]></answer>
+        <answer><![CDATA[Great Britain]]></answer>
+        <answer><![CDATA[American Indigenous]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[what country is now in mesopotamia]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Iraq]]></answer>
+        <answer><![CDATA[Afghanistan]]></answer>
+        <answer><![CDATA[Russia]]></answer>
+        <answer><![CDATA[Turkey]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[what country is now in mesopotamia]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Iraq]]></answer>
+        <answer><![CDATA[Afghanistan]]></answer>
+        <answer><![CDATA[Russia]]></answer>
+        <answer><![CDATA[Turkey]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[What is the longest muscle in the body?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Sartorious]]></answer>
+        <answer><![CDATA[Triceps brachii]]></answer>
+        <answer><![CDATA[Gastrocnemius]]></answer>
+        <answer><![CDATA[Soleus]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the longest muscle in the body?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Sartorious]]></answer>
+        <answer><![CDATA[Triceps brachii]]></answer>
+        <answer><![CDATA[Gastrocnemius]]></answer>
+        <answer><![CDATA[Soleus]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[Why are flamingos pink?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[From their diet..]]></answer>
+        <answer><![CDATA[They're born pink]]></answer>
+        <answer><![CDATA[They're pink due to sun exposure]]></answer>
+        <answer><![CDATA[They're pink from ocean salt]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Why are flamingos pink?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[From their diet..]]></answer>
+        <answer><![CDATA[They're born pink]]></answer>
+        <answer><![CDATA[They're pink due to sun exposure]]></answer>
+        <answer><![CDATA[They're pink from ocean salt]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[Who was the first woman  in space?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Valentina Tereshkova]]></answer>
+        <answer><![CDATA[Sally Ride]]></answer>
+        <answer><![CDATA[Harriet Tubman]]></answer>
+        <answer><![CDATA[Ana Maria Devonne]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the first woman  in space?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Valentina Tereshkova]]></answer>
+        <answer><![CDATA[Sally Ride]]></answer>
+        <answer><![CDATA[Harriet Tubman]]></answer>
+        <answer><![CDATA[Ana Maria Devonne]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[Which of the following elements typically makes 4 bonds?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Carbon]]></answer>
+        <answer><![CDATA[Hydrogen]]></answer>
+        <answer><![CDATA[Nitrogen]]></answer>
+        <answer><![CDATA[Oxygen]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which of the following elements typically makes 4 bonds?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Carbon]]></answer>
+        <answer><![CDATA[Hydrogen]]></answer>
+        <answer><![CDATA[Nitrogen]]></answer>
+        <answer><![CDATA[Oxygen]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What band released the album Animals in 1977?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pink Floyd]]></answer>
+        <answer><![CDATA[Led Zeppelin]]></answer>
+        <answer><![CDATA[Van Halen]]></answer>
+        <answer><![CDATA[The Byrds]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What band released the album Animals in 1977?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pink Floyd]]></answer>
+        <answer><![CDATA[Led Zeppelin]]></answer>
+        <answer><![CDATA[Van Halen]]></answer>
+        <answer><![CDATA[The Byrds]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who is the MLB career leader in HBPs as a batter?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Hughie Jennings]]></answer>
+        <answer><![CDATA[Craig Biggio]]></answer>
+        <answer><![CDATA[Ted Williams]]></answer>
+        <answer><![CDATA[Chase Utley]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the MLB career leader in HBPs as a batter?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Hughie Jennings]]></answer>
+        <answer><![CDATA[Craig Biggio]]></answer>
+        <answer><![CDATA[Ted Williams]]></answer>
+        <answer><![CDATA[Chase Utley]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the most densely populated country in the world?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Monaco]]></answer>
+        <answer><![CDATA[Bangladesh]]></answer>
+        <answer><![CDATA[India]]></answer>
+        <answer><![CDATA[China]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the most densely populated country in the world?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Monaco]]></answer>
+        <answer><![CDATA[Bangladesh]]></answer>
+        <answer><![CDATA[India]]></answer>
+        <answer><![CDATA[China]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Who wrote the book, Blood of Elves?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Andrzej Sapkowski]]></answer>
+        <answer><![CDATA[George R. R. Martin]]></answer>
+        <answer><![CDATA[J. R. R. Tolkien]]></answer>
+        <answer><![CDATA[Ray Bradbury]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who wrote the book, Blood of Elves?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Andrzej Sapkowski]]></answer>
+        <answer><![CDATA[George R. R. Martin]]></answer>
+        <answer><![CDATA[J. R. R. Tolkien]]></answer>
+        <answer><![CDATA[Ray Bradbury]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who is the main protagonist of Diamond is Unbreakable?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Josuke Higashikata]]></answer>
+        <answer><![CDATA[Jonathan Joestar]]></answer>
+        <answer><![CDATA[Yusuke Urameshi]]></answer>
+        <answer><![CDATA[Giorno Giovanna]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the main protagonist of Diamond is Unbreakable?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Josuke Higashikata]]></answer>
+        <answer><![CDATA[Jonathan Joestar]]></answer>
+        <answer><![CDATA[Yusuke Urameshi]]></answer>
+        <answer><![CDATA[Giorno Giovanna]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who played the character of "Beetlejuice", in Tim Burton's 1988 classic film?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Michael Keaton]]></answer>
+        <answer><![CDATA[Alec Baldwin]]></answer>
+        <answer><![CDATA[Brian Warner]]></answer>
+        <answer><![CDATA[Michael Dunn]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who played the character of "Beetlejuice", in Tim Burton's 1988 classic film?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Michael Keaton]]></answer>
+        <answer><![CDATA[Alec Baldwin]]></answer>
+        <answer><![CDATA[Brian Warner]]></answer>
+        <answer><![CDATA[Michael Dunn]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What year did Elton John win his first Grammy Award?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1986]]></answer>
+        <answer><![CDATA[1970]]></answer>
+        <answer><![CDATA[1978]]></answer>
+        <answer><![CDATA[2003]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What year did Elton John win his first Grammy Award?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1986]]></answer>
+        <answer><![CDATA[1970]]></answer>
+        <answer><![CDATA[1978]]></answer>
+        <answer><![CDATA[2003]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Which of these is not one of the musketeers in Dumas' novel, The Three Musketeers?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pathos]]></answer>
+        <answer><![CDATA[Aramis]]></answer>
+        <answer><![CDATA[Athos]]></answer>
+        <answer><![CDATA[Porthos]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which of these is not one of the musketeers in Dumas' novel, The Three Musketeers?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pathos]]></answer>
+        <answer><![CDATA[Aramis]]></answer>
+        <answer><![CDATA[Athos]]></answer>
+        <answer><![CDATA[Porthos]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What are the three main rivers of Pittsburgh, Pennslvania?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Allegheny, Monongahela, and the Ohio rivers.]]></answer>
+        <answer><![CDATA[Delta]]></answer>
+        <answer><![CDATA[Nile]]></answer>
+        <answer><![CDATA[Mississippi]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What are the three main rivers of Pittsburgh, Pennslvania?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Allegheny, Monongahela, and the Ohio rivers.]]></answer>
+        <answer><![CDATA[Delta]]></answer>
+        <answer><![CDATA[Nile]]></answer>
+        <answer><![CDATA[Mississippi]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[A duathlon combines what two sports?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Running and Cycling]]></answer>
+        <answer><![CDATA[Swimming and Running]]></answer>
+        <answer><![CDATA[Running and Football]]></answer>
+        <answer><![CDATA[Swimming and cycling]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[A duathlon combines what two sports?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Running and Cycling]]></answer>
+        <answer><![CDATA[Swimming and Running]]></answer>
+        <answer><![CDATA[Running and Football]]></answer>
+        <answer><![CDATA[Swimming and cycling]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Who is the current chancellor of Germany?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Angela Merkel]]></answer>
+        <answer><![CDATA[Hanz Schmidt]]></answer>
+        <answer><![CDATA[Ada Heinz]]></answer>
+        <answer><![CDATA[Frank Walter-Steinmeier]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the current chancellor of Germany?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Angela Merkel]]></answer>
+        <answer><![CDATA[Hanz Schmidt]]></answer>
+        <answer><![CDATA[Ada Heinz]]></answer>
+        <answer><![CDATA[Frank Walter-Steinmeier]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who was the leader in yards rushing for the Baltimore Ravens in the 2019 NFL season?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Lamar Jackson]]></answer>
+        <answer><![CDATA[Mark Ingram II]]></answer>
+        <answer><![CDATA[Gus Edwards]]></answer>
+        <answer><![CDATA[Ray Rice]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the leader in yards rushing for the Baltimore Ravens in the 2019 NFL season?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Lamar Jackson]]></answer>
+        <answer><![CDATA[Mark Ingram II]]></answer>
+        <answer><![CDATA[Gus Edwards]]></answer>
+        <answer><![CDATA[Ray Rice]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[Which company was co-founded by Steve Jobs?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Apple]]></answer>
+        <answer><![CDATA[Microsoft]]></answer>
+        <answer><![CDATA[Facebook]]></answer>
+        <answer><![CDATA[Google]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which company was co-founded by Steve Jobs?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Apple]]></answer>
+        <answer><![CDATA[Microsoft]]></answer>
+        <answer><![CDATA[Facebook]]></answer>
+        <answer><![CDATA[Google]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[How do cucumbers grow?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Cucumbers grow like a vine.]]></answer>
+        <answer><![CDATA[Cucumbers grow In the ground.]]></answer>
+        <answer><![CDATA[Cucumbers grow on a tree.]]></answer>
+        <answer><![CDATA[Cucumbers grow above ground like pumpkins.]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How do cucumbers grow?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Cucumbers grow like a vine.]]></answer>
+        <answer><![CDATA[Cucumbers grow In the ground.]]></answer>
+        <answer><![CDATA[Cucumbers grow on a tree.]]></answer>
+        <answer><![CDATA[Cucumbers grow above ground like pumpkins.]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who scored two goals for Borussia Dortmund during the 1997 Champions League final match versus Juventus Turin]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Karl-Heinz Riedle]]></answer>
+        <answer><![CDATA[Lars Ricken]]></answer>
+        <answer><![CDATA[Alessandro Del Piero]]></answer>
+        <answer><![CDATA[Matthias Sammer]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who scored two goals for Borussia Dortmund during the 1997 Champions League final match versus Juventus Turin]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Karl-Heinz Riedle]]></answer>
+        <answer><![CDATA[Lars Ricken]]></answer>
+        <answer><![CDATA[Alessandro Del Piero]]></answer>
+        <answer><![CDATA[Matthias Sammer]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the capital of Spain?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Madrid]]></answer>
+        <answer><![CDATA[Barcelona]]></answer>
+        <answer><![CDATA[Seville]]></answer>
+        <answer><![CDATA[Valencia]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the capital of Spain?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Madrid]]></answer>
+        <answer><![CDATA[Barcelona]]></answer>
+        <answer><![CDATA[Seville]]></answer>
+        <answer><![CDATA[Valencia]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[Who performed the song "Baby one more time"?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Britney Spears]]></answer>
+        <answer><![CDATA[Jessica Simpson]]></answer>
+        <answer><![CDATA[christina aguilera]]></answer>
+        <answer><![CDATA[Sakira]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who performed the song "Baby one more time"?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Britney Spears]]></answer>
+        <answer><![CDATA[Jessica Simpson]]></answer>
+        <answer><![CDATA[christina aguilera]]></answer>
+        <answer><![CDATA[Sakira]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who played young Elton John in Rocketman?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Taron Egerton]]></answer>
+        <answer><![CDATA[Daniel Radcliffe]]></answer>
+        <answer><![CDATA[Tom Holland]]></answer>
+        <answer><![CDATA[Ansel Elgort]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who played young Elton John in Rocketman?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Taron Egerton]]></answer>
+        <answer><![CDATA[Daniel Radcliffe]]></answer>
+        <answer><![CDATA[Tom Holland]]></answer>
+        <answer><![CDATA[Ansel Elgort]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who played Jennifer Aniston's mom on Friends?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Marlo Thomas]]></answer>
+        <answer><![CDATA[Nancy Dow]]></answer>
+        <answer><![CDATA[Courtney Coz]]></answer>
+        <answer><![CDATA[Angelina Jolie]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who played Jennifer Aniston's mom on Friends?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Marlo Thomas]]></answer>
+        <answer><![CDATA[Nancy Dow]]></answer>
+        <answer><![CDATA[Courtney Coz]]></answer>
+        <answer><![CDATA[Angelina Jolie]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[How many superbowls has Tom Brady won?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[10]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many superbowls has Tom Brady won?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[10]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[What does Todd Packer's license plate say in the tv show "The Office"]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[WLHUNG]]></answer>
+        <answer><![CDATA[PACKMAN]]></answer>
+        <answer><![CDATA[69BRO]]></answer>
+        <answer><![CDATA[HUNGFAN]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What does Todd Packer's license plate say in the tv show "The Office"]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[WLHUNG]]></answer>
+        <answer><![CDATA[PACKMAN]]></answer>
+        <answer><![CDATA[69BRO]]></answer>
+        <answer><![CDATA[HUNGFAN]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[What year did Top Gun hit movie theaters?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1986]]></answer>
+        <answer><![CDATA[1987]]></answer>
+        <answer><![CDATA[1988]]></answer>
+        <answer><![CDATA[1989]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What year did Top Gun hit movie theaters?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1986]]></answer>
+        <answer><![CDATA[1987]]></answer>
+        <answer><![CDATA[1988]]></answer>
+        <answer><![CDATA[1989]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who is the person that has the most points in a NBA game?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Wilt Chamberlain]]></answer>
+        <answer><![CDATA[Michael Jordon]]></answer>
+        <answer><![CDATA[Kobe Bryant]]></answer>
+        <answer><![CDATA[Reggie Miller]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the person that has the most points in a NBA game?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Wilt Chamberlain]]></answer>
+        <answer><![CDATA[Michael Jordon]]></answer>
+        <answer><![CDATA[Kobe Bryant]]></answer>
+        <answer><![CDATA[Reggie Miller]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[According to Welsh folklore, what rode into battle on the backs of corgis?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Fairies]]></answer>
+        <answer><![CDATA[Children]]></answer>
+        <answer><![CDATA[Dwarves]]></answer>
+        <answer><![CDATA[Snakes]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[According to Welsh folklore, what rode into battle on the backs of corgis?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Fairies]]></answer>
+        <answer><![CDATA[Children]]></answer>
+        <answer><![CDATA[Dwarves]]></answer>
+        <answer><![CDATA[Snakes]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Who was the first President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[George Bush]]></answer>
+        <answer><![CDATA[Mitt Romney]]></answer>
+        <answer><![CDATA[Abraham Lincoln]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the first President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[George Bush]]></answer>
+        <answer><![CDATA[Mitt Romney]]></answer>
+        <answer><![CDATA[Abraham Lincoln]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[At its deepest point, what is the depth of the Atlantic Ocean?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[27493]]></answer>
+        <answer><![CDATA[15456]]></answer>
+        <answer><![CDATA[33201]]></answer>
+        <answer><![CDATA[24980]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[At its deepest point, what is the depth of the Atlantic Ocean?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[27493]]></answer>
+        <answer><![CDATA[15456]]></answer>
+        <answer><![CDATA[33201]]></answer>
+        <answer><![CDATA[24980]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Which of the following is a Jane Austen novel?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Persuasion]]></answer>
+        <answer><![CDATA[Jane Eyre]]></answer>
+        <answer><![CDATA[Little Women]]></answer>
+        <answer><![CDATA[To Kill A Mockingbird]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which of the following is a Jane Austen novel?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Persuasion]]></answer>
+        <answer><![CDATA[Jane Eyre]]></answer>
+        <answer><![CDATA[Little Women]]></answer>
+        <answer type="text"><![CDATA[To Kill A Mockingbird]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Who wrote the novel Mill on the Floss?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Eliot.]]></answer>
+        <answer><![CDATA[Jane Austen]]></answer>
+        <answer><![CDATA[Emily Bronte]]></answer>
+        <answer><![CDATA[Thomas Hardy]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who wrote the novel Mill on the Floss?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Eliot.]]></answer>
+        <answer><![CDATA[Jane Austen]]></answer>
+        <answer><![CDATA[Emily Bronte]]></answer>
+        <answer><![CDATA[Thomas Hardy]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[How many days was Anne Frank in hiding for.]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[761]]></answer>
+        <answer><![CDATA[802]]></answer>
+        <answer><![CDATA[654]]></answer>
+        <answer><![CDATA[489]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many days was Anne Frank in hiding for.]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[761]]></answer>
+        <answer><![CDATA[802]]></answer>
+        <answer><![CDATA[654]]></answer>
+        <answer><![CDATA[489]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[How many Die Hard films is there?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6 films]]></answer>
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[4]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many Die Hard films is there?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6 films]]></answer>
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[4]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[Who is the man who described the theory of general relativity?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Albert Einstein]]></answer>
+        <answer><![CDATA[Sigmund Freud]]></answer>
+        <answer><![CDATA[Isaac Newton]]></answer>
+        <answer><![CDATA[Dmitri Mendeleev]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the man who described the theory of general relativity?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Albert Einstein]]></answer>
+        <answer><![CDATA[Sigmund Freud]]></answer>
+        <answer><![CDATA[Isaac Newton]]></answer>
+        <answer><![CDATA[Dmitri Mendeleev]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[Ljubljana is the capital city of which European country?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Slovenia]]></answer>
+        <answer><![CDATA[Turkey]]></answer>
+        <answer><![CDATA[Russia]]></answer>
+        <answer><![CDATA[Romania]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Ljubljana is the capital city of which European country?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Slovenia]]></answer>
+        <answer><![CDATA[Turkey]]></answer>
+        <answer><![CDATA[Russia]]></answer>
+        <answer><![CDATA[Romania]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What animal is known as the river horse?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Hipopotamus]]></answer>
+        <answer><![CDATA[Seahorse]]></answer>
+        <answer><![CDATA[Stallion]]></answer>
+        <answer><![CDATA[Zebra]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What animal is known as the river horse?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Hipopotamus]]></answer>
+        <answer><![CDATA[Seahorse]]></answer>
+        <answer><![CDATA[Stallion]]></answer>
+        <answer><![CDATA[Zebra]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[In the southern hemispher what constalation is used by sailors to navigate?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Southern Cross]]></answer>
+        <answer><![CDATA[The Big Dipper]]></answer>
+        <answer><![CDATA[Gemini]]></answer>
+        <answer><![CDATA[Orion]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In the southern hemispher what constalation is used by sailors to navigate?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Southern Cross]]></answer>
+        <answer><![CDATA[The Big Dipper]]></answer>
+        <answer><![CDATA[Gemini]]></answer>
+        <answer><![CDATA[Orion]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[how many different teams have won the premier league]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[7]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[how many different teams have won the premier league]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[7]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[Who sang West End Girls?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pet Shop Boys]]></answer>
+        <answer><![CDATA[Erasure]]></answer>
+        <answer><![CDATA[Depeche Mode]]></answer>
+        <answer><![CDATA[New Order]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who sang West End Girls?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pet Shop Boys]]></answer>
+        <answer><![CDATA[Erasure]]></answer>
+        <answer><![CDATA[Depeche Mode]]></answer>
+        <answer><![CDATA[New Order]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[In which year was the dollar sign first used on a US coin?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2007]]></answer>
+        <answer><![CDATA[1877]]></answer>
+        <answer><![CDATA[1957]]></answer>
+        <answer><![CDATA[1907]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In which year was the dollar sign first used on a US coin?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2007]]></answer>
+        <answer><![CDATA[1877]]></answer>
+        <answer><![CDATA[1957]]></answer>
+        <answer><![CDATA[1907]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Which of these empires was the largest recorded so far in history (by total land mass)?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[British Empire]]></answer>
+        <answer><![CDATA[Mongol Empire]]></answer>
+        <answer><![CDATA[Russian Empire]]></answer>
+        <answer><![CDATA[Spanish Empire]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which of these empires was the largest recorded so far in history (by total land mass)?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[British Empire]]></answer>
+        <answer><![CDATA[Mongol Empire]]></answer>
+        <answer><![CDATA[Russian Empire]]></answer>
+        <answer><![CDATA[Spanish Empire]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Who is the current prime minister of Pakistan?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Imran Khan]]></answer>
+        <answer><![CDATA[Nawaz Sharif]]></answer>
+        <answer><![CDATA[Asif Ali Zardari]]></answer>
+        <answer><![CDATA[Pervez Musharraf]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the current prime minister of Pakistan?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Imran Khan]]></answer>
+        <answer><![CDATA[Nawaz Sharif]]></answer>
+        <answer><![CDATA[Asif Ali Zardari]]></answer>
+        <answer><![CDATA[Pervez Musharraf]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Maths &amp; Numbers</category>
+    <landscape>
+      <question><![CDATA[What is the Golden Ratio in Maths?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1.618]]></answer>
+        <answer><![CDATA[1.214]]></answer>
+        <answer><![CDATA[1.416]]></answer>
+        <answer><![CDATA[1.82]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the Golden Ratio in Maths?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1.618]]></answer>
+        <answer><![CDATA[1.214]]></answer>
+        <answer><![CDATA[1.416]]></answer>
+        <answer><![CDATA[1.82]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What is the popular description for the illness Trypanosomiasis?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Sleeping Sickness]]></answer>
+        <answer><![CDATA[Measles]]></answer>
+        <answer><![CDATA[Headache]]></answer>
+        <answer><![CDATA[Tinnitus]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the popular description for the illness Trypanosomiasis?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Sleeping Sickness]]></answer>
+        <answer><![CDATA[Measles]]></answer>
+        <answer><![CDATA[Headache]]></answer>
+        <answer><![CDATA[Tinnitus]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[What year was the first episode of Breaking Bad released?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2008]]></answer>
+        <answer><![CDATA[2007]]></answer>
+        <answer><![CDATA[2009]]></answer>
+        <answer><![CDATA[2010]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What year was the first episode of Breaking Bad released?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2008]]></answer>
+        <answer><![CDATA[2007]]></answer>
+        <answer><![CDATA[2009]]></answer>
+        <answer><![CDATA[2010]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Which World War 2 military group had the motto "aprés moi, le deluge"?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Dambusters]]></answer>
+        <answer><![CDATA[The Marine Commandos]]></answer>
+        <answer><![CDATA[The Royal Navy]]></answer>
+        <answer><![CDATA[The Secret Service]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which World War 2 military group had the motto "aprés moi, le deluge"?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Dambusters]]></answer>
+        <answer><![CDATA[The Marine Commandos]]></answer>
+        <answer><![CDATA[The Royal Navy]]></answer>
+        <answer><![CDATA[The Secret Service]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What is the national animal of Scotland?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Unicorn]]></answer>
+        <answer><![CDATA[Lion]]></answer>
+        <answer><![CDATA[Tiger]]></answer>
+        <answer><![CDATA[Haggis]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the national animal of Scotland?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Unicorn]]></answer>
+        <answer><![CDATA[Lion]]></answer>
+        <answer><![CDATA[Tiger]]></answer>
+        <answer><![CDATA[Haggis]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Which country lists the Unicorn as it's national animal?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scotland]]></answer>
+        <answer><![CDATA[Ireland]]></answer>
+        <answer><![CDATA[Finland]]></answer>
+        <answer><![CDATA[The Netherlands]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which country lists the Unicorn as it's national animal?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scotland]]></answer>
+        <answer><![CDATA[Ireland]]></answer>
+        <answer><![CDATA[Finland]]></answer>
+        <answer><![CDATA[The Netherlands]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[New Zealand is the antipode of which European country?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Spain]]></answer>
+        <answer><![CDATA[France]]></answer>
+        <answer><![CDATA[Poland]]></answer>
+        <answer><![CDATA[Liechtenstein]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[New Zealand is the antipode of which European country?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Spain]]></answer>
+        <answer><![CDATA[France]]></answer>
+        <answer><![CDATA[Poland]]></answer>
+        <answer><![CDATA[Liechtenstein]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[In what Scottish city can you find a fountain incorporating a statue of Greyfriars Bobby? A dog who spent 14 years at the graveside of his master.]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Edinburgh]]></answer>
+        <answer><![CDATA[Dundee]]></answer>
+        <answer><![CDATA[Glasgow]]></answer>
+        <answer><![CDATA[Aberdeen]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In what Scottish city can you find a fountain incorporating a statue of Greyfriars Bobby? A dog who spent 14 years at the graveside of his master.]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Edinburgh]]></answer>
+        <answer><![CDATA[Dundee]]></answer>
+        <answer><![CDATA[Glasgow]]></answer>
+        <answer><![CDATA[Aberdeen]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[What is the name of the cafe often patroned by the cast of the hit TV show, Friends?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Central Perk]]></answer>
+        <answer><![CDATA[Java House]]></answer>
+        <answer><![CDATA[Central Cafe]]></answer>
+        <answer><![CDATA[Park View]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the name of the cafe often patroned by the cast of the hit TV show, Friends?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Central Perk]]></answer>
+        <answer><![CDATA[Java House]]></answer>
+        <answer><![CDATA[Central Cafe]]></answer>
+        <answer><![CDATA[Park View]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Religion</category>
+    <landscape>
+      <question><![CDATA[Which religion follows the basis of the Five Pillars?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Islam]]></answer>
+        <answer><![CDATA[Hinduism]]></answer>
+        <answer><![CDATA[Sikhism]]></answer>
+        <answer><![CDATA[Christianity]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which religion follows the basis of the Five Pillars?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Islam]]></answer>
+        <answer><![CDATA[Hinduism]]></answer>
+        <answer><![CDATA[Sikhism]]></answer>
+        <answer type="text"><![CDATA[Christianity]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[What is the circumference of the Earth?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[24,901 miles]]></answer>
+        <answer><![CDATA[51,238 miles]]></answer>
+        <answer><![CDATA[10,155 miles]]></answer>
+        <answer><![CDATA[5,846 miles]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the circumference of the Earth?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[24,901 miles]]></answer>
+        <answer><![CDATA[51,238 miles]]></answer>
+        <answer><![CDATA[10,155 miles]]></answer>
+        <answer><![CDATA[5,846 miles]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is Kentucky's largest exported cash crop?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Marijuana]]></answer>
+        <answer><![CDATA[Corn]]></answer>
+        <answer><![CDATA[Soybeans]]></answer>
+        <answer><![CDATA[Wheat]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is Kentucky's largest exported cash crop?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Marijuana]]></answer>
+        <answer><![CDATA[Corn]]></answer>
+        <answer><![CDATA[Soybeans]]></answer>
+        <answer><![CDATA[Wheat]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who holds the record for most points scored during a basketball playoff game?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Michael Jordan]]></answer>
+        <answer><![CDATA[Charles Barkley]]></answer>
+        <answer><![CDATA[Lebron James]]></answer>
+        <answer><![CDATA[Wilt Chamberlain]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who holds the record for most points scored during a basketball playoff game?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Michael Jordan]]></answer>
+        <answer><![CDATA[Charles Barkley]]></answer>
+        <answer><![CDATA[Lebron James]]></answer>
+        <answer><![CDATA[Wilt Chamberlain]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[What show on Cartoon Network did Rebecca Sugar create?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Steven Universe]]></answer>
+        <answer><![CDATA[Uncle Grandpa]]></answer>
+        <answer><![CDATA[Teen Titans Go]]></answer>
+        <answer><![CDATA[Amazing World of Gumball]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What show on Cartoon Network did Rebecca Sugar create?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Steven Universe]]></answer>
+        <answer><![CDATA[Uncle Grandpa]]></answer>
+        <answer><![CDATA[Teen Titans Go]]></answer>
+        <answer><![CDATA[Amazing World of Gumball]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[How long was the Chicago Cubs world series drought until 2016?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[106 years]]></answer>
+        <answer><![CDATA[70 years]]></answer>
+        <answer><![CDATA[37 years]]></answer>
+        <answer><![CDATA[140 years]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How long was the Chicago Cubs world series drought until 2016?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[106 years]]></answer>
+        <answer><![CDATA[70 years]]></answer>
+        <answer><![CDATA[37 years]]></answer>
+        <answer><![CDATA[140 years]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[who invented glam rock?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[marc bolan]]></answer>
+        <answer><![CDATA[gary glitter]]></answer>
+        <answer><![CDATA[david bowie]]></answer>
+        <answer><![CDATA[elton john]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[who invented glam rock?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[marc bolan]]></answer>
+        <answer><![CDATA[gary glitter]]></answer>
+        <answer><![CDATA[david bowie]]></answer>
+        <answer><![CDATA[elton john]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who is leaving the role as Batwoman?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Ruby Rose]]></answer>
+        <answer><![CDATA[Rachel Skarsten]]></answer>
+        <answer><![CDATA[Nicole Kang]]></answer>
+        <answer><![CDATA[Camrus Johnson]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is leaving the role as Batwoman?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Ruby Rose]]></answer>
+        <answer><![CDATA[Rachel Skarsten]]></answer>
+        <answer><![CDATA[Nicole Kang]]></answer>
+        <answer><![CDATA[Camrus Johnson]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Which basketball player never lost in the NBA finals?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Michael Jordan]]></answer>
+        <answer><![CDATA[LeBron James]]></answer>
+        <answer><![CDATA[Kobe Bryant]]></answer>
+        <answer><![CDATA[Kevin Durant]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which basketball player never lost in the NBA finals?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Michael Jordan]]></answer>
+        <answer><![CDATA[LeBron James]]></answer>
+        <answer><![CDATA[Kobe Bryant]]></answer>
+        <answer><![CDATA[Kevin Durant]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What is Jay-Z's first name?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Shawn]]></answer>
+        <answer><![CDATA[Corey]]></answer>
+        <answer><![CDATA[Carter]]></answer>
+        <answer><![CDATA[Knowles]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is Jay-Z's first name?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Shawn]]></answer>
+        <answer><![CDATA[Corey]]></answer>
+        <answer><![CDATA[Carter]]></answer>
+        <answer><![CDATA[Knowles]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[How long can a land snail sleep during hibernation?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3 years]]></answer>
+        <answer><![CDATA[1 year]]></answer>
+        <answer><![CDATA[6 months]]></answer>
+        <answer><![CDATA[2 years]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How long can a land snail sleep during hibernation?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3 years]]></answer>
+        <answer><![CDATA[1 year]]></answer>
+        <answer><![CDATA[6 months]]></answer>
+        <answer><![CDATA[2 years]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Food &amp; Drink</category>
+    <landscape>
+      <question><![CDATA[Before its health benefits made it a popular addition to smoothies and salads in 2013, what US corporation was the world's number one consumer of kale?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pizza Hut. They used it to "garnish" their salad bar.]]></answer>
+        <answer><![CDATA[Proctor & Gamble]]></answer>
+        <answer><![CDATA[Olay]]></answer>
+        <answer><![CDATA[Purina]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Before its health benefits made it a popular addition to smoothies and salads in 2013, what US corporation was the world's number one consumer of kale?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pizza Hut. They used it to "garnish" their salad bar.]]></answer>
+        <answer><![CDATA[Proctor & Gamble]]></answer>
+        <answer><![CDATA[Olay]]></answer>
+        <answer><![CDATA[Purina]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[How many national championships has the University of Michigan claimed in football?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[11]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[8]]></answer>
+        <answer><![CDATA[15]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many national championships has the University of Michigan claimed in football?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[11]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[8]]></answer>
+        <answer><![CDATA[15]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who's the director of Star Wars?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Lucas]]></answer>
+        <answer><![CDATA[Stan Lee]]></answer>
+        <answer><![CDATA[Alfonso Cuaron]]></answer>
+        <answer><![CDATA[Stan Wars]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who's the director of Star Wars?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Lucas]]></answer>
+        <answer><![CDATA[Stan Lee]]></answer>
+        <answer><![CDATA[Alfonso Cuaron]]></answer>
+        <answer><![CDATA[Stan Wars]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[what is a cat called that has extra toes on their paws?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Polydactyl cat]]></answer>
+        <answer><![CDATA[pendactyl]]></answer>
+        <answer><![CDATA[Burmese]]></answer>
+        <answer><![CDATA[calico]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[what is a cat called that has extra toes on their paws?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Polydactyl cat]]></answer>
+        <answer><![CDATA[pendactyl]]></answer>
+        <answer><![CDATA[Burmese]]></answer>
+        <answer><![CDATA[calico]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Who was the pioneer in photographic film creation?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Eastman]]></answer>
+        <answer><![CDATA[Henry Ford]]></answer>
+        <answer><![CDATA[Thomas Edison]]></answer>
+        <answer><![CDATA[Benjamin Franklin]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the pioneer in photographic film creation?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Eastman]]></answer>
+        <answer><![CDATA[Henry Ford]]></answer>
+        <answer><![CDATA[Thomas Edison]]></answer>
+        <answer><![CDATA[Benjamin Franklin]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What record company did the Beatles form?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Apple Records]]></answer>
+        <answer><![CDATA[Atlantic Records]]></answer>
+        <answer><![CDATA[Sun Records]]></answer>
+        <answer><![CDATA[Mercury Records]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What record company did the Beatles form?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Apple Records]]></answer>
+        <answer><![CDATA[Atlantic Records]]></answer>
+        <answer><![CDATA[Sun Records]]></answer>
+        <answer><![CDATA[Mercury Records]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the national bird of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[ostrich]]></answer>
+        <answer><![CDATA[honeyeater]]></answer>
+        <answer><![CDATA[magpie]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the national bird of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[ostrich]]></answer>
+        <answer><![CDATA[honeyeater]]></answer>
+        <answer><![CDATA[magpie]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What plant can change its color while already growing?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Hydrangeas]]></answer>
+        <answer><![CDATA[Roses]]></answer>
+        <answer><![CDATA[Daffodils]]></answer>
+        <answer><![CDATA[Daisies]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What plant can change its color while already growing?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Hydrangeas]]></answer>
+        <answer><![CDATA[Roses]]></answer>
+        <answer><![CDATA[Daffodils]]></answer>
+        <answer><![CDATA[Daisies]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[What is another name for Abraham Lincoln?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Honest Abe]]></answer>
+        <answer><![CDATA[Abe]]></answer>
+        <answer><![CDATA[Honest]]></answer>
+        <answer><![CDATA[Abby]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is another name for Abraham Lincoln?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Honest Abe]]></answer>
+        <answer><![CDATA[Abe]]></answer>
+        <answer><![CDATA[Honest]]></answer>
+        <answer><![CDATA[Abby]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[What era did dinosaurs live in?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mesozoic Era]]></answer>
+        <answer><![CDATA[Paleozoic]]></answer>
+        <answer><![CDATA[Cenozoic]]></answer>
+        <answer><![CDATA[Phanerozoic]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What era did dinosaurs live in?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mesozoic Era]]></answer>
+        <answer><![CDATA[Paleozoic]]></answer>
+        <answer><![CDATA[Cenozoic]]></answer>
+        <answer><![CDATA[Phanerozoic]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Which Golden Girl was previously married to Stan?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Dorothy]]></answer>
+        <answer><![CDATA[Rose]]></answer>
+        <answer><![CDATA[Blanche]]></answer>
+        <answer><![CDATA[Sophia]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which Golden Girl was previously married to Stan?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Dorothy]]></answer>
+        <answer><![CDATA[Rose]]></answer>
+        <answer><![CDATA[Blanche]]></answer>
+        <answer><![CDATA[Sophia]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Name the currency used in Japan]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Yen]]></answer>
+        <answer><![CDATA[Dinar]]></answer>
+        <answer><![CDATA[Ngultrum]]></answer>
+        <answer><![CDATA[Taka]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Name the currency used in Japan]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Yen]]></answer>
+        <answer><![CDATA[Dinar]]></answer>
+        <answer><![CDATA[Ngultrum]]></answer>
+        <answer><![CDATA[Taka]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[In Aussie Rules Football how many points do you get for kicking the ball between the two middle goal posts?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[4]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In Aussie Rules Football how many points do you get for kicking the ball between the two middle goal posts?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[4]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Who won the gold medal in football in the last Olympics?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[brasil]]></answer>
+        <answer><![CDATA[china]]></answer>
+        <answer><![CDATA[japon]]></answer>
+        <answer><![CDATA[argentina]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who won the gold medal in football in the last Olympics?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[brasil]]></answer>
+        <answer><![CDATA[china]]></answer>
+        <answer><![CDATA[japon]]></answer>
+        <answer><![CDATA[argentina]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What famous masked hip-hop MC used an imposter to perform for him at a concert]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[MF Doom]]></answer>
+        <answer><![CDATA[Eminem]]></answer>
+        <answer><![CDATA[DJ Khalid]]></answer>
+        <answer><![CDATA[Tupac]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What famous masked hip-hop MC used an imposter to perform for him at a concert]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[MF Doom]]></answer>
+        <answer><![CDATA[Eminem]]></answer>
+        <answer><![CDATA[DJ Khalid]]></answer>
+        <answer><![CDATA[Tupac]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[How many countries in the world have Spanish as an offiicial language?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[20]]></answer>
+        <answer><![CDATA[21]]></answer>
+        <answer><![CDATA[15]]></answer>
+        <answer><![CDATA[10]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many countries in the world have Spanish as an offiicial language?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[20]]></answer>
+        <answer><![CDATA[21]]></answer>
+        <answer><![CDATA[15]]></answer>
+        <answer><![CDATA[10]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Who was the 14th President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Franklin Pierce]]></answer>
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[Andrew Jackson]]></answer>
+        <answer><![CDATA[Millard Fillmore]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the 14th President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Franklin Pierce]]></answer>
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[Andrew Jackson]]></answer>
+        <answer><![CDATA[Millard Fillmore]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[Which is the capital of USA]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Washington]]></answer>
+        <answer><![CDATA[New york]]></answer>
+        <answer><![CDATA[Las Angelis]]></answer>
+        <answer><![CDATA[paris]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which is the capital of USA]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Washington]]></answer>
+        <answer><![CDATA[New york]]></answer>
+        <answer><![CDATA[Las Angelis]]></answer>
+        <answer><![CDATA[paris]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who is the only MLB Player to hit two grand slams in one inning?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Fernando Tatis]]></answer>
+        <answer><![CDATA[Roger Maris]]></answer>
+        <answer><![CDATA[Ken Boyer]]></answer>
+        <answer><![CDATA[Jeff Kent]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the only MLB Player to hit two grand slams in one inning?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Fernando Tatis]]></answer>
+        <answer><![CDATA[Roger Maris]]></answer>
+        <answer><![CDATA[Ken Boyer]]></answer>
+        <answer><![CDATA[Jeff Kent]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Which of the following presidents was a Rhodes Scholar?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Bill Clinton]]></answer>
+        <answer><![CDATA[George W. Bush]]></answer>
+        <answer><![CDATA[Jimmy Carter]]></answer>
+        <answer><![CDATA[John F. Kennedy]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which of the following presidents was a Rhodes Scholar?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Bill Clinton]]></answer>
+        <answer><![CDATA[George W. Bush]]></answer>
+        <answer><![CDATA[Jimmy Carter]]></answer>
+        <answer><![CDATA[John F. Kennedy]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[This alternative rock band released their first album, "Gish," in 1991]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Smashing Pumpkins]]></answer>
+        <answer><![CDATA[Stone Temple Pilots]]></answer>
+        <answer><![CDATA[Sonic Youth]]></answer>
+        <answer><![CDATA[The Pogues]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[This alternative rock band released their first album, "Gish," in 1991]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Smashing Pumpkins]]></answer>
+        <answer><![CDATA[Stone Temple Pilots]]></answer>
+        <answer><![CDATA[Sonic Youth]]></answer>
+        <answer><![CDATA[The Pogues]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[How many annual credit reports can you pull each year?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[6]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many annual credit reports can you pull each year?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[6]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[Which two countries is Mount Everest in?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Nepal and China]]></answer>
+        <answer><![CDATA[India and China]]></answer>
+        <answer><![CDATA[China and Nepal]]></answer>
+        <answer><![CDATA[Pakistan and Nepal]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which two countries is Mount Everest in?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Nepal and China]]></answer>
+        <answer><![CDATA[India and China]]></answer>
+        <answer><![CDATA[China and Nepal]]></answer>
+        <answer><![CDATA[Pakistan and Nepal]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What breed of cat can have bent ears?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scottish Fold]]></answer>
+        <answer><![CDATA[Persian]]></answer>
+        <answer><![CDATA[Ragdoll]]></answer>
+        <answer><![CDATA[Himalayan]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What breed of cat can have bent ears?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scottish Fold]]></answer>
+        <answer><![CDATA[Persian]]></answer>
+        <answer><![CDATA[Ragdoll]]></answer>
+        <answer><![CDATA[Himalayan]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[How many half silver, half bronze Olympic medals are there?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[none]]></answer>
+        <answer><![CDATA[4]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many half silver, half bronze Olympic medals are there?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[none]]></answer>
+        <answer><![CDATA[4]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[What's the name of the science fiction author who wrote the book "VALIS"?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Philip K. Dick]]></answer>
+        <answer><![CDATA[Isaac Asimov]]></answer>
+        <answer><![CDATA[Ray Bradbury]]></answer>
+        <answer><![CDATA[Orson Scott Card]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What's the name of the science fiction author who wrote the book "VALIS"?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Philip K. Dick]]></answer>
+        <answer><![CDATA[Isaac Asimov]]></answer>
+        <answer><![CDATA[Ray Bradbury]]></answer>
+        <answer><![CDATA[Orson Scott Card]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[know about history]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[yes]]></answer>
+        <answer><![CDATA[none]]></answer>
+        <answer><![CDATA[none]]></answer>
+        <answer><![CDATA[none]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[know about history]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[yes]]></answer>
+        <answer><![CDATA[none]]></answer>
+        <answer><![CDATA[none]]></answer>
+        <answer><![CDATA[none]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[What is the captain's name in Star Trek Deep Space Nine?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Benjamin Sisko]]></answer>
+        <answer><![CDATA[Jim Kirk]]></answer>
+        <answer><![CDATA[Jean Luc Picard]]></answer>
+        <answer><![CDATA[Allen Sisko]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the captain's name in Star Trek Deep Space Nine?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Benjamin Sisko]]></answer>
+        <answer><![CDATA[Jim Kirk]]></answer>
+        <answer><![CDATA[Jean Luc Picard]]></answer>
+        <answer><![CDATA[Allen Sisko]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[How large is the territory of a male black bear?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[10-59 square miles]]></answer>
+        <answer><![CDATA[2-5 square miles]]></answer>
+        <answer><![CDATA[6-8 square miles]]></answer>
+        <answer><![CDATA[10-18 square miles]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How large is the territory of a male black bear?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[10-59 square miles]]></answer>
+        <answer><![CDATA[2-5 square miles]]></answer>
+        <answer><![CDATA[6-8 square miles]]></answer>
+        <answer><![CDATA[10-18 square miles]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Who was the second United States president to be assassinated?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[James Garfield]]></answer>
+        <answer><![CDATA[Abraham Lincoln]]></answer>
+        <answer><![CDATA[William McKinley]]></answer>
+        <answer><![CDATA[John F. Kennedy]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the second United States president to be assassinated?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[James Garfield]]></answer>
+        <answer><![CDATA[Abraham Lincoln]]></answer>
+        <answer><![CDATA[William McKinley]]></answer>
+        <answer><![CDATA[John F. Kennedy]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who won the 1987 Rugby World Cup?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[New Zealand]]></answer>
+        <answer><![CDATA[France]]></answer>
+        <answer><![CDATA[Italy]]></answer>
+        <answer><![CDATA[Germany]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who won the 1987 Rugby World Cup?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[New Zealand]]></answer>
+        <answer><![CDATA[France]]></answer>
+        <answer><![CDATA[Italy]]></answer>
+        <answer><![CDATA[Germany]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[What is the atomic number to silver?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[47]]></answer>
+        <answer><![CDATA[42]]></answer>
+        <answer><![CDATA[39]]></answer>
+        <answer><![CDATA[46]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the atomic number to silver?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[47]]></answer>
+        <answer><![CDATA[42]]></answer>
+        <answer><![CDATA[39]]></answer>
+        <answer><![CDATA[46]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[HOW MANY MEMBERS IN THE BAND 'RUSH']]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[1]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[HOW MANY MEMBERS IN THE BAND 'RUSH']]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[1]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Who directed the original Star Wars movie?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Entertainment’]]></answer>
+        <answer><![CDATA[BAD]]></answer>
+        <answer><![CDATA[USELESS]]></answer>
+        <answer><![CDATA[WORTHLESS]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who directed the original Star Wars movie?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Entertainment’]]></answer>
+        <answer><![CDATA[BAD]]></answer>
+        <answer><![CDATA[USELESS]]></answer>
+        <answer><![CDATA[WORTHLESS]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What was the real name of Freddie Mercury from the rock band Queen?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Farrokh Bulsara]]></answer>
+        <answer><![CDATA[Freddie Jones]]></answer>
+        <answer><![CDATA[Frank Mercury]]></answer>
+        <answer><![CDATA[Freddie Saturn]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What was the real name of Freddie Mercury from the rock band Queen?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Farrokh Bulsara]]></answer>
+        <answer><![CDATA[Freddie Jones]]></answer>
+        <answer><![CDATA[Frank Mercury]]></answer>
+        <answer><![CDATA[Freddie Saturn]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[Pink Floyd's album Animals consisted of only four songs. One of those songs was broken into two parts playing at the beginning and end of the album. What was it?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pigs on the Wing]]></answer>
+        <answer><![CDATA[Dogs]]></answer>
+        <answer><![CDATA[Sheep]]></answer>
+        <answer><![CDATA[Pigs (3 different ones)]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Pink Floyd's album Animals consisted of only four songs. One of those songs was broken into two parts playing at the beginning and end of the album. What was it?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Pigs on the Wing]]></answer>
+        <answer><![CDATA[Dogs]]></answer>
+        <answer><![CDATA[Sheep]]></answer>
+        <answer><![CDATA[Pigs (3 different ones)]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[What President caught Spanish Flu near the end of his Presidency: ultimately resulting in more punishing Treaty of Versailles for Germany?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Woodrow Wilson]]></answer>
+        <answer><![CDATA[Franklin Pierce]]></answer>
+        <answer><![CDATA[Franklin Roosevelt]]></answer>
+        <answer><![CDATA[Warren G. Harding]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What President caught Spanish Flu near the end of his Presidency: ultimately resulting in more punishing Treaty of Versailles for Germany?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Woodrow Wilson]]></answer>
+        <answer><![CDATA[Franklin Pierce]]></answer>
+        <answer><![CDATA[Franklin Roosevelt]]></answer>
+        <answer><![CDATA[Warren G. Harding]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Which actor has the most Oscars nominations?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Meyrl Streep]]></answer>
+        <answer><![CDATA[Morgan Freeman]]></answer>
+        <answer><![CDATA[Katherine Hepburn]]></answer>
+        <answer><![CDATA[Jack Nicholson]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which actor has the most Oscars nominations?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Meyrl Streep]]></answer>
+        <answer><![CDATA[Morgan Freeman]]></answer>
+        <answer><![CDATA[Katherine Hepburn]]></answer>
+        <answer><![CDATA[Jack Nicholson]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Who was the 2nd President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[John Adams]]></answer>
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[Abraham Lincoln]]></answer>
+        <answer><![CDATA[Thomas Edison]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the 2nd President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[John Adams]]></answer>
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[Abraham Lincoln]]></answer>
+        <answer><![CDATA[Thomas Edison]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[Who discovered the antibiotic Penicillin?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Alexander Fleming]]></answer>
+        <answer><![CDATA[Antonie van Leeuwenhoek]]></answer>
+        <answer><![CDATA[Louis Pasteur]]></answer>
+        <answer><![CDATA[Joseph Lister]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who discovered the antibiotic Penicillin?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Alexander Fleming]]></answer>
+        <answer><![CDATA[Antonie van Leeuwenhoek]]></answer>
+        <answer><![CDATA[Louis Pasteur]]></answer>
+        <answer><![CDATA[Joseph Lister]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[Which musician is elected into Rock n Roll hall of fame 3 times?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Eric Clapton]]></answer>
+        <answer><![CDATA[Lou Reed]]></answer>
+        <answer><![CDATA[Stevie Nicks]]></answer>
+        <answer><![CDATA[Mick Jagger]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which musician is elected into Rock n Roll hall of fame 3 times?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Eric Clapton]]></answer>
+        <answer><![CDATA[Lou Reed]]></answer>
+        <answer><![CDATA[Stevie Nicks]]></answer>
+        <answer><![CDATA[Mick Jagger]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[Who sang My Heart Will Go On?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Celine Dion]]></answer>
+        <answer><![CDATA[Beyonce]]></answer>
+        <answer><![CDATA[Shakira]]></answer>
+        <answer><![CDATA[Whitney Houston]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who sang My Heart Will Go On?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Celine Dion]]></answer>
+        <answer><![CDATA[Beyonce]]></answer>
+        <answer><![CDATA[Shakira]]></answer>
+        <answer type="text"><![CDATA[Whitney Houston]]></answer>
+      </answers>
+    </portrait>
+  </item>
+
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Who is the author of the book "The phantom of the opera"]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Gaston Leroux]]></answer>
+        <answer><![CDATA[Victor Hugo]]></answer>
+        <answer><![CDATA[Oscar Wilde]]></answer>
+        <answer><![CDATA[Edgar Allan Poe]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the author of the book "The phantom of the opera"]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Gaston Leroux]]></answer>
+        <answer><![CDATA[Victor Hugo]]></answer>
+        <answer><![CDATA[Oscar Wilde]]></answer>
+        <answer><![CDATA[Edgar Allan Poe]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Which team has won the cricket world cup the most times?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[australia]]></answer>
+        <answer><![CDATA[india]]></answer>
+        <answer><![CDATA[england]]></answer>
+        <answer><![CDATA[south africa]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which team has won the cricket world cup the most times?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[australia]]></answer>
+        <answer><![CDATA[india]]></answer>
+        <answer><![CDATA[england]]></answer>
+        <answer><![CDATA[south africa]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[What major league baseball team plays in Canada?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Toronto Blue Jays]]></answer>
+        <answer><![CDATA[Montreal Expos]]></answer>
+        <answer><![CDATA[Vancouver Mariners]]></answer>
+        <answer><![CDATA[Ottawa Mets]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What major league baseball team plays in Canada?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Toronto Blue Jays]]></answer>
+        <answer><![CDATA[Montreal Expos]]></answer>
+        <answer><![CDATA[Vancouver Mariners]]></answer>
+        <answer><![CDATA[Ottawa Mets]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Which Major League Baseball player has hit the most career home runs?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Barry Bonds]]></answer>
+        <answer><![CDATA[Hank Aaron]]></answer>
+        <answer><![CDATA[Babe Ruth]]></answer>
+        <answer><![CDATA[Willie Mays]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which Major League Baseball player has hit the most career home runs?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Barry Bonds]]></answer>
+        <answer><![CDATA[Hank Aaron]]></answer>
+        <answer><![CDATA[Babe Ruth]]></answer>
+        <answer><![CDATA[Willie Mays]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[How many provinces is there in Canada ?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[10]]></answer>
+        <answer><![CDATA[7]]></answer>
+        <answer><![CDATA[11]]></answer>
+        <answer><![CDATA[9]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many provinces is there in Canada ?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[10]]></answer>
+        <answer><![CDATA[7]]></answer>
+        <answer><![CDATA[11]]></answer>
+        <answer><![CDATA[9]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[How long was the longest professional tennis match?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[11 hours 5 minutes]]></answer>
+        <answer><![CDATA[24 hours 12 minutes]]></answer>
+        <answer><![CDATA[48 hours 53 minutes]]></answer>
+        <answer><![CDATA[15 hours 17 minutes]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How long was the longest professional tennis match?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[11 hours 5 minutes]]></answer>
+        <answer><![CDATA[24 hours 12 minutes]]></answer>
+        <answer><![CDATA[48 hours 53 minutes]]></answer>
+        <answer><![CDATA[15 hours 17 minutes]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the capital of Serbia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Belgrade]]></answer>
+        <answer><![CDATA[Novi Sad]]></answer>
+        <answer><![CDATA[Nis]]></answer>
+        <answer><![CDATA[Kragujevac]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the capital of Serbia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Belgrade]]></answer>
+        <answer><![CDATA[Novi Sad]]></answer>
+        <answer><![CDATA[Nis]]></answer>
+        <answer><![CDATA[Kragujevac]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[When did the USSR get invaded by Nazi Germany in World War Two?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1941]]></answer>
+        <answer><![CDATA[1939]]></answer>
+        <answer><![CDATA[1940]]></answer>
+        <answer><![CDATA[1942]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[When did the USSR get invaded by Nazi Germany in World War Two?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[1941]]></answer>
+        <answer><![CDATA[1939]]></answer>
+        <answer><![CDATA[1940]]></answer>
+        <answer><![CDATA[1942]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Which country did the British purchase in 1899?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Nigeria]]></answer>
+        <answer><![CDATA[Germany]]></answer>
+        <answer><![CDATA[Mali]]></answer>
+        <answer><![CDATA[Ghana]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which country did the British purchase in 1899?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Nigeria]]></answer>
+        <answer><![CDATA[Germany]]></answer>
+        <answer><![CDATA[Mali]]></answer>
+        <answer><![CDATA[Ghana]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[Which of these countries borders Mongolia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[China]]></answer>
+        <answer><![CDATA[Nort Korea]]></answer>
+        <answer><![CDATA[Kazakhstan]]></answer>
+        <answer><![CDATA[Algeria]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which of these countries borders Mongolia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[China]]></answer>
+        <answer><![CDATA[Nort Korea]]></answer>
+        <answer><![CDATA[Kazakhstan]]></answer>
+        <answer><![CDATA[Algeria]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[Which instrument was the musician Stéphane Grappelli famous for playing?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Violin]]></answer>
+        <answer><![CDATA[Guitar]]></answer>
+        <answer><![CDATA[Trumpet]]></answer>
+        <answer><![CDATA[Clarinet]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which instrument was the musician Stéphane Grappelli famous for playing?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Violin]]></answer>
+        <answer><![CDATA[Guitar]]></answer>
+        <answer><![CDATA[Trumpet]]></answer>
+        <answer><![CDATA[Clarinet]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Which river is the longest]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Nile river]]></answer>
+        <answer><![CDATA[Amazon river]]></answer>
+        <answer><![CDATA[Yantze river]]></answer>
+        <answer><![CDATA[Yellow river]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which river is the longest]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Nile river]]></answer>
+        <answer><![CDATA[Amazon river]]></answer>
+        <answer><![CDATA[Yantze river]]></answer>
+        <answer><![CDATA[Yellow river]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[In which century did the Great Plague of London occur?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[17th Century]]></answer>
+        <answer><![CDATA[15th Century]]></answer>
+        <answer><![CDATA[14th Century]]></answer>
+        <answer><![CDATA[16th Century]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In which century did the Great Plague of London occur?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[17th Century]]></answer>
+        <answer><![CDATA[15th Century]]></answer>
+        <answer><![CDATA[14th Century]]></answer>
+        <answer><![CDATA[16th Century]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Which country is known for their four great inventions?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[China]]></answer>
+        <answer><![CDATA[Indonesia]]></answer>
+        <answer><![CDATA[Thailand]]></answer>
+        <answer><![CDATA[India]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which country is known for their four great inventions?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[China]]></answer>
+        <answer><![CDATA[Indonesia]]></answer>
+        <answer><![CDATA[Thailand]]></answer>
+        <answer><![CDATA[India]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Whoch team has won the most Premier League soccer titles?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Manchester United]]></answer>
+        <answer><![CDATA[Liverpool]]></answer>
+        <answer><![CDATA[Manchester City]]></answer>
+        <answer><![CDATA[Chelsea]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Whoch team has won the most Premier League soccer titles?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Manchester United]]></answer>
+        <answer><![CDATA[Liverpool]]></answer>
+        <answer><![CDATA[Manchester City]]></answer>
+        <answer><![CDATA[Chelsea]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[What year was the 100th race meeting of the Isle of Man TT]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2018]]></answer>
+        <answer><![CDATA[2007]]></answer>
+        <answer><![CDATA[2013]]></answer>
+        <answer><![CDATA[2016]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What year was the 100th race meeting of the Isle of Man TT]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[2018]]></answer>
+        <answer><![CDATA[2007]]></answer>
+        <answer><![CDATA[2013]]></answer>
+        <answer><![CDATA[2016]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Who wrote Middlemarch?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Eliot]]></answer>
+        <answer><![CDATA[Charles Dickens]]></answer>
+        <answer><![CDATA[Thomas Hardy]]></answer>
+        <answer><![CDATA[Jane Austen]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who wrote Middlemarch?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Eliot]]></answer>
+        <answer><![CDATA[Charles Dickens]]></answer>
+        <answer><![CDATA[Thomas Hardy]]></answer>
+        <answer><![CDATA[Jane Austen]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Who is the son of Phil on Modern Family?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Luke]]></answer>
+        <answer><![CDATA[Matt]]></answer>
+        <answer><![CDATA[Bob]]></answer>
+        <answer><![CDATA[Steve]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the son of Phil on Modern Family?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Luke]]></answer>
+        <answer><![CDATA[Matt]]></answer>
+        <answer><![CDATA[Bob]]></answer>
+        <answer><![CDATA[Steve]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is Australia's capital city?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Canberra]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Brisbane]]></answer>
+        <answer><![CDATA[ACT]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is Australia's capital city?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Canberra]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Brisbane]]></answer>
+        <answer><![CDATA[ACT]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Which cricket team has won the most ODI world cups?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Australia]]></answer>
+        <answer><![CDATA[India]]></answer>
+        <answer><![CDATA[West Indies]]></answer>
+        <answer><![CDATA[Pakistan]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which cricket team has won the most ODI world cups?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Australia]]></answer>
+        <answer><![CDATA[India]]></answer>
+        <answer><![CDATA[West Indies]]></answer>
+        <answer><![CDATA[Pakistan]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Books</category>
+    <landscape>
+      <question><![CDATA[Who killed Kalak with the heartwood spear in the book series Prism Pentad?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Rikus]]></answer>
+        <answer><![CDATA[Sadira]]></answer>
+        <answer><![CDATA[Neeva]]></answer>
+        <answer><![CDATA[The Dragon of Tyr]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who killed Kalak with the heartwood spear in the book series Prism Pentad?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Rikus]]></answer>
+        <answer><![CDATA[Sadira]]></answer>
+        <answer><![CDATA[Neeva]]></answer>
+        <answer><![CDATA[The Dragon of Tyr]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who was the first Canadian UFC Champion?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Carlos Newton]]></answer>
+        <answer><![CDATA[Georges St. Pierre]]></answer>
+        <answer><![CDATA[Patrick Cote]]></answer>
+        <answer><![CDATA[Mark Hominick]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the first Canadian UFC Champion?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Carlos Newton]]></answer>
+        <answer><![CDATA[Georges St. Pierre]]></answer>
+        <answer><![CDATA[Patrick Cote]]></answer>
+        <answer><![CDATA[Mark Hominick]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Which movie was the best picture in Oscars 2020?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Parasite]]></answer>
+        <answer><![CDATA[Joker]]></answer>
+        <answer><![CDATA[1912]]></answer>
+        <answer><![CDATA[Ford vs Ferrari]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which movie was the best picture in Oscars 2020?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Parasite]]></answer>
+        <answer><![CDATA[Joker]]></answer>
+        <answer><![CDATA[1912]]></answer>
+        <answer><![CDATA[Ford vs Ferrari]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the capital of The Netherlands?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Amsterdam]]></answer>
+        <answer><![CDATA[Rotterdam]]></answer>
+        <answer><![CDATA[The Hague]]></answer>
+        <answer><![CDATA[Eindhoven]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the capital of The Netherlands?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Amsterdam]]></answer>
+        <answer><![CDATA[Rotterdam]]></answer>
+        <answer><![CDATA[The Hague]]></answer>
+        <answer type="text"><![CDATA[Eindhoven]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[How many different species of spiders are native to Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[~1500]]></answer>
+        <answer><![CDATA[10000]]></answer>
+        <answer><![CDATA[50]]></answer>
+        <answer><![CDATA[]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many different species of spiders are native to Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[~1500]]></answer>
+        <answer><![CDATA[10000]]></answer>
+        <answer><![CDATA[50]]></answer>
+        <answer><![CDATA[]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[Who was the first European to land at Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Willem Janszoon]]></answer>
+        <answer><![CDATA[Dave Maroon]]></answer>
+        <answer><![CDATA[John Austra]]></answer>
+        <answer><![CDATA[Tim Austra]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the first European to land at Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Willem Janszoon]]></answer>
+        <answer><![CDATA[Dave Maroon]]></answer>
+        <answer><![CDATA[John Austra]]></answer>
+        <answer><![CDATA[Tim Austra]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What percentage of Australians live along the coast?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[90%]]></answer>
+        <answer><![CDATA[75%]]></answer>
+        <answer><![CDATA[50%]]></answer>
+        <answer><![CDATA[65%]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What percentage of Australians live along the coast?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[90%]]></answer>
+        <answer><![CDATA[75%]]></answer>
+        <answer><![CDATA[50%]]></answer>
+        <answer><![CDATA[65%]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[What political party did Sir Edmund Barton, the first prime minister of Australia, belong to?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Protectionist]]></answer>
+        <answer><![CDATA[Labor]]></answer>
+        <answer><![CDATA[Free Trade]]></answer>
+        <answer><![CDATA[Liberal]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What political party did Sir Edmund Barton, the first prime minister of Australia, belong to?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Protectionist]]></answer>
+        <answer><![CDATA[Labor]]></answer>
+        <answer><![CDATA[Free Trade]]></answer>
+        <answer><![CDATA[Liberal]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[THEY CALL HIM CROCODILE.....]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[DUNDEE]]></answer>
+        <answer><![CDATA[HUNTER]]></answer>
+        <answer><![CDATA[MAN]]></answer>
+        <answer><![CDATA[DUNDIE]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[THEY CALL HIM CROCODILE.....]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[DUNDEE]]></answer>
+        <answer><![CDATA[HUNTER]]></answer>
+        <answer><![CDATA[MAN]]></answer>
+        <answer><![CDATA[DUNDIE]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[How many states does Australia have?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[7]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many states does Australia have?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[7]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[what continent is Australia in?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Oceania]]></answer>
+        <answer><![CDATA[Asia]]></answer>
+        <answer><![CDATA[Europe]]></answer>
+        <answer><![CDATA[Antarctica]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[what continent is Australia in?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Oceania]]></answer>
+        <answer><![CDATA[Asia]]></answer>
+        <answer><![CDATA[Europe]]></answer>
+        <answer><![CDATA[Antarctica]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[What Australian band was founded by Colin Hay?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Men At Work]]></answer>
+        <answer><![CDATA[Midnight Oil]]></answer>
+        <answer><![CDATA[INXS]]></answer>
+        <answer><![CDATA[Crowded House]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What Australian band was founded by Colin Hay?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Men At Work]]></answer>
+        <answer><![CDATA[Midnight Oil]]></answer>
+        <answer><![CDATA[INXS]]></answer>
+        <answer><![CDATA[Crowded House]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What vegetable is poisonous to dogs?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Avocado]]></answer>
+        <answer><![CDATA[Carrots]]></answer>
+        <answer><![CDATA[Sweet Potatoes]]></answer>
+        <answer><![CDATA[Bell Peppers]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What vegetable is poisonous to dogs?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Avocado]]></answer>
+        <answer><![CDATA[Carrots]]></answer>
+        <answer><![CDATA[Sweet Potatoes]]></answer>
+        <answer><![CDATA[Bell Peppers]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[Which superhero in the "big three heroes" of the Marvel Cinematic Universe is played by an Australian actor?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Thor]]></answer>
+        <answer><![CDATA[Captain America]]></answer>
+        <answer><![CDATA[Iron Man]]></answer>
+        <answer><![CDATA[Spider-Man]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which superhero in the "big three heroes" of the Marvel Cinematic Universe is played by an Australian actor?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Thor]]></answer>
+        <answer><![CDATA[Captain America]]></answer>
+        <answer><![CDATA[Iron Man]]></answer>
+        <answer><![CDATA[Spider-Man]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What is the Australian national animal?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[red kangaroo]]></answer>
+        <answer><![CDATA[koala]]></answer>
+        <answer><![CDATA[emu]]></answer>
+        <answer><![CDATA[tiger snake]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the Australian national animal?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[red kangaroo]]></answer>
+        <answer><![CDATA[koala]]></answer>
+        <answer><![CDATA[emu]]></answer>
+        <answer><![CDATA[tiger snake]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Who is the current prime minister of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scott Morrison]]></answer>
+        <answer><![CDATA[John Morris]]></answer>
+        <answer><![CDATA[Scott Paterson]]></answer>
+        <answer><![CDATA[Dan Wayne]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the current prime minister of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scott Morrison]]></answer>
+        <answer><![CDATA[John Morris]]></answer>
+        <answer><![CDATA[Scott Paterson]]></answer>
+        <answer><![CDATA[Dan Wayne]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[How many states are in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[7]]></answer>
+        <answer><![CDATA[5]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many states are in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[7]]></answer>
+        <answer><![CDATA[5]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Who is the current Prime Minister of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scott Morrison]]></answer>
+        <answer><![CDATA[Toni Morrison]]></answer>
+        <answer><![CDATA[Gordon Brown]]></answer>
+        <answer><![CDATA[Stephen Harper]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the current Prime Minister of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Scott Morrison]]></answer>
+        <answer><![CDATA[Toni Morrison]]></answer>
+        <answer><![CDATA[Gordon Brown]]></answer>
+        <answer><![CDATA[Stephen Harper]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Who was the 13th president of the United States?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Millard Fillmore]]></answer>
+        <answer><![CDATA[Milton Bradley]]></answer>
+        <answer><![CDATA[Donald Trump]]></answer>
+        <answer><![CDATA[Donald Duck]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the 13th president of the United States?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Millard Fillmore]]></answer>
+        <answer><![CDATA[Milton Bradley]]></answer>
+        <answer><![CDATA[Donald Trump]]></answer>
+        <answer><![CDATA[Donald Duck]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the highest point in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mount Kosciuszko]]></answer>
+        <answer><![CDATA[Mount Zeil]]></answer>
+        <answer><![CDATA[Mount Bartle Frere]]></answer>
+        <answer><![CDATA[Mount Koala Run]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the highest point in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mount Kosciuszko]]></answer>
+        <answer><![CDATA[Mount Zeil]]></answer>
+        <answer><![CDATA[Mount Bartle Frere]]></answer>
+        <answer><![CDATA[Mount Koala Run]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What is the official name of Australia]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Commonwealth of Australia]]></answer>
+        <answer><![CDATA[The Republic of Australia]]></answer>
+        <answer><![CDATA[United Regions of Australia]]></answer>
+        <answer><![CDATA[Just "Australia"]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the official name of Australia]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Commonwealth of Australia]]></answer>
+        <answer><![CDATA[The Republic of Australia]]></answer>
+        <answer><![CDATA[United Regions of Australia]]></answer>
+        <answer><![CDATA[Just "Australia"]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[Ayer's Rock is also known by what Aboriginal name?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Uluru]]></answer>
+        <answer><![CDATA[Kata Tjuta]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Alice Springs]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Ayer's Rock is also known by what Aboriginal name?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Uluru]]></answer>
+        <answer><![CDATA[Kata Tjuta]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Alice Springs]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What animal is on the 2 cent coin?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Frill-necked lizard]]></answer>
+        <answer><![CDATA[Platypus]]></answer>
+        <answer><![CDATA[Wombat]]></answer>
+        <answer><![CDATA[Kangaroo]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What animal is on the 2 cent coin?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Frill-necked lizard]]></answer>
+        <answer><![CDATA[Platypus]]></answer>
+        <answer><![CDATA[Wombat]]></answer>
+        <answer><![CDATA[Kangaroo]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[Who was the first President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[Tom Stamos]]></answer>
+        <answer><![CDATA[Eli Whitney]]></answer>
+        <answer><![CDATA[Donald Trump]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the first President of the United States]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[George Washington]]></answer>
+        <answer><![CDATA[Tom Stamos]]></answer>
+        <answer><![CDATA[Eli Whitney]]></answer>
+        <answer><![CDATA[Donald Trump]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What is Australia's national bird?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[Toucan]]></answer>
+        <answer><![CDATA[Parrot]]></answer>
+        <answer><![CDATA[Crane]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is Australia's national bird?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[Toucan]]></answer>
+        <answer><![CDATA[Parrot]]></answer>
+        <answer><![CDATA[Crane]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What is the tallest building in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Q1]]></answer>
+        <answer><![CDATA[Crown Sydney]]></answer>
+        <answer><![CDATA[Aurora Melbourne Central]]></answer>
+        <answer><![CDATA[Brisbane Skytower]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the tallest building in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Q1]]></answer>
+        <answer><![CDATA[Crown Sydney]]></answer>
+        <answer><![CDATA[Aurora Melbourne Central]]></answer>
+        <answer><![CDATA[Brisbane Skytower]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What is the national bird of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[Kookaburra]]></answer>
+        <answer><![CDATA[Magpie]]></answer>
+        <answer><![CDATA[Rainbow Lorikeet]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the national bird of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[Kookaburra]]></answer>
+        <answer><![CDATA[Magpie]]></answer>
+        <answer><![CDATA[Rainbow Lorikeet]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[Which is the largest desert in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Great Victoria Desert]]></answer>
+        <answer><![CDATA[Great Sandy Desert]]></answer>
+        <answer><![CDATA[Tanami Desert]]></answer>
+        <answer><![CDATA[Little Sandy Desert]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which is the largest desert in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[The Great Victoria Desert]]></answer>
+        <answer><![CDATA[Great Sandy Desert]]></answer>
+        <answer><![CDATA[Tanami Desert]]></answer>
+        <answer><![CDATA[Little Sandy Desert]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[In what city is the Australian Open (tennis tournament) held?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Melbourne]]></answer>
+        <answer><![CDATA[Perth]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Canberra]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In what city is the Australian Open (tennis tournament) held?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Melbourne]]></answer>
+        <answer><![CDATA[Perth]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Canberra]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[How many years did it take to construct the Sydney Opera House?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[14]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[11]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many years did it take to construct the Sydney Opera House?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[14]]></answer>
+        <answer><![CDATA[1]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[11]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[How many time zones are present in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[1]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many time zones are present in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[4]]></answer>
+        <answer><![CDATA[1]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[In what season does the national flower of Australia, the Golden Wattle bloom?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Spring]]></answer>
+        <answer><![CDATA[Fall]]></answer>
+        <answer><![CDATA[Winter]]></answer>
+        <answer><![CDATA[Summer]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In what season does the national flower of Australia, the Golden Wattle bloom?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Spring]]></answer>
+        <answer><![CDATA[Fall]]></answer>
+        <answer><![CDATA[Winter]]></answer>
+        <answer><![CDATA[Summer]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>TV &amp; Movies</category>
+    <landscape>
+      <question><![CDATA[What violent 1971 movie about a schoolteacher in the outback hoped to kickstart the Australian film industry?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Wake in Fright]]></answer>
+        <answer><![CDATA[Picnic at Hanging Rock]]></answer>
+        <answer><![CDATA[Mad Max]]></answer>
+        <answer><![CDATA[Breaker Morant]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What violent 1971 movie about a schoolteacher in the outback hoped to kickstart the Australian film industry?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Wake in Fright]]></answer>
+        <answer><![CDATA[Picnic at Hanging Rock]]></answer>
+        <answer><![CDATA[Mad Max]]></answer>
+        <answer><![CDATA[Breaker Morant]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the capital of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Canberra]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Brisbane]]></answer>
+        <answer><![CDATA[Perth]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the capital of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Canberra]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Brisbane]]></answer>
+        <answer><![CDATA[Perth]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[How many timezones are in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Three]]></answer>
+        <answer><![CDATA[One]]></answer>
+        <answer><![CDATA[Two]]></answer>
+        <answer><![CDATA[Four]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many timezones are in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Three]]></answer>
+        <answer><![CDATA[One]]></answer>
+        <answer><![CDATA[Two]]></answer>
+        <answer><![CDATA[Four]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Science &amp; Technology</category>
+    <landscape>
+      <question><![CDATA[which animal is found only in Australia]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[DIngo]]></answer>
+        <answer><![CDATA[komodo dragon]]></answer>
+        <answer><![CDATA[meerkat]]></answer>
+        <answer><![CDATA[dingo]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[which animal is found only in Australia]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[DIngo]]></answer>
+        <answer><![CDATA[komodo dragon]]></answer>
+        <answer><![CDATA[meerkat]]></answer>
+        <answer><![CDATA[dingo]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Music</category>
+    <landscape>
+      <question><![CDATA[How many Grammy Awards has Courtney Barnett been nomined for, under what category, and in what year?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[One, Best new artist, 2016]]></answer>
+        <answer><![CDATA[Four, Best Rock Song, 2018]]></answer>
+        <answer><![CDATA[Three, Best Female Vocalist, 2017]]></answer>
+        <answer><![CDATA[Five, Most Original Song, 2014]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many Grammy Awards has Courtney Barnett been nomined for, under what category, and in what year?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[One, Best new artist, 2016]]></answer>
+        <answer><![CDATA[Four, Best Rock Song, 2018]]></answer>
+        <answer><![CDATA[Three, Best Female Vocalist, 2017]]></answer>
+        <answer><![CDATA[Five, Most Original Song, 2014]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What is the national bird of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[Kiwi]]></answer>
+        <answer><![CDATA[Austalian magpie]]></answer>
+        <answer><![CDATA[rainbow lorikeet]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the national bird of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Emu]]></answer>
+        <answer><![CDATA[Kiwi]]></answer>
+        <answer><![CDATA[Austalian magpie]]></answer>
+        <answer><![CDATA[rainbow lorikeet]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the highest place in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mount Kosciuszko]]></answer>
+        <answer><![CDATA[mount rushmore]]></answer>
+        <answer><![CDATA[mount whitney]]></answer>
+        <answer><![CDATA[appalachian mountains]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the highest place in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mount Kosciuszko]]></answer>
+        <answer><![CDATA[mount rushmore]]></answer>
+        <answer><![CDATA[mount whitney]]></answer>
+        <answer><![CDATA[appalachian mountains]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[Mineral fuels was Australi's #1 export in 2019. What was #2?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Ores]]></answer>
+        <answer><![CDATA[Gems]]></answer>
+        <answer><![CDATA[Meat]]></answer>
+        <answer><![CDATA[Pharmaceuticals]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Mineral fuels was Australi's #1 export in 2019. What was #2?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Ores]]></answer>
+        <answer><![CDATA[Gems]]></answer>
+        <answer><![CDATA[Meat]]></answer>
+        <answer><![CDATA[Pharmaceuticals]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Words &amp; Language</category>
+    <landscape>
+      <question><![CDATA[Which  language do  Australians  speak?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[English]]></answer>
+        <answer><![CDATA[Spanish]]></answer>
+        <answer><![CDATA[French]]></answer>
+        <answer><![CDATA[German]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which  language do  Australians  speak?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[English]]></answer>
+        <answer><![CDATA[Spanish]]></answer>
+        <answer><![CDATA[French]]></answer>
+        <answer><![CDATA[German]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Sports</category>
+    <landscape>
+      <question><![CDATA[Who is Australia’s only Formula One driver?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mark Webber]]></answer>
+        <answer><![CDATA[Mitchell Starc]]></answer>
+        <answer><![CDATA[Shane Warne]]></answer>
+        <answer><![CDATA[Mark Viduka]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is Australia’s only Formula One driver?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Mark Webber]]></answer>
+        <answer><![CDATA[Mitchell Starc]]></answer>
+        <answer><![CDATA[Shane Warne]]></answer>
+        <answer><![CDATA[Mark Viduka]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Who is the president of USA]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Donald Trumph]]></answer>
+        <answer><![CDATA[Obama]]></answer>
+        <answer><![CDATA[Kim]]></answer>
+        <answer><![CDATA[John]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who is the president of USA]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Donald Trumph]]></answer>
+        <answer><![CDATA[Obama]]></answer>
+        <answer><![CDATA[Kim]]></answer>
+        <answer><![CDATA[John]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What is an Australian marsupial that does not hop?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[koala]]></answer>
+        <answer><![CDATA[wallaby]]></answer>
+        <answer><![CDATA[crocodile]]></answer>
+        <answer><![CDATA[dingo]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is an Australian marsupial that does not hop?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[koala]]></answer>
+        <answer><![CDATA[wallaby]]></answer>
+        <answer><![CDATA[crocodile]]></answer>
+        <answer><![CDATA[dingo]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Words &amp; Language</category>
+    <landscape>
+      <question><![CDATA[What words or phrase do Australians use when they say they are "putting their nose into other persons business",or "checking something out"]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Sticky Beak]]></answer>
+        <answer><![CDATA[Nosy]]></answer>
+        <answer><![CDATA[Pokey]]></answer>
+        <answer><![CDATA[Hottie toote]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What words or phrase do Australians use when they say they are "putting their nose into other persons business",or "checking something out"]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Sticky Beak]]></answer>
+        <answer><![CDATA[Nosy]]></answer>
+        <answer><![CDATA[Pokey]]></answer>
+        <answer><![CDATA[Hottie toote]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[what is the longest river in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[River Murray]]></answer>
+        <answer><![CDATA[Murrumbidgee River]]></answer>
+        <answer><![CDATA[darling river]]></answer>
+        <answer><![CDATA[Lachlan river]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[what is the longest river in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[River Murray]]></answer>
+        <answer><![CDATA[Murrumbidgee River]]></answer>
+        <answer><![CDATA[darling river]]></answer>
+        <answer><![CDATA[Lachlan river]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>World Politics</category>
+    <landscape>
+      <question><![CDATA[Who was the first Prime Minister of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Edmund Barton]]></answer>
+        <answer><![CDATA[Alfred Deakin]]></answer>
+        <answer><![CDATA[Harold Holt]]></answer>
+        <answer><![CDATA[Robert Hawke]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Who was the first Prime Minister of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Edmund Barton]]></answer>
+        <answer><![CDATA[Alfred Deakin]]></answer>
+        <answer><![CDATA[Harold Holt]]></answer>
+        <answer><![CDATA[Robert Hawke]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[what is the national flower of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Golden Wattle]]></answer>
+        <answer><![CDATA[wax flower]]></answer>
+        <answer><![CDATA[bottle brush]]></answer>
+        <answer><![CDATA[dessert rose]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[what is the national flower of Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Golden Wattle]]></answer>
+        <answer><![CDATA[wax flower]]></answer>
+        <answer><![CDATA[bottle brush]]></answer>
+        <answer><![CDATA[dessert rose]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[What is the second largest city in Australia, by population?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Melbourne]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Canberra]]></answer>
+        <answer><![CDATA[Adelaide]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is the second largest city in Australia, by population?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Melbourne]]></answer>
+        <answer><![CDATA[Sydney]]></answer>
+        <answer><![CDATA[Canberra]]></answer>
+        <answer><![CDATA[Adelaide]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[Which zoo did Steve Irwin start in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Australia Zoo]]></answer>
+        <answer><![CDATA[Adelaide Zoo]]></answer>
+        <answer><![CDATA[Sydney Taronga Zoo]]></answer>
+        <answer><![CDATA[Hunter Valley Zoo]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[Which zoo did Steve Irwin start in Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Australia Zoo]]></answer>
+        <answer><![CDATA[Adelaide Zoo]]></answer>
+        <answer><![CDATA[Sydney Taronga Zoo]]></answer>
+        <answer><![CDATA[Hunter Valley Zoo]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>History</category>
+    <landscape>
+      <question><![CDATA[What ended the great depression?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[World war 2`]]></answer>
+        <answer><![CDATA[nothing]]></answer>
+        <answer><![CDATA[world war 3]]></answer>
+        <answer><![CDATA[strong economy]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What ended the great depression?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[World war 2`]]></answer>
+        <answer><![CDATA[nothing]]></answer>
+        <answer><![CDATA[world war 3]]></answer>
+        <answer><![CDATA[strong economy]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Plants &amp; Animals</category>
+    <landscape>
+      <question><![CDATA[What is Australia's national flower?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Golden Wattle]]></answer>
+        <answer><![CDATA[magnolia]]></answer>
+        <answer><![CDATA[daisy]]></answer>
+        <answer><![CDATA[sunflower]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What is Australia's national flower?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Golden Wattle]]></answer>
+        <answer><![CDATA[magnolia]]></answer>
+        <answer><![CDATA[daisy]]></answer>
+        <answer><![CDATA[sunflower]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[How many countries are larger than Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[7]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many countries are larger than Australia?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[2]]></answer>
+        <answer><![CDATA[3]]></answer>
+        <answer><![CDATA[7]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Geography</category>
+    <landscape>
+      <question><![CDATA[How many states does Australia have?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[7]]></answer>
+        <answer><![CDATA[5]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[How many states does Australia have?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[6]]></answer>
+        <answer><![CDATA[5]]></answer>
+        <answer><![CDATA[7]]></answer>
+        <answer><![CDATA[5]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>Food &amp; Drink</category>
+    <landscape>
+      <question><![CDATA[In Australia, this dark brown food spread made out of yeast extract, paired with vegetable and spice additives, is very popular.]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[vegemite]]></answer>
+        <answer><![CDATA[nutella]]></answer>
+        <answer><![CDATA[koala butter]]></answer>
+        <answer><![CDATA[spiced jam]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[In Australia, this dark brown food spread made out of yeast extract, paired with vegetable and spice additives, is very popular.]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[vegemite]]></answer>
+        <answer><![CDATA[nutella]]></answer>
+        <answer><![CDATA[koala butter]]></answer>
+        <answer><![CDATA[spiced jam]]></answer>
+      </answers>
+    </portrait>
+  </item>
+  <item>
+    <category>General Knowledge</category>
+    <landscape>
+      <question><![CDATA[What animal is featured on the flag of Tasmania?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Lion]]></answer>
+        <answer><![CDATA[Unicorn]]></answer>
+        <answer><![CDATA[Kangaroo]]></answer>
+        <answer><![CDATA[Koala]]></answer>
+      </answers>
+    </landscape>
+    <portrait>
+      <question><![CDATA[What animal is featured on the flag of Tasmania?]]></question>
+      <answers correctAnswer="1">
+        <answer><![CDATA[Lion]]></answer>
+        <answer><![CDATA[Unicorn]]></answer>
+        <answer><![CDATA[Kangaroo]]></answer>
+        <answer type="text"><![CDATA[Koala]]></answer>
+      </answers>
+    </portrait>
+  </item>
+</questions>

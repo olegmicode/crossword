@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+// @import url("https://id.allfont.net/allfont.css?fonts=badaboom-bb");
+
+@font-face {
+  font-family: "BadaBoom BB";
+  src: url("./../fonts/badabb__-webfont.woff2") format("woff2"),
+    url("./../fonts/badabb__-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-base: "Source Sans Pro", sans-serif;
+$font-button: "BadaBoom BB";
+
+$black: #4f4f4f;
+$white: #ffffff;
+$grey: #e0e0e0;
+$grey-dark: #828282;
+
+$blue: #0064D2;
+
+$primary: #FA3CBA;
+$primary-shade: #D02D99;
+
+$yellow: #FEDD01;
+$yellow-shade: #d1941c;
+
+$green: #8fd24c;
+$green-shade: #7bca2d;
+
+$tosca: #4cd2c9;
+$tosca-shade: #2dcac0;
+
+$brick: #d27c4c;
+$brick-shade: #ca652d;
+
+$red: #d24c4c;
+$red-shade: #ca2d2d;
+
+$orange: #ff8a1e;
+
+$facebook: #3b5998;
+$facebook-shade: #335192;
+
+$twitter: #00acee;
+$twitter-shade: #0091c9;
+
+$card-blue: #36b3de;
+$card-blue-shade: #12a5d8;
+
+$card-green: #44d6b3;
+$card-green-shade: #23cfa6;
+
+$card-navy: #6189ef;
+$card-navy-shade: #4574ec;
+
+$card-tomato: #d77352;
+$card-tomato-shade: #d05a34;
+
+$card-lime: #8fd24c;
+$card-lime-shade: #7bca2d;
+
+$card-purple: #a76ae4;
+$card-purple-shade: #9850df;
+
+$card-red: #e25f5f;
+$card-red-shade: #dd4343;
+
+$card-yellow: #fab837;
+$card-yellow-shade: #d1941c;

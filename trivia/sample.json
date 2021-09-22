@@ -1,0 +1,112 @@
+{
+    "questions": {
+        "category": [
+            {
+                "name": "Books",
+                "thumb": "assets/gamepad.svg"
+            },
+            {
+                "name": "Geography",
+                "thumb": "assets/gamepad.svg"
+            },
+            {
+                "name": "Science &amp; Technology",
+                "thumb": "assets/gamepad.svg"
+            }
+        ],
+        "item": [
+            {
+                "category": "Books",
+                "landscape": {
+                    "question": "Who wrote Pride and Prejudice?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "Jane Austen",
+                        "Emily Bronte",
+                        "Emily Dickinson",
+                        "Daphne du Maurier"
+                    ]
+                },
+                "portrait": {
+                    "question": "Who wrote Pride and Prejudice?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "Jane Austen",
+                        "Emily Bronte",
+                        "Emily Dickinson",
+                        "Daphne du Maurier"
+                    ]
+                }
+            },
+            {
+                "category": "Science &amp; Technology",
+                "landscape": {
+                    "question": "What is the longest roller coaster in the USA by length in feet?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "The Beast",
+                        "Fury 325",
+                        "Millennium Force",
+                        "The Voyage"
+                    ]
+                },
+                "portrait": {
+                    "question": "What is the longest roller coaster in the USA by length in feet?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "The Beast",
+                        "Fury 325",
+                        "Millennium Force",
+                        "The Voyage"
+                    ]
+                }
+            },
+            {
+                "category": "Science &amp; Technology",
+                "landscape": {
+                    "question": "What drug class does cialis belong to?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "PDE5 inhibitor",
+                        "ACE inhibitor",
+                        "H2 blocker",
+                        "Proton Pump Inhibitor (PPI)"
+                    ]
+                },
+                "portrait": {
+                    "question": "What drug class does cialis belong to?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "PDE5 inhibitor",
+                        "ACE inhibitor",
+                        "H2 blocker",
+                        "Proton Pump Inhibitor (PPI)"
+                    ]
+                }
+            },
+            {
+                "category": "Geography",
+                "landscape": {
+                    "question": "What is the capital of New York?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "Albany",
+                        "New York City",
+                        "Buffalo",
+                        "Syracuse"
+                    ]
+                },
+                "portrait": {
+                    "question": "What is the capital of New York?",
+                    "correctAnswer": "1",
+                    "answers": [
+                        "Albany",
+                        "New York City",
+                        "Buffalo",
+                        "Syracuse"
+                    ]
+                }
+            }
+        ]
+    }
+}

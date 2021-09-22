@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Crosswords - SeniorsDiscountClub</title>
+    <meta name="keywords" content="Crosswords - SeniorsDiscountClub" />
+    <meta name="description" content="Crosswords - SeniorsDiscountClub" />
+    <!-- for Facebook -->
+    <meta property="og:title" content="Crosswords - SeniorsDiscountClub " />
+    <meta property="og:site_name" content="SeniorsDiscountClub" />
+    <meta
+      property="og:url"
+      content="/crossword/"
+    />
+    <meta
+      property="og:description"
+      content="A crossword is a word puzzle and word search game that usually takes the form of a square or a rectangular grid of white- and black-shaded squares. The game's goal is to fill the white squares with letters, forming words or phrases, by solving clues, which lead to the answers."
+    />
+
+    <!-- for Twitter -->
+    <meta name="twitter:title" content="Crosswords - SeniorsDiscountClub " />
+    <meta
+      name="twitter:description"
+      content="A crossword is a word puzzle and word search game that usually takes the form of a square or a rectangular grid of white- and black-shaded squares. The game's goal is to fill the white squares with letters, forming words or phrases, by solving clues, which lead to the answers."
+    />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MD44XGV');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css">
+
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script>
+    if ( window.location !== window.parent.location ) {
+      // The page is in an iframe
+    } else {
+      console.log('opening game not in YLC iframe');
+      console.log('window.location: ' + window.location);
+      console.log('window.parent.location: ' + window.parent.location);
+    }
+    </script>
+    <script type="text/javascript" src="generator/js/crossword.js"></script>
+    <script type="text/javascript" src="generator/js/generator.js"></script>
+    <script type="text/javascript" src="generator/data/labels.js"></script>
+    <script type="text/javascript" src="generator/data/settings.js"></script>
+    <!-- <script
+      type="text/javascript"
+      src="generator/data/words-clues-easy.js"
+    ></script> -->
+  </head>
+  <body ondragstart="return false">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD44XGV"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- <div id="rotate" class="rotate"></div> -->
+
+    <div class="bg-primary" id="content">
+      <!-- Browser Warning / Open on IE -->
+      <div id="browserWarning" class="browserWarning bg-primary">
+        <p>
+          You can't play with IE browser, please play the game with Chrome, Safari
+          or Firefox browser
+        </p>
+      </div>
+
+      <div id="orientationWarning" class="orientation d-none fade">
+        <img src="./images/rotate.svg" alt="">
+        <h5>For better experience,<br>
+        please rotate the device to portrait</h5>
+      </div>
+
+      <!-- Loader -->
+      <div id="loader" class="center bg-primary">
+        <div class="ellipse-bottom">
+          <img src="./images/custom/ellipse-bottom.png" alt="Ornament">
+        </div>
+        <div class="flex-1 flex-center wh-full flex-column">
+          <img
+            id="loader-logo"
+            src="./images/custom/logo.svg"
+            alt="logo"
+            class="logo"
+          />
+          <div class="d-flex flex-column">
+            <img
+              id="loader-logo-2"
+              src="./images/custom/logo-crossword.svg"
+              alt="logo"
+              class="logo-crossword"
+            />
+            <img
+              src="./images/custom/logo.svg"
+              alt="logo"
+              class="logo-bottom"
+            />
+          </div>
+          <div id="cc-loading-indicator" class="cc-progress">
+            <div class="cc-progress-wrapper">
+
+              <div class="cc-progress-bar"></div>
+              <div class="cc-progress-percentage"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Intro Page -->
+      <div class="bg-primary" id="intro">
+        <div class="ellipse-bottom">
+          <img src="./images/custom/ellipse-bottom.png" alt="Ornament">
+        </div>
+
+        <nav class="bg-dgrey z-depth-0 position-relative">
+          <div class="nav-wrapper cs-nav-wrapper">
+            <div
+              class="v_center primary_text game_title brand-logo cs-brand-logo center"
+            >
+              Crossword
+            </div>
+          </div>
+        </nav>
+        <div class="z-depth-0 nav-action d-none">
+          <div class="right nav-action-right">
+          </div>
+        </div>
+
+        <div class="flex-center" id="intro_content">
+          <div class="mb-3 flex-center flex-column">
+            <img
+              id="intro-logo"
+              src="./images/custom/logo.svg"
+              alt="logo"
+              class="logo"
+            />
+            <img
+              id="intro-logo-2"
+              src="./images/custom/logo-crossword.svg"
+              alt="logo"
+              class="logo-crossword"
+            />
+            <img
+              src="./images/custom/logo.svg"
+              alt="logo"
+              class="logo-bottom"
+            />
+          </div>
+
+          <div class="mt-3 flex-center">
+            <img
+              id="btn_start"
+              class="hover-pointer"
+              src="./images/custom/button_start.svg"
+              alt="logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Setting Wrapper -->
+      <div class="setting-wrapper container-fluid">
+        <div class="btn-dropdown-wrapper float-right">
+          <button
+            type="button"
+            id="btn-setting"
+            class="cs-btn cs-purple cs-tooltip btn-dropdown"
+          >
+            <img src="./images/custom/setting.svg" alt="Settings" />
+
+            <div class="tooltip tooltip-top">Settings</div>
+          </button>
+
+          <div class="btn-dropdown-child">
+            <button
+              type="button"
+              id="btn-sound"
+              class="cs-btn cs-primary cs-tooltip mb-10"
+            >
+              <img src="./images/custom/sound_off.svg" alt="Mute" />
+
+              <div id="sound-tooltip" class="tooltip tooltip-left"></div>
+            </button>
+
+            <button type="button" id="btn-help" class="cs-btn cs-primary cs-tooltip mb-10">
+              <img src="./images/help-icon.svg" alt="Help" />
+
+              <div id="help-tooltip" class="tooltip tooltip-left">HELP</div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Difficulty Select -->
+      <div
+        id="game_difficulty"
+        class="wh-full bg-primary"
+        style="display: none"
+      >
+        <div class="ellipse-bottom">
+          <img src="./images/custom/ellipse-bottom.png" alt="Ornament">
+        </div>
+
+        <nav class="bg-dgrey z-depth-0 position-relative">
+          <div class="nav-wrapper cs-nav-wrapper">
+            <ul class="left">
+              <li class="toolbar_item v_center bg-transparent"></li>
+            </ul>
+            <div
+              class="v_center primary_text game_title brand-logo cs-brand-logo center"
+            >
+              Crossword
+            </div>
+          </div>
+        </nav>
+
+        <div class="difficulty-inner container-fluid">
+          <p class="mb-0">
+            <img
+              id="main-logo"
+              src="./images/custom/secondary-logo.png"
+              alt="logo"
+              class="logo-crossword--inner position-relative"
+            />
+          </p>
+          <p id="dateText" class="container-fluid pl-0"></p>
+          <!-- <h3 class="cc-title-section">select difficulty</h3> -->
+
+          <div id="difficultyList" class="difficulty-list"></div>
+        </div>
+
+        <div class="difficulty-pagination">
+          <div class="container-fluid">
+            <a href="#" id="prevPage" class="cs-btn cs-red cs-page"
+              ><img src="./images/custom/arrow-left.svg" alt="Prev"
+            /></a>
+            <div class="page-number">
+              <span id="pageNumber"> 1 </span>
+              <span class="mx-2">/</span>
+              <span id="pageTotal">2</span>
+            </div>
+            <a href="#" id="nextPage" class="cs-btn cs-red cs-page">
+              <img src="./images/custom/arrow-right.svg" alt="Next" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Game Board -->
+      <div class="bg-primary" id="crossword">
+        <div class="ellipse-bottom">
+          <img src="./images/custom/ellipse-bottom.png" alt="Ornament">
+        </div>
+
+        <nav class="bg-dgrey z-depth-0 position-relative">
+          <div class="nav-wrapper cs-nav-wrapper">
+            <ul class="left">
+              <li class="toolbar_item v_center bg-transparent ft-base ft-bold">
+                <div class="score_point">
+                  <img
+                    src="./images/custom/score-trophy.svg"
+                    alt="score logo"
+                    class="d-block d-md-none"
+                  />
+                  <span class="d-none d-md-block">SCORE :</span>
+                  <span id="scorePoint"></span>
+                </div>
+              </li>
+            </ul>
+            <div
+              class="v_center primary_text game_title brand-logo cs-brand-logo center"
+            ></div>
+            <ul class="right">
+              <li class="toolbar_item bg-transparent ft-base ft-bold">
+
+                  <div class="reload" class="px-0 bg-transparent"
+                    ><img
+                      class="primary_text"
+                      src="./images/custom/reload.svg"
+                      alt="reset"
+                    />
+                    <span>Reset</span></d
+                  >
+
+                </div>
+              </li>
+              <li class="sound-setting toolbar_item bg-transparent" id="btn-sound-small">
+                <img src="./images/custom/mute.svg" alt="sound setting" />
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="z-depth-1 nav-action">
+          <div class="left">
+            <div class="time-box">
+              <div class="left">
+                <div class="inner-time" id="chrono">00:00:00</div>
+              </div>
+              <div class="right time-action cs-tooltip">
+                <img
+                  src="./images/custom/start.svg"
+                  alt="start"
+                  id="time-trigger-start"
+                  style="display: none"
+                />
+                <img
+                  src="./images/custom/pause.svg"
+                  alt="pause"
+                  id="time-trigger-pause"
+                />
+                <div class="tooltip tooltip-top" id="timer-tooltip">Pause</div>
+              </div>
+            </div>
+          </div>
+          <div class="hint" id="hintWrapper">
+            <div class="hint-wrapper">ALL OF YOUR HINT HAS BEEN USED</div>
+          </div>
+          <div class="right nav-action-right">
+            <button
+              type="button"
+              id="btn-hint"
+              class="cs-btn cs-primary cs-tooltip"
+            >
+              <img src="./images/custom/hint.svg" alt="hint" />
+
+              <div class="tooltip tooltip-top">Reveal Letter : <span>3</span></div>
+            </button>
+            <div class="btn-dropdown-wrapper">
+              <button
+                type="button"
+                id="btn-solve-word"
+                class="cs-btn cs-primary cs-tooltip btn-dropdown"
+              >
+                <img src="./images/custom/check.svg" alt="check" />
+
+                <div class="tooltip tooltip-top">Reveal Word : <span>3</span></div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="flex flex-wrap flex-main strecth-child">
+            <div class="clue_list">
+              <div id="down_container" class="clue_list_wrapper">
+                <div id="down_label" class="clue_list_label"></div>
+                <div id="down_list">
+                  <ul id="down_list_ul"></ul>
+                </div>
+              </div>
+            </div>
+
+            <div id="game_view" class="flex wh-full">
+              <div id="game" class="flex wh-full">
+                <div id="board">
+                  <div id="dragger">
+                    <input
+                      type="text"
+                      id="key_interceptor"
+                      maxlength="1"
+                      size="1"
+                      title=""
+                    />
+                    <canvas id="crossword_canvas"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <h4 id="clue_number">#</h4>
+                  <p id="clue_text"></p>
+                </div>
+
+                <div class="modal-footer">
+                  <a
+                    id="reveal_letter"
+                    class="dialog_btn reveal_letter modal-action modal-close waves-effect waves-orange btn-flat"
+                  ></a>
+                  <a
+                    id="reveal_word"
+                    class="dialog_btn reveal_word modal-action modal-close waves-effect waves-orange btn-flat"
+                  ></a>
+                  <a
+                    id="submit"
+                    class="dialog_btn modal-action modal-close waves-effect waves-green btn-flat"
+                  ></a>
+                </div>
+              </div>
+
+              <div class="hint-modal">
+                <div class="hint-modal-body">
+                  <div class="hint-inner clearfix">
+                    <div class="left">
+                      <img
+                        src="./images/custom/hint-yellow.svg"
+                        alt="start"
+                        class="hint-icon"
+                      />
+                    </div>
+                    <div class="right">
+                      First letter is <span id="hint-letter-first"></span>. Last
+                      letter is <span id="hint-letter-last"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="bottom-info-trigger" class="bottom-info centering">
+                <div class="left"></div>
+                <div class="center"></div>
+                <div class="right"></div>
+              </div>
+            </div>
+
+            <div class="clue_list">
+              <div id="across_container" class="clue_list_wrapper">
+                <div id="across_label" class="clue_list_label"></div>
+                <div id="across_list">
+                  <ul id="across_list_ul"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <div id="result">
+        <nav class="bg-dgrey z-depth-0 position-relative">
+          <div class="nav-wrapper cs-nav-wrapper">
+            <!-- <ul class="left">
+              <li class="toolbar_item v_center bg-transparent">
+                <img
+                  id="back-ingame"
+                  class="primary_text hoverpointer"
+                  src="./images/custom/arrow-left.svg"
+                  alt="back"
+                />
+              </li>
+            </ul> -->
+            <div
+              class="v_center primary_text game_title brand-logo cs-brand-logo center"
+            ></div>
+            <!-- <ul class="right">
+              <li class="toolbar_item v_center bg-transparent ft-base ft-bold">
+                <a href="#" class="reload" class="px-0 bg-transparent"
+                  ><img
+                    class="primary_text"
+                    src="./images/custom/reload.svg"
+                    alt="reset"
+                  />
+                  <span>Reset</span></a
+                >
+              </li>
+            </ul> -->
+          </div>
+        </nav>
+        <div class="result-wrapper position-relative">
+          <div class="result-firework">
+            <img src="./images/custom/firework.png" alt="Firework">
+          </div>
+          <div class="result-content position-relative">
+            <canvas
+              id="confettiWrapper"
+              class="result-content-confetti"
+            ></canvas>
+            <div class="result-content-header">
+              <img src="./images/custom/champion.svg" alt="Champion" />
+              <h1>GAME FINISHED</h1>
+              <img src="./images/custom/champion.svg" alt="Champion" />
+            </div>
+            <div class="result-content-stars">
+              <img
+                src="./images/custom/result-dim-star.svg"
+                alt="star"
+                class="rateStar"
+              />
+              <img
+                src="./images/custom/result-dim-star.svg"
+                alt="star"
+                class="rateStar"
+              />
+              <img
+                src="./images/custom/result-dim-star.svg"
+                alt="star"
+                class="rateStar"
+              />
+              <img
+                src="./images/custom/result-dim-star.svg"
+                alt="star"
+                class="rateStar"
+              />
+              <img
+                src="./images/custom/result-dim-star.svg"
+                alt="star"
+                class="rateStar"
+              />
+            </div>
+            <div class="result-content-points">
+              <h1>TOTAL POINTS</h1>
+              <div id="result-point">
+                <h1></h1>
+              </div>
+            </div>
+            <div class="result-content-action">
+              <button class="cs-btn cs-btn-lg cs-blue" id="replayBtn">
+                Play Again
+              </button>
+              <div class="result-content-divider"></div>
+              <p>Share to:</p>
+              <div class="result-content-action-share">
+                <button id="facebookShareBtn" class="cs-btn cs-facebook">
+                  <img src="./images/custom/facebook-logo.svg" alt="Facebook" />
+                </button>
+                <button id="twitterShareBtn" class="cs-btn cs-twitter">
+                  <img src="./images/custom/twitter-logo.svg" alt="Twitter" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Reset -->
+      <div
+        class="modal cc-modal fade"
+        id="modal-pause"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modal-reset"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-content-inner">
+              <h4 class="ft-base ft-section-title ft-bold text-center">
+                Game Paused
+              </h4>
+              <div class="text-center button-reset-wrapper">
+                <div class="d-flex flex-column">
+                  <img
+                    id="btn-continue"
+                    class="hoverpointer img-fluid mb-3"
+                    src="images/custom/btn-continue.svg"
+                    alt="Continue"
+                  />
+                  <img
+                    id="btn-surrender"
+                    class="hoverpointer img-fluid"
+                    src="images/custom/btn-surrender.svg"
+                    alt="Surrender"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Pause -->
+      <div
+        class="modal cc-modal fade"
+        id="modal-reset"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modal-reset"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-content-inner pb-0">
+              <h4 class="ft-base ft-section-title ft-bold text-center">
+                You’re about to reset the game.<br />
+                All your progress will be lost.<br />
+                Do you want to proceed?
+              </h4>
+              <div class="text-center button-reset-wrapper">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      id="btn-reset-yes"
+                      class="hoverpointer img-fluid"
+                      src="images/custom/btn-yes.svg"
+                      alt="Yes"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      id="btn-reset-no"
+                      class="hoverpointer img-fluid"
+                      src="images/custom/btn-no.svg"
+                      alt="No"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Back Ingame -->
+      <div
+        class="modal cc-modal fade"
+        id="modal-back-ingame"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modal-reset"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-content-inner">
+              <h4 class="ft-base ft-section-title ft-bold text-center">
+                You’re about to quit the game.<br />
+                All your progress will be lost.<br />
+                Do you want to proceed?
+              </h4>
+              <div class="text-center button-reset-wrapper">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      id="btn-back-ingame-yes"
+                      class="hoverpointer img-fluid"
+                      src="images/custom/btn-yes.svg"
+                      alt="Yes"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      id="btn-back-ingame-no"
+                      class="hoverpointer img-fluid"
+                      src="images/custom/btn-no.svg"
+                      alt="No"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- onboard -->
+      <div class="modal cc-modal fade" id="modal-onboard" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        role="dialog" aria-labelledby="modal-onboard" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-lg modal-dialog-centered">
+          <div class="modal-content modal-content-onboard d-flex flex-column align-items-center">
+            <div class="modal-content-onboard-inner">
+              <div class="modal-content-onboard__content d-flex flex-column align-items-center">
+                <h1>How do you gain points?</h1>
+                <img src="./images/onboard-stars.svg" alt="">
+                <ul>
+                  <li class="list">Your total score is expressed as a percentage. 100% is the maximum score possible.<li />
+                  <li class="list">Every correct letter will add to your percentage.</li>
+                  <li class="list">Using a hint to reveal a letter or word will not reduce your score, but you won't receive any points for those squares.</li>
+                  <li class="list">Guessing the wrong letter won't reduce your score.</li>
+                  <li class="list">The timer will not reduce your score.</li>
+                </ul>
+              </div>
+
+              <div class="modal-content-onboard__action d-flex justify-content-center">
+                <a id="btnOnboardModalStart" href="#" class="btn btn--onboard mx-1">Start Now</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4 id="help_title">Help</h4>
+          <p id="help_text"></p>
+        </div>
+        <div class="modal-footer">
+          <a
+            id="btn_dialog_close"
+            href="#"
+            class="modal-action modal-close waves-effect waves-green btn-flat"
+          ></a>
+        </div>
+      </div>
+
+      <div id="modal3" class="modal modal-fixed-footer">
+        <div id="congrat" class="modal-content">
+          <h4 id="congrat_title">Congratulations</h4>
+          <div class="checkmark center">
+            <object data="images/checkmark.svg" type="image/svg+xml"></object>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            href="#"
+            class="dialog_close modal-action modal-close waves-effect waves-green btn-flat"
+          ></a>
+        </div>
+      </div>
+
+      <div id="modal4" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4 id="clear_title">Clear</h4>
+          <p id="clear_warning"></p>
+        </div>
+        <div class="modal-footer">
+          <a
+            id="btn-no"
+            href="#"
+            class="modal-action modal-close waves-effect waves-green btn-flat"
+          ></a>
+          <a
+            id="btn-yes"
+            href="#"
+            class="modal-action modal-close waves-effect waves-green btn-flat"
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <input class="input" id="inputVirtual" placeholder="Tap on the virtual keyboard to start" /> -->
+    <div class="simple-keyboard"></div>
+
+    <script>
+      if (navigator.userAgent.indexOf('Trident/') > 0 || navigator.userAgent.indexOf('MSIE ') > 0) {
+        document.getElementById('browserWarning').style.display = 'flex';
+      } else {
+        document.getElementById('browserWarning').style.display = 'none';
+      }
+    </script>
+
+
+    <script type="text/javascript" src="js/easeljs-0.7.1.min.js"></script>
+    <script type="text/javascript" src="js/detect.min.js"></script>
+    <script type="text/javascript" src="js/createjs-2015.11.26.min.js"></script>
+    <script type="text/javascript" src="js/confetti.min.js"></script>
+
+    <script type="text/javascript" src="js/dist/bundle.js"></script>
+
+    <script type="text/javascript" src="js/easytimer.min.js"></script>
+    <script type="text/javascript" src="js/iscroll.js"></script>
+    <script type='text/javascript' src='js/idevice.js'></script>
+
+    <script type='text/javascript' src='js/browser.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.min.js"></script>
+    <script type="text/javascript" src="js/sound.js"></script>
+    <script type="text/javascript" src="js/loader.js"></script>
+    <script type="text/javascript" src="js/crossword.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type='text/javascript' src='js/keyboard.js'></script>
+
+  </body>
+</html>

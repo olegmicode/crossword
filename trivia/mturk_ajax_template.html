@@ -1,0 +1,177 @@
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<!-- External CSS references -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<div class="container mt-4" id="workContent">
+    <div class="row justify-content-md-center">
+        <div class="col-md-10"><h2>Submit a trivia question</h2></div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col-md-10">
+            <p class="text-justify">In this task, we want you to submit an ORIGINAL trivia question and answers that you have written yourself.
+                You will also be required to select an appropriate category for the question, as well as submit a correct answer
+                and 3 incorrect answers.</p>
+            <p class="text-justify">For example, in the question textbox you might put '<i>Who directed the original Star Wars movie?</i>'.
+                On the category dropdown you would select '<i>Entertainment</i>'. For the correct answer you would put '<i>George Lucas</i>',
+                and for incorrect answers you could put '<i>Steven Spielberg</i>', '<i>Alfred Hitchcock</i>', and '<i>Stanley Kubrick</i>'.
+            </p>
+            <p class="text-justify"><b>Please note that all trivia questions must be original / your own work. All fields are mandatory &amp;
+                please check your spelling and grammar before submitting.</b></p>
+            <p class="text-justify">Note also that you should provide a URL source / reference proving the accuracy of your answer.
+                The quickest way to do this is generally to enter your question into Google and then paste
+                the URL of the top result into the URL Source / Reference textbox below.</p>
+        </div>
+    </div>
+    <crowd-form answer-format="flatten-objects" id="customForm">
+        <div class="mt-4" id="workContent">
+            <div class="row justify-content-md-center">
+                <div class="col-md-5">
+                    <label for="Category">Category:</label>
+                    <select name="Category" id="category" class="input-element form-control" required>
+                        <option value="">Select a category</option>
+                        <option value="General Knowledge">General Knowledge</option>
+                        <option value="TV &amp; Movies">TV &amp; Movies</option>
+                        <option value="History">History</option>
+                        <option value="Food &amp; Drink">Food &amp; Drink</option>
+                        <option value="Geography">Geography</option>
+                        <option value="Science &amp; Technology">Science &amp; Technology</option>
+                        <option value="Words &amp; Language">Words &amp; Language</option>
+                        <option value="Plants &amp; Animals">Plants &amp; Animals</option>
+                        <option value="Music">Music</option>
+                        <option value="Books">Books</option>
+                        <option value="World Politics">World Politics</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Maths &amp; Numbers">Maths &amp; Numbers</option>
+                        <option value="Religion">Religion</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <label for="question_source">Question source:</label>
+                    <input class="form-control" id="question_source" type="text" name="Answer_source" placeholder="URL Source / reference for answer" required></input>
+                </div>
+            </div>
+
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <label for="Question">Question:</label>
+                    <input class="form-control" id="question" type="text" name="Question" placeholder="Enter your question here" required></input>
+                </div>
+            </div>
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <label for="Correct_answer">Correct Answer:</label>
+                    <input class="form-control" id="correct_answer" type="text" name="Correct_answer" placeholder="Enter the CORRECT answer here" required></input>
+                </div>
+            </div>
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <label for="Incorrect_answer_1">Incorrect Answer 1:</label>
+                    <input class="form-control" id="incorrect_answer_1" type="text" name="Incorrect_answer_1" placeholder="Enter the INCORRECT answer 1 here" required></input>
+                </div>
+            </div>
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <label for="Incorrect_answer_2">Incorrect Answer 2:</label>
+                    <input class="form-control" id="incorrect_answer_2" type="text" name="Incorrect_answer_2" placeholder="Enter the INCORRECT answer 2 here" required></input>
+                </div>
+            </div>
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <label for="Incorrect_answer_3">Incorrect Answer 3:</label>
+                    <input class="form-control" id="incorrect_answer_3" type="text" name="Incorrect_answer_3" placeholder="Enter the INCORRECT answer 3 here" required></input>
+                </div>
+            </div>
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <crowd-checkbox variant="primary" required name="Confirm_own_work">I confirm my trivia question is my own work and that my HIT may be rejected if my trivia question &amp; answer is found to be factually or grammatically incorrect</crowd-checkbox>
+                </div>
+            </div>
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <crowd-button form-action="submit" id="submitButton" variant="primary">Submit my trivia question</crowd-button>
+                </div>
+            </div>
+            <div class="form-group row mt-4 justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="alert alert-success" id="success-alert" style="display: none">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong>Data successfully submitted!</strong>
+                    </div>
+                    <div id="apiResponse"></div>
+                </div>
+            </div>
+        </div>
+    </crowd-form>
+</div>
+
+
+<!-- External JS references -->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" integrity="sha384-s1ITto93iSMDxlp/79qhWHi+LsIi9Gx6yL+cOKDuymvihkfol83TYbLbOw+W/wv4" crossorigin="anonymous"></script>
+<script>
+
+$(document).ready(function() {
+
+    $('#submitButton').click(function(e){
+        // e.preventDefault();
+        submitQuestion();
+    });
+
+});
+
+function submitQuestion() {
+    var category = $('#category').val();
+    var question_source = $('#question_source').val();
+    var country_spesific = "";
+    var question = $('#question').val();
+    var correct_answer = $('#correct_answer').val();
+    var incorrect_answer_1 = $('#incorrect_answer_1').val();
+    var incorrect_answer_2 = $('#incorrect_answer_2').val();
+    var incorrect_answer_3 = $('#incorrect_answer_3').val();
+
+    if(category != '' && question != '' && question_source !='' && correct_answer != '' && incorrect_answer_1 != '' && incorrect_answer_2 != '' && incorrect_answer_3 != '') {
+        // create json to send
+        var data = {
+            'category_name': category,
+            'question_source': question_source,
+            'country_spesific': country_spesific,
+            'question': question,
+            'correct_answer': correct_answer,
+            'incorrect_answer1': incorrect_answer_1,
+            'incorrect_answer2': incorrect_answer_2,
+            'incorrect_answer3': incorrect_answer_3
+        }
+        var dataJson = JSON.stringify(data)
+        var ajaxUrl = 'https://seniorsdiscountclub.com.au/games/trivia/rest-api/api/question/create.php';
+
+        console.log(dataJson);
+
+        $.ajax({
+            type: 'POST',
+            cache: false,
+            contentType: false,
+            processData: false,
+            url: ajaxUrl,
+            data: dataJson,
+            success: function(response){
+
+                console.log(response);
+
+                $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
+                    $("#success-alert").slideUp(500);
+                    $('#customForm').submit();
+                });
+            },
+            error: function(xhr,textStatus,error){
+                alert(error);
+            }
+        });
+    }
+    else {
+        alert('Please fill all fields to submit the form.');
+    }
+
+}
+</script>

@@ -1,0 +1,77 @@
+.container-fluid {
+  @media screen and (min-width: 1024px) {
+    // width: 1024px !important;
+  }
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-bolder {
+  font-weight: 600;
+}
+
+.h1 {
+  font-size: 50px;
+  line-height: 63px;
+}
+
+.h2 {
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.h3 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.h4 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-red {
+  color: $red;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.disabled {
+  pointer-events: none !important;
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out 0.2s forwards;
+}
+
+.bounce {
+  animation: bounce 0.3s ease-in-out 0.2s forwards;
+}
+
+.tooltiped {
+  position: relative;
+
+  &:hover {
+    .tooltip {
+      display: block;
+    }
+  }
+}

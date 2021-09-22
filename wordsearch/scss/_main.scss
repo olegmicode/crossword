@@ -1,0 +1,812 @@
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // height: 300px;
+  width: 100%;
+
+  // min-height: 90%;
+  &__game-logo {
+    width: 300px;
+    height: auto;
+  }
+
+  &__loader {
+    height: 30px;
+    background-color: $white;
+    border-radius: 40px;
+    padding: 3px;
+    max-width: 400px;
+    width: 90%;
+
+    &__wrapper {
+      height: 24px;
+      background-color: $grey;
+      border-radius: 40px;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+        0 1px rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      position: relative;
+    }
+
+    &__progress-bar {
+      border-radius: 40px;
+      width: 0;
+      background-color: $primary;
+      background-image: linear-gradient(
+        45deg,
+        $primary 25%,
+        transparent 25%,
+        transparent 50%,
+        $primary 50%,
+        $primary 75%,
+        transparent 75%,
+        transparent
+      );
+      height: 100%;
+      position: relative;
+    }
+
+    &__percentage {
+      position: absolute;
+      content: null;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff !important;
+    }
+  }
+}
+
+.category {
+  &__header {
+    height: 80px;
+
+    @media screen and (min-width: 768px) {
+      height: 90px;
+    }
+
+    &__game-logo {
+      width: auto;
+      height: 80px;
+      filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.25));
+    }
+
+    &__ylc-logo {
+      height: 24px;
+    }
+  }
+
+  &__thumb {
+    flex: 0 0 47%;
+    margin: 0 1.5% 10px;
+    display: flex;
+    height: 95px;
+    border-bottom: 5px solid;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+
+    span.h4 {
+      font-size: 16px !important;
+      line-height: 19px !important;
+    }
+
+    @media screen and (min-width: 375px) {
+      flex-basis: 47%;
+      height: 125px;
+      margin: 0 1.5% 10px;
+      padding: 12px;
+    }
+
+    @media screen and (min-width: 768px) {
+      flex-basis: 24%;
+      margin: 0 0.5% 8px;
+      height: 100px;
+      padding: 15px;
+
+      span.h4 {
+        font-size: 16px !important;
+        line-height: 19px !important;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      flex-basis: 19%;
+      margin: 0 0.5% 8px;
+      height: 130px;
+      padding: 15px;
+
+      span.h4 {
+        font-size: 16px !important;
+        line-height: 19px !important;
+      }
+    }
+
+    // iPhone 5, 5s, 5c and 5se
+    @media only screen and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 95px;
+      margin: 0 1.5% 10px;
+      padding: 10px;
+    }
+
+    // iPhone 6+, 7+, 8+
+    @media only screen and (device-width: 414px) and (device-height: 736px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 150px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px;
+
+      span.h4 {
+        font-size: 14px !important;
+        line-height: 16px !important;
+      }
+    }
+
+    // iPhone 6+, 7+, 8+
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 150px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px;
+
+      span.h4 {
+        font-size: 14px !important;
+        line-height: 16px !important;
+      }
+    }
+
+    // iphone x
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 150px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px;
+
+      span.h4 {
+        font-size: 14px !important;
+        line-height: 16px !important;
+      }
+    }
+
+    // iPhone 6, 6s, 7 and 8
+    @media only screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait) {
+      flex-basis: 47%;
+      height: 125px !important;
+      margin: 0 1.5% 10px;
+      padding: 12px;
+    }
+
+    // iPad 3, 4 and Pro 9.7"
+    @media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+      flex-basis: 30%;
+      margin: 0 1.5% 20px !important;
+      height: 200px;
+
+      span.h4 {
+        font-size: 16px !important;
+        line-height: 19px !important;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      content: url('./../img/icon/thumb-icon.svg');
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+      // width: 100%;
+    }
+
+    &--green {
+      background-color: $card-green;
+      border-bottom-color: $card-green-shade;
+
+      &:hover {
+        background-color: $card-green-shade;
+      }
+    }
+
+    &--yellow {
+      background-color: $card-yellow;
+      border-bottom-color: $card-yellow-shade;
+
+      &:hover {
+        background-color: $card-yellow-shade;
+      }
+    }
+
+    &--blue {
+      background-color: $card-blue;
+      border-bottom-color: $card-blue-shade;
+
+      &:hover {
+        background-color: $card-blue-shade;
+      }
+    }
+
+    &--navy {
+      background-color: $card-navy;
+      border-bottom-color: $card-navy-shade;
+
+      &:hover {
+        background-color: $card-navy-shade;
+      }
+    }
+
+    &--tomato {
+      background-color: $card-tomato;
+      border-bottom-color: $card-tomato-shade;
+
+      &:hover {
+        background-color: $card-tomato-shade;
+      }
+    }
+
+    &--lime {
+      background-color: $card-lime;
+      border-bottom-color: $card-lime-shade;
+
+      &:hover {
+        background-color: $card-lime-shade;
+      }
+    }
+
+    &--purple {
+      background-color: $card-purple;
+      border-bottom-color: $card-purple-shade;
+
+      &:hover {
+        background-color: $card-purple-shade;
+      }
+    }
+
+    &--red {
+      background-color: $card-red;
+      border-bottom-color: $card-red-shade;
+
+      &:hover {
+        background-color: $card-red-shade;
+      }
+    }
+
+    &__star-icon {
+      height: auto;
+      width: 14px;
+    }
+  }
+}
+
+.onboard {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  // bottom: 0;
+  z-index: 100;
+
+  @media screen and (min-width: 768px) {
+    position: static;
+  }
+
+  &__header {
+    height: 80px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+      height: 90px;
+    }
+
+    &__game-logo {
+      width: auto;
+      height: 70px;
+    }
+
+    &__ylc-logo {
+      height: 65px;
+    }
+  }
+
+  &__wrapper {
+    background-color: $white;
+    width: auto;
+    height: calc(100vh - 50px);
+    padding: 30px 25px;
+
+    @media screen and (min-width: 768px) {
+      width: 520px;
+      height: 480px;
+      border-radius: 10px;
+    }
+  }
+
+  &__content {
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    &__image {
+      margin: 30px 0;
+    }
+
+    &__desc {
+      & > ul {
+        & > li {
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.02em;
+          margin-bottom: 28px;
+          position: relative;
+          padding-left: 36px;
+
+          @media screen and (min-width: 768px) {
+            font-size: 18px;
+            line-height: 25px;
+          }
+
+          &::before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 24px;
+            height: 24px;
+            content: url('../img/icon/list-arrow-icon.svg');
+          }
+          // &.list {
+          //   padding-left: 20px;
+          // }
+        }
+      }
+
+      & > p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        margin-bottom: 28px;
+
+        @media screen and (min-width: 768px) {
+          font-size: 18px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  &__action {
+    margin-bottom: 20px;
+  }
+
+  &__pagination {
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+    &__index {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: $primary;
+      opacity: 0.2;
+      margin: 0 5px;
+      cursor: pointer;
+
+      &.active {
+        cursor: none;
+        pointer-events: none;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.game {
+  &__header {
+    display: flex;
+    height: 80px;
+    padding-right: 48px;
+    position: relative;
+
+    @media screen and (min-width: 375px) {
+      padding-right: 55px;
+    }
+
+    @media screen and (min-width: 768px) {
+      padding-right: 65px;
+    }
+
+    &__hint {
+      display: none;
+      position: absolute;
+      left: 50%;
+      content: '';
+      width: 100%;
+      transform: translateX(-50%);
+      top: 80px;
+      height: 60px;
+      padding: 6px;
+      background-color: #33bedc;
+      border-radius: 10px;
+      display: flex;
+      box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.15);
+      z-index: 2;
+
+      @media screen and (min-width: 768px) {
+        width: unset;
+        top: unset;
+      }
+
+      &__text {
+        padding: 16px;
+        background-color: $white;
+        border-radius: 6px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        color: $black;
+        font-size: 12px;
+        font-weight: bolder;
+        text-align: center;
+
+        @media screen and (min-width: 768px) {
+          font-size: 12px;
+        }
+
+        @media screen and (min-width: 1024px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  &__wrapper {
+    background-color: $white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    height: 100%;
+    min-height: calc(100vh - 140px);
+    // bottom: -100px;
+    content: '';
+    transition: all 0.2s ease-in-out;
+
+    @media screen and (min-width: 768px) {
+      left: -10px;
+      right: -10px;
+      // background-color: unset;
+    }
+  }
+}
+
+.result {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -20px;
+
+  @media screen and (min-width: 768px) {
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    bottom: unset;
+    right: unset;
+    transform: translate(-50%, -47%);
+    padding-top: 0;
+  }
+
+  &__wrapper {
+    padding: 32px 10px;
+    background-color: $white;
+    border-radius: 0;
+
+    @media screen and (min-width: 768px) {
+      padding: 32px;
+      border-radius: 4px;
+    }
+  }
+
+  &__header {
+    position: relative;
+    padding: 10px 0;
+
+    &__confetti {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      content: null;
+      z-index: 0;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    &__stars {
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      @media screen and (min-width: 375px) {
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+
+    &__score {
+      position: relative;
+      z-index: 1;
+      .result-score {
+        background-color: #ebebeb;
+        padding: 0 40px;
+        color: #383838;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &__action {
+    span {
+      color: $grey-dark;
+    }
+
+    &__divider {
+      width: 100%;
+      height: 2px;
+      background-color: $grey;
+      margin: 15px 0;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+.modal {
+  display: none;
+  z-index: 4;
+  position: absolute;
+  background-color: #fff;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 6px;
+
+  &--help {
+    background-color: $white;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+
+    @media screen and (min-width: 768px) {
+      top: 50%;
+      left: 50%;
+      bottom: unset;
+      transform: translate(-50%, -50%);
+      border-radius: 10px;
+    }
+
+    & > .modal__wrapper {
+      padding: 15px 0;
+
+      @media screen and (min-width: 375px) {
+        padding: 15px;
+      }
+    }
+
+    &__content {
+      min-width: 300px;
+      width: 300px;
+      min-height: 300px;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+      text-align: left;
+
+      @media screen and (min-width: 375px) {
+        width: auto;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      img {
+        margin-bottom: 20px;
+      }
+
+      ul {
+        margin-bottom: 20px;
+        li.list {
+          padding-left: 40px;
+          position: relative;
+
+          + li{
+            margin-top: 20px;
+          }
+
+          &::before {
+            position: absolute;
+            left: 0;
+            content: url('./../img/icon/list-arrow-icon.svg');
+          }
+        }
+      }
+    }
+
+    &__action {
+      margin-top: 20px;
+
+      @media screen and (min-width: 768px) {
+        margin-top: auto;
+      }
+    }
+
+    &__indicator {
+      margin-top: 20px;
+      div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba($color: $primary, $alpha: 0.2);
+
+        &.active {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  &--pause {
+    width: 320px;
+    height: 280px;
+  }
+
+  &--reset {
+    width: 320px;
+    height: 230px;
+
+    & > .modal__action {
+      & > .btn {
+        width: 30% !important;
+      }
+    }
+  }
+
+  &__wrapper {
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 24px;
+  }
+
+  &__backdrop {
+    display: none;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+  }
+}
+
+#boardWrapper {
+  position: relative;
+}
+
+#boardCanvas {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.ellipse-bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+
+  img{
+    height: 96px;
+    width: auto;
+  }
+}
+
+.ellipse-top{
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  text-align: left;
+
+  img{
+    height: 215px;
+    width: auto;
+  }
+}
+
+.logo{
+  height: 99px;
+  width: auto;
+  margin-bottom: 80px;
+  display: none;
+
+  @media only screen and (max-width: 767px){
+    height: 40px;
+    display: block;
+    margin-bottom: 70px;
+  }
+
+  &-bottom{
+    height: 43px;
+    width: auto !important;
+    margin-bottom: 40px;
+    margin-left: auto;
+    @media only screen and (max-width: 767px){
+      display: none;
+    }
+  }
+
+  &-secondary{
+    height: 181px;
+    width: auto;
+
+    @media only screen and (max-width: 767px){
+      height: 95px;
+      margin-bottom: 40px;
+    }
+    &--inner{
+      height: 85px;
+      width: auto;
+      padding-top: 20px;
+      filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.25));
+
+      @media only screen and (max-width: 767px){
+        padding-top: 10px;
+        height: 70px;
+      }
+    }
+  }
+}

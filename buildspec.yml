@@ -1,0 +1,22 @@
+version: 0.2
+
+run-as: root
+
+phases:
+  install:
+    runtime-versions:
+      php: 7.4
+  pre_build:
+    commands:
+      - echo Running Pre-Build script...
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+  build:
+    commands:
+      - rm -rf ./.git
+      - composer install
+      - touch .env
+artifacts:
+  type: zip
+  files:
+    - '**/*'
+  name: ylc-games-${COMMIT_HASH:=latest}-$(date +%Y-%m-%d)

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="style/ylc.css" /> -->
+
+    <link rel="stylesheet" href="./style/result.css" />
+
+    <title>Solitaire</title>
+  </head>
+
+  <body class="main_game_bg">
+    <div class="game_top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <a href="index.html">
+              <img src="images/btn-back.svg" />
+            </a>
+          </div>
+          <div class="col-6 text-center">
+            <h3>Solitaire</h3>
+          </div>
+          <div class="col-3 text-right">
+            <a href="index.html">
+              <img src="images/btn-reset.svg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex">
+      <div class="container mt-4">
+        <div class="row mt-4">
+          <div class="col-md-6 offset-md-3 text-center">
+            <img src="images/secondary-logo.svg" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6 col-12 offset-md-3 text-center mt-4">
+            <div class="result_wrapper">
+              <div class="row">
+                <div class="col">
+                  <img src="images/trophy.svg" class="img-fluid" />
+                </div>
+                <div class="col">
+                  <span class="result_text">Your Score:</span>
+                  <h2 class="result_score">0</h2>
+                </div>
+                <div class="col">
+                  <img src="images/trophy.svg" class="img-fluid" />
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col">
+                  <span class="result_text">Your Time</span>
+                  <h3 class="result_timeleft">00:00</h3>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-6 offset-md-3 col-12">
+                  <span class="result_text">share to:</span>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col text-center">
+                  <div class="share_btn_wrapper">
+                    <div class="btn_fb_wrapper">
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://seniorsdiscountclub.com.au/games/solitaire/"
+                      >
+                        <img src="images/ic_facebook.svg" />
+                      </a>
+                    </div>
+
+                    <div class="btn_tw_wrapper">
+                      <a
+                        target="_blank"
+                        href="https://twitter.com/intent/tweet?text=I%20just%20won%20this%Solitaire%20game%20in%20https%3A%2F%2Fwww.yourlifechoices.com.au%2F%2C%20its%20fun%20and%20challenging!%20Try%20it!"
+                      >
+                        <img src="images/ic_twitter.svg" />
+                      </a>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4 mb-4">
+          <div class="col-md-4 col-8 offset-md-4 offset-2 text-center mt-4">
+            <a href="game.html" class="default_button">
+              <div class="hilite_left">
+                <div class="hilite_right">
+                  <h2 class="game_action">Play Again</h2>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const score = urlParams.get("score");
+      const time_spent = urlParams.get("time_spent");
+
+      $(".result_score").html(score);
+      $(".result_timeleft").html(time_spent);
+    </script>
+  </body>
+</html>

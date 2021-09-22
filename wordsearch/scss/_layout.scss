@@ -1,0 +1,82 @@
+body {
+  position: relative;
+}
+
+.topbar {
+  height: 50px;
+  background-color: #2c2c2c;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  content: "";
+  bottom: -50px;
+  z-index: 2;
+
+  &__score {
+    display: flex;
+    align-items: center;
+
+    &__text::before {
+      content: ":";
+      margin-right: 2px;
+    }
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+  }
+
+  &__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.main {
+  position: relative;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: env(safe-area-inset-bottom, 10px);
+  min-height: 100vh;
+  height: 100vh;
+  background: linear-gradient(160.06deg, #2E3192 3.44%, #4144A3 99.17%);
+
+  &.game {
+    height: 140px !important;
+    min-height: unset !important;
+  }
+
+  &__wrapper {
+    display: flex;
+    // padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    height: calc(100vh - 80px);
+    z-index: 2;
+    top: 50px;
+  }
+
+  &__fullbg {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(100vh - 140px);
+    background-color: $white;
+  }
+}
+
+.page-index {
+  position: fixed;
+  bottom:0px;
+  left: 0;
+  right: 0;
+  background-color: #12597d;
+  padding: 10px 0;
+}

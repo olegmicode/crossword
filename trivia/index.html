@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Daily Trivia - SeniorsDiscountClub</title>
+
+    <meta name="Title" content="Daily Trivia" />
+    <meta
+      name="description"
+      content="Daily Trivia is a HTML5 game with general knowledge quiz questions and multiple choice answers, it is rebuild without canvas which can support responsive for landscape and portrait layout."
+    />
+    <meta
+      name="keywords"
+      content="quiz, game, multiple, knowledge, questions, choice, answers, layout, input, fill, blank, landscape, portrait"
+    />
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="Daily Trivia" />
+    <meta property="og:site_name" content="Your Life Choices" />
+    <meta property="og:url" content="https://seniorsdiscountclub.com.au/games/trivia/" />
+    <meta
+      property="og:description"
+      content="Daily Trivia is a game with general knowledge quiz questions and multiple choice answers, it is rebuild without canvas which can support responsive for landscape and portrait layout."
+    />
+
+    <!-- for Twitter -->
+    <meta name="twitter:title" content="Daily Trivia" />
+    <meta
+      name="twitter:description"
+      content="Daily Trivia is a game with general knowledge quiz questions and multiple choice answers, it is rebuild without canvas which can support responsive for landscape and portrait layout."
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MD44XGV');</script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+      if (window.location !== window.parent.location) {
+        // The page is in an iframe
+      } else {
+        console.log('opening game not in YLC iframe');
+        console.log('window.location: ' + window.location);
+        console.log('window.parent.location: ' + window.parent.location);
+      }
+
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style');
+        msViewportStyle.appendChild(
+          document.createTextNode('@-ms-viewport{width:device-width}')
+        );
+        document.getElementsByTagName('head')[0].appendChild(msViewportStyle);
+      }
+    </script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD44XGV"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div id="orientationWarning" class="orientation d-none fade">
+      <img src="./img/rotate-icon.svg" alt="" />
+      <h1>
+        For better experience,<br />
+        please rotate the device to portrait
+      </h1>
+    </div>
+
+    <div id="browserWarning" class="browserWarning bg-primary">
+      <p>
+        You can't play with IE browser, please play the game with Chrome, Safari
+        or Firefox browser
+      </p>
+    </div>
+    <div class="bg-primary overlay-background"></div>
+    <div class="ellipse-top">
+      <img src="./img/ellipse-top.png" alt="Ornament">
+    </div>
+    <div class="ellipse-bottom">
+      <img src="./img/ellipse-bottom.png" alt="Ornament">
+    </div>
+
+    <nav id="navbar-score" class="navbar cc-navbar bg-dgrey d-none">
+      <!-- <a
+        class="navbar-brand cc-brand ft-base font-weight-bold d-none d-sm-block"
+        href="#"
+        >Daily Trivia</a
+      > -->
+
+      <div class="score-navbar ft-bold ft-base d-none text-light">
+        <div class="d-flex">
+          <span class="d-none d-md-block">SCORE :</span>
+          <img
+            src="./img/score-trophy.svg"
+            alt="Score"
+            class="d-md-none d-block"
+          />
+          <span id="scoreText" class="font-weight-bold"></span>
+        </div>
+      </div>
+
+      <div class="counter-navbar ft-bold ft-base text-light">
+        <span id="questionCounter"></span> / 10
+      </div>
+
+      <div class="cc-btn-reset-wrapper d-none">
+        <a
+          href="#"
+          id="btn-reset"
+          class="reload cc-reset ft-base text-decoration-none"
+        >
+          <img class="primary_text" src="./img/reload.svg" alt="reload" />
+          <span class="d-none d-sm-inline">Reset</span>
+        </a>
+      </div>
+    </nav>
+
+    <nav id="navbar-main" class="navbar cc-navbar bg-dgrey">
+      <a
+        class="back cc-back ft-base font-weight-bold text-decoration-none d-none"
+        href="#"
+        ><img src="./img/arrow-left.svg" />
+        <span class="d-none d-sm-inline">Back</span>
+      </a>
+      <a class="navbar-brand cc-brand ft-base font-weight-bold mx-auto" href="#"
+        >Daily Trivia</a
+      >
+    </nav>
+
+    <!-- Modal Paused -->
+    <div
+      class="modal cc-modal fade"
+      id="modal-pause"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal-reset"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-content-inner">
+            <h4 class="ft-base ft-section-title font-weight-bold text-center">
+              Game Paused
+            </h4>
+            <div class="text-center">
+              <div>
+                <img
+                  id="btn-continue"
+                  class="hoverpointer"
+                  src="img/btn-continue.svg"
+                  alt="Continue"
+                />
+              </div>
+              <div>
+                <img
+                  id="btn-surrender"
+                  class="hoverpointer"
+                  src="img/btn-surrender.svg"
+                  alt="Surrender"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Reset -->
+    <div
+      class="modal cc-modal fade"
+      id="modal-reset"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal-reset"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-content-inner">
+            <h4 class="ft-base ft-section-title font-weight-bold text-center">
+              You’re about to reset the game.<br />
+              All your progress will be lost.<br />
+              Do you want to proceed?
+            </h4>
+            <div class="text-center button-reset-wrapper">
+              <div class="row">
+                <div class="col">
+                  <img
+                    id="btn-reset-yes"
+                    class="hoverpointer img-fluid"
+                    src="img/btn-yes.svg"
+                    alt="Yes"
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    id="btn-reset-no"
+                    class="hoverpointer img-fluid"
+                    src="img/btn-no.svg"
+                    alt="No"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Report -->
+    <div
+      class="modal cc-modal fade"
+      id="modal-report"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal-report"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-content-inner">
+            <h4 class="ft-base ft-section-title font-weight-bold text-center">
+              Thank you for helping us to keep the game awesome!<br />
+              Your report will help us to improve the game quality.
+            </h4>
+            <div class="text-center">
+              <div>
+                <img
+                  id="btn-close-report"
+                  class="hoverpointer"
+                  src="img/button_close.svg"
+                  alt="Next Question"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Modal Funfact -->
+    <div
+      class="modal cc-modal fade"
+      id="modal-funfact"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal-funfact"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-lg modal-dialog-centered">
+        <div class="modal-content modal-content-funfact">
+          <div class="modal-content-funfact-inner">
+            <div class="d-flex align-items-center justify-content-center mt-3">
+              <div id="funfactSign" class="modal-content-funfact-flag">
+                <img
+                  class="correct-icon"
+                  src="./img/modal-correct-icon.svg"
+                  alt=""
+                />
+                <img
+                  class="incorrect-icon"
+                  src="./img/modal-incorrect-icon.svg"
+                  alt=""
+                />
+              </div>
+              <h4
+                id="funfactGreet"
+                class="ft-base ft-section-title font-weight-bold text-center"
+              ></h4>
+            </div>
+            <h1 id="funfactPoint" class="modal-content-funfact-point">
+              + <span></span> POINTS!
+            </h1>
+            <div
+              class="modal-content-funfact-wrapper d-flex flex-column flex-md-row py-3"
+            >
+              <div class="modal-content-funfact-section">
+                <div class="modal-content-funfact-info">
+                  <div class="modal-content-funfact-info-image">
+                    <img
+                      id="funfactThumbnail"
+                      src="./img/default_image.png"
+                      alt=""
+                      onError="this.onerror=null;this.src='./img/default_image.png';"
+                    />
+                  </div>
+                  <div class="modal-content-funfact-info-detail">
+                    <h1
+                      id="funfactTitle"
+                      class="ft-base font-weight-bold text-center"
+                    ></h1>
+                    <p id="funfactInfo" class="ft-base mt-0 text-center"></p>
+                    <a
+                      id="funfactSource"
+                      href="#"
+                      class="ft-base"
+                      target="blank"
+                      >Read More <img src="./img/chevron_right_red.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="modal-content-funfact-divider d-block d-md-none"
+              ></div>
+              <div class="modal-content-funfact-vertical-divider"></div>
+              <div class="modal-content-funfact-section">
+                <div class="modal-content-funfact-rate">
+                  <div class="text-center">
+                    <h4 class="ft-base">Did you like this answer?</h4>
+                    <div class="action-buttons">
+                      <button
+                        type="button"
+                        id="btn-like"
+                        class="cs-btn cs-green mx-1"
+                      >
+                        <img alt="Like" src="img/thumb-up.svg" class="m-auto" />
+                      </button>
+                      <button
+                        type="button"
+                        id="btn-dislike"
+                        class="cs-btn cs-red mx-1"
+                      >
+                        <img
+                          alt="Like"
+                          src="img/thumb-down.svg"
+                          class="m-auto"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-content-funfact-next d-none d-md-block">
+                  <div id="btn-next" class="btn btn-next modal-btn">
+                    <span>Go to Next Question</span>
+                    <img src="./img/chevron_right.svg" alt="" />
+                  </div>
+                </div>
+                <div class="modal-content-funfact-divider"></div>
+                <div class="modal-content-funfact-action">
+                  <div class="text-center d-none d-md-block">
+                    <p class="ft-base">Share to:</p>
+                    <div class="d-flex justify-content-center flex-row">
+                      <button
+                        id="shareFunfactFacebook"
+                        type="button"
+                        class="cs-btn cs-facebook mx-1"
+                      >
+                        <img src="./img/facebook-logo.svg" alt="Facebook" />
+                      </button>
+                      <button
+                        id="shareFunfactTwitter"
+                        type="button"
+                        class="cs-btn cs-twitter mx-1"
+                      >
+                        <img src="./img/twitter-logo.svg" alt="Twitter" />
+                      </button>
+                    </div>
+                    <!-- <ul class="action-buttons">
+                                      <li id="shareFunfactFacebook" class="buttonClick fitImg">
+                                        <img alt="Facebook" src="img/btn-facebook.svg" />
+                                      </li>
+                                      <li id="shareFunfactTwitter" class="buttonClick fitImg">
+                                        <img alt="Twitter" src="img/btn-twitter.svg" />
+                                      </li>
+                                    </ul> -->
+                  </div>
+                  <div class="text-center">
+                    <p class="ft-base">Incorrect info?</p>
+                    <ul class="action-buttons">
+                      <li class="btn-report" id="btn-report">
+                        <img src="./img/flag-report.svg" alt="" /> Report
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="modal-content-funfact-divider"></div> -->
+              <!-- <div class="modal-content-funfact-percentage">
+                <div class="modal-content-funfact-percentage-bar">
+                  <div
+                    id="funfactCorrectBar"
+                    class="percentage-bar percentage-bar-correct"
+                  ></div>
+                  <div
+                    id="funfactIncorrectBar"
+                    class="percentage-bar percentage-bar-incorrect"
+                  ></div>
+                </div>
+                <div class="modal-content-funfact-percentage-info">
+                  <div class="ft-base text-center">
+                    <p>Answer Correctly</p>
+                    <h2 id="funfactCorrect" class="font-weight-bold"></h2>
+                  </div>
+                  <div class="ft-base text-center">
+                    <p>Answer Incorrectly</p>
+                    <h2 id="funfactIncorrect" class="font-weight-bold"></h2>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="modal-sticky-action d-md-none">
+            <div id="btn-next" class="btn btn-next modal-btn">
+              <span>Go to Next Question</span>
+              <img src="./img/chevron_right.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- onboard -->
+    <div
+      class="modal cc-modal fade"
+      id="modal-onboard"
+      data-backdrop="static"
+      data-keyboard="false"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal-onboard"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-lg modal-dialog-centered">
+        <div
+          class="modal-content modal-content-onboard d-flex flex-column align-items-center"
+        >
+          <div class="modal-content-onboard-inner">
+            <div
+              class="modal-content-onboard__content d-flex flex-column align-items-center"
+            >
+              <h1>How do you gain points?</h1>
+              <img src="./img/onboard-stars.svg" alt="" />
+              <ul>
+                <li class="list">15 points - Correct answer within 5 seconds of seeing the question</li>
+                <li class="list">10 points - Correct answer taking longer than 5 seconds</li>
+                <li class="list">6 points - Correct answer using a hint</li>
+                <li class="list">0 points - Incorrect answer to the question</li>
+              </ul>
+            </div>
+            <div
+              class="modal-content-onboard__content d-none flex-column align-items-center"
+            >
+              <h1>Timer</h1>
+              <img src="./img/onboard-timer.svg" alt="" />
+              <p>
+                Your time will be recorded here. If you want to take a break or
+                surrender, simply press the button and the time will be paused.
+              </p>
+            </div>
+            <div
+              class="modal-content-onboard__content d-none flex-column align-items-center"
+            >
+              <h1>Hints</h1>
+              <img src="./img/onboard-hints.svg" alt="" />
+              <ul>
+                <p>
+                  You will be provided with two hints for each level.
+                  Using the hint button will eliminate two incorrect answers.
+                  You may only use this feature once per question.
+                </p>
+                <p />
+              </ul>
+            </div>
+            <div
+              class="modal-content-onboard__action d-flex justify-content-center"
+            >
+              <a
+                id="btnOnboardModalSkip"
+                href="#"
+                class="btn btn--onboard btn--onboard--outlined mx-1"
+                >Close</a
+              >
+              <a id="btnOnboardModalNext" href="#" class="btn btn--onboard mx-1"
+                >Next</a
+              >
+              <a
+                id="btnOnboardModalStart"
+                href="#"
+                class="btn btn--onboard mx-1"
+                >Continue</a
+              >
+            </div>
+            <div
+              class="modal-content-onboard__indicator d-flex justify-content-center"
+            >
+              <div
+                class="modal-content-onboard__indicator__item active mx-1"
+              ></div>
+              <div class="modal-content-onboard__indicator__item mx-1"></div>
+              <div class="modal-content-onboard__indicator__item mx-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PERCENT LOADER START-->
+    <div id="mainLoader">
+      <div class="d-flex flex-column logo-wrapper mx-auto">
+        <img id="main-loader-logo" src="img/logo.svg" class="logo" />
+        <img src="img/logo-secondary.svg" class="logo-secondary" />
+        <img src="img/logo.svg" class="logo-bottom" />
+      </div>
+
+      <div id="cc-loading-indicator" class="cc-progress">
+        <div class="cc-progress-wrapper">
+          <div class="cc-progress-bar"></div>
+          <div class="cc-progress-percentage"></div>
+        </div>
+        <!-- <span>0</span> -->
+        <!-- <div class="cc-progress-bar" role="progressbar">
+            <div class="cc-inner-striped"></div>
+          </div> -->
+      </div>
+    </div>
+    <!-- PERCENT LOADER END-->
+
+    <!-- ROTATE INSTRUCTION START-->
+    <div id="rotateHolder">
+      <div class="mobileRotate">
+        <div class="rotateDesc">
+          <div class="rotateImg rotatePortrait mb-4">
+            <img src="assets/rotate.png" />
+          </div>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ROTATE INSTRUCTION END-->
+
+    <div id="browserWarning" style="display: none">
+      <h3>
+        You can't play with IE browser, please play the game with Chrome, Safari
+        or Firefox browser
+      </h3>
+    </div>
+
+    <!-- CONTENT START-->
+    <div id="mainHolder" style="height: 100%">
+
+      <div id="option">
+        <div class="d-flex">
+          <button
+            type="button"
+            id="btn-hint"
+            class="cs-btn cs-yellow mr-20 tooltipped d-none"
+          >
+            <img src="./img/hint.svg" alt="hint" />
+
+            <div class="cs-tooltip d-none d-md-block">Hint</div>
+          </button>
+          <div
+            id="buttonOption"
+            class="d-none buttonClick buttonIcon buttonOptionOff"
+          >
+            <button type="button" class="cs-btn cs-red">
+              <img
+                class="setting-icon optionOn"
+                src="./img/setting.svg"
+                alt="Option"
+              />
+              <img
+                class="setting-icon optionOff"
+                src="./img/cancel.svg"
+                alt="Close"
+              />
+
+              <div class="cs-tooltip cs-tooltip-top d-none d-md-block">
+                Settings
+              </div>
+            </button>
+          </div>
+          <div id="optionList" class="d-none flex-column">
+            <button
+              id="buttonSound"
+              class="buttonClick cs-btn cs-yellow buttonIcon buttonSound buttonSoundOn"
+            >
+              <img
+                class="soundOff mx-auto"
+                alt="Sound Off"
+                src="img/sound_off.svg"
+              /><img
+                class="soundOn mx-auto"
+                alt="Sound On"
+                src="img/sound_on.svg"
+              />
+              <div
+                id="soundTooltip"
+                class="cs-tooltip cs-tooltip-left d-none d-md-block"
+              >
+                Mute
+              </div>
+            </button>
+            <button
+              id="buttonHelp"
+              class="buttonClick cs-btn cs-yellow buttonIcon buttonSound buttonSoundOn"
+            >
+              <img class="mx-auto" alt="Sound Off" src="img/help-icon.svg" />
+              <div
+                id="soundTooltip"
+                class="cs-tooltip cs-tooltip-left d-none d-md-block"
+              >
+                Help
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="logoHolder">
+        <div class="mainContent">
+          <div class="d-flex flex-column logo-wrapper mx-auto">
+            <img src="img/logo.svg" class="logo" />
+            <img src="img/logo-secondary.svg" class="logo-secondary" />
+            <img src="img/logo.svg" class="logo-bottom" />
+          </div>
+          <div class="starting-action">
+            <div class="preloadText fontPreload"></div>
+            <div id="buttonStart" class="startImg buttonClick">
+              <img class="img-fluid" alt="Start" src="img/button_start.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="confirmHolder" class="overlayBg">
+        <div class="confirmContent">
+          <div
+            class="message fontMessage resizeFont ignorePadding"
+            data-fontSize="30"
+            data-lineHeight="30"
+          >
+            Are you sure you want to quit the game?
+          </div>
+          <div id="buttonOk" class="okImg buttonClick fitImg">
+            <img alt="Ok" src="img/btn-yes.svg" />
+          </div>
+          <div id="buttonCancel" class="cancelImg buttonClick fitImg">
+            <img alt="Cancel" src="img/btn-no.svg" />
+          </div>
+        </div>
+      </div>
+
+      <div id="gameModeHolder">
+        <div class="gameModeContent">
+          <div class="d-none d-md-flex justify-content-center cc-logo-wrapper">
+            <img src="img/logo-secondary.svg" />
+          </div>
+
+          <h3 class="cc-holder-title px-3">HOW DO YOU WANT TO PLAY?</h3>
+
+          <div class="gameModeList-wrapper">
+            <ul
+              id="gameModeList"
+              class="gameModeList d-flex flex-column flex-md-row justify-content-center px-3"
+            >
+              <li id="chooseCategoryBtn" class="gameModeThumb">
+                <img src="./img/category-icon.svg" alt="category icon" />
+                <div class="gameModeTitle">CHOOSE CATEGORY</div>
+              </li>
+              <li id="playRandom" class="gameModeThumb">
+                <img src="./img/random-icon.svg" alt="random icon" />
+                <div class="gameModeTitle">PLAY RANDOM</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="categoryHolder" class="container-fluid">
+        <div class="categoryContent">
+          <div class="d-flex align-items-center cc-logo-wrapper mt-1">
+            <img src="img/logo-secondary.svg" />
+          </div>
+
+          <div class="todayText container-fluid">
+            <p id="today" class="mt-0 fontDate">Friday, 10 January 2020</p>
+          </div>
+
+          <!-- <h3 class="cc-holder-title d-none d-sm-block">SELECT CATEGORY</h3> -->
+          <div id="categoryList-wrapper">
+            <!-- <ul id="categoryList" class="d-flex flex-wrap"></ul> -->
+            <ul id="categoryList" class="container-fluid"></ul>
+          </div>
+
+          <div class="categoryList-pagination">
+            <div id="buttonPrevCat" class="prevImg buttonClick cs-btn cs-red">
+              <img alt="Previous" src="img/arrow-left.svg" />
+            </div>
+            <div class="pagination">
+              <span id="pageNumber">1</span><span class="mx-2">/</span
+              ><span id="pageTotal">2</span>
+            </div>
+            <div id="buttonNextCat" class="nextImg buttonClick cs-btn cs-red">
+              <img alt="Next" src="img/arrow-right.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="gameHolder">
+        <div id="gameStatus">
+          <!-- <div class="gameTotal fontStatus">
+                            <div class="gameQuestionStatus resizeFont" data-fontSize="30" data-lineHeight="30">1/18</div>
+                            <img class="soundOn" alt="Questions" src="assets/item_question.svg" />
+                        </div> -->
+          <div class="gameTimer time-box d-flex flex-direction-columnt">
+            <div class="inner-time gameTimerStatus"></div>
+            <div class="time-action">
+              <img
+                src="./img/start.svg"
+                alt="start"
+                id="time-trigger-start"
+                class="d-none hoverpointer"
+              />
+              <img
+                src="./img/pause.svg"
+                alt="pause"
+                id="time-trigger-pause"
+                class="hoverpointer"
+              />
+
+              <div class="cs-tooltip d-none d-md-block">Pause</div>
+            </div>
+          </div>
+          <!-- <div class="gameTimer fontStatus">
+                            <div class="gameTimerStatus resizeFont" data-fontSize="30" data-lineHeight="30">35</div>
+                            <img class="soundOn" alt="Timer" src="assets/item_timer.svg" />
+                        </div> -->
+        </div>
+
+        <div id="questionLoaderHolder"></div>
+
+        <div id="overlay-answer" class="d-none"></div>
+
+        <div id="questionHolder">
+          <div class="cc-question-wrapper">
+            <div class="questionText fontQuestion">
+              How much is 150% of 50<br />How much is 150% of 50
+            </div>
+          </div>
+        </div>
+
+        <div id="questionResultHolder">
+          <div id="explanationHolder"></div>
+          <div class="questionResultText fontCorrectWrong"></div>
+          <div
+            id="buttonNextQues"
+            class="nextImg fontCorrectWrong buttonClick fitImg"
+          >
+            <img src="assets/button_next.svg" />
+          </div>
+          <div
+            id="buttonPreviewQues"
+            class="previewImg fontCorrectWrong buttonClick fitImg"
+          >
+            <img src="assets/button_preview.svg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- <div id="resultHolder" class="bg-primary">
+        <div class="resultExtra overlayBg fitImg">
+          <div class="submitContent">
+            <div
+              class="fontSubmitTitle resizeFont submitTitle"
+              data-fontSize="50"
+              data-lineHeight="50"
+            ></div>
+            <div class="fontLabel label resizeFont">Name:</div>
+            <input
+              id="uName"
+              name="uName"
+              type="text"
+              class="fontInput resizeFont"
+            />
+            <div class="fontLabel label resizeFont">Email:</div>
+            <input
+              id="uEmail"
+              name="uEmail"
+              type="text"
+              class="fontInput resizeFont"
+            />
+            <div class="action">
+              <div id="buttonSubmit" class="buttonSubmit buttonClick">
+                <img alt="Submit" src="assets/button_submit.svg" />
+              </div>
+              <div
+                id="buttonCancelSubmit"
+                class="buttonCancelSubmit buttonClick"
+              >
+                <img alt="Cancel" src="assets/button_cancel.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="scoreContent">
+            <div
+              class="fontScoreTitle resizeFont scoreTitle"
+              data-fontSize="50"
+              data-lineHeight="50"
+            ></div>
+            <ul class="scoreList"></ul>
+            <div id="buttonScorePrev" class="buttonScorePrev buttonClick">
+              <img alt="Prev" src="assets/button_score_prev.svg" />
+            </div>
+            <div id="buttonBack" class="buttonBack buttonClick">
+              <img alt="Back" src="assets/button_back.svg" />
+            </div>
+            <div id="buttonScoreNext" class="buttonScoreNext buttonClick">
+              <img alt="Next" src="assets/button_score_next.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="resultContent">
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="img-fluid img-logo-result" src="img/logo-secondary.svg" />
+          </div>
+
+          <div class="cc-result-wrapper">
+            <div class="cc-result-inner">
+              <div class="d-flex">
+                <div class="d-flex">
+                  <img
+                    src="./img/champion.svg"
+                    class="img-fluid img-champion"
+                    alt="Champion"
+                  />
+                </div>
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center flex-fill"
+                >
+                  <div
+                    class="result-text text-center ft-base font-weight-bold c-dark"
+                  >
+                    Your Score:
+                  </div>
+                  <div
+                    id="resultScore"
+                    class="font-weight-bold c-dark"
+                    data-fontSize="50"
+                    data-lineHeight="50"
+                  >
+                    100
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <img
+                    src="./img/champion.svg"
+                    class="img-fluid img-champion"
+                    alt="Champion"
+                  />
+                </div>
+              </div>
+
+              <div class="flex">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center flex-fill"
+                >
+                  <div
+                    class="result-text text-center ft-base font-weight-bold c-dark"
+                  >
+                    correct:
+                  </div>
+                  <div
+                    id="value-correct"
+                    class="value-text text-center ft-base font-weight-bold c-green"
+                  >
+                    0
+                  </div>
+                </div>
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center flex-fill"
+                >
+                  <div
+                    class="result-text text-center ft-base font-weight-bold c-dark"
+                  >
+                    wrong:
+                  </div>
+                  <div
+                    id="value-wrong"
+                    class="value-text text-center ft-base font-weight-bold c-red"
+                  >
+                    0
+                  </div>
+                </div>
+              </div>
+
+              <div id="shareOption" class="share">
+                <div
+                  class="result-text text-center c-dark ft-base font-weight-bold"
+                  data-fontSize="30"
+                  data-lineHeight="30"
+                >
+                  Share to:
+                </div>
+                <ul>
+                  <li id="buttonFacebook" class="buttonClick fitImg">
+                    <img alt="Facebook" src="img/btn-facebook.svg" />
+                  </li>
+                  <li id="buttonTwitter" class="buttonClick fitImg">
+                    <img alt="Twitter" src="img/btn-twitter.svg" />
+                  </li>
+                  <li id="buttonWhatsapp" class="buttonClick fitImg"><img alt="Whatsapp" src="img/btn-wa.svg" /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <img
+              class="hoverpointer mb-20"
+              id="buttonReplay"
+              src="img/button_play_again.svg"
+              alt="Play Again"
+            />
+          </div>
+
+          <div class="option singleOption">
+                            <ul>
+                                <li id="buttonReplay" class="buttonClick fitImg"><img alt="Replay" src="assets/button_replay.svg" /></li>
+                                <li id="buttonSave" class="buttonClick fitImg"><img alt="Save" src="assets/button_save.svg" /></li>
+                                <li id="buttonScore" class="buttonClick fitImg"><img alt="Scoreboard" src="assets/button_score.svg" /></li>
+                            </ul>
+                        </div>
+        </div>
+      </div> -->
+
+      <div id="resultHolder">
+        <div class="resultContent">
+          <!-- <div
+            class="resultLogo d-flex justify-content-center align-items-center"
+          >
+            <img class="img-fluid img-logo-result" src="img/logo-secondary.svg" />
+          </div> -->
+
+          <div class="cc-result-wrapper">
+            <div class="cc-result-inner">
+              <div class="confetti-area">
+                <canvas id="confettiWrapper"></canvas>
+                <div class="resultHeader">
+                  <div class="resultHeader-title">
+                    <img src="./img/champion.svg" alt="" />
+                    <h1 class="ft-base ft-bold">GAME FINISHED</h1>
+                    <img src="./img/champion.svg" alt="" />
+                  </div>
+                  <div id="rateStars" class="resultHeader-stars">
+                    <img
+                      class="rateStar"
+                      data-rate="1"
+                      src="./img/result-dim-star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="rateStar"
+                      data-rate="2"
+                      src="./img/result-dim-star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="rateStar"
+                      data-rate="4"
+                      src="./img/result-dim-star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="rateStar"
+                      data-rate="5"
+                      src="./img/result-dim-star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="rateStar"
+                      data-rate="3"
+                      src="./img/result-dim-star.svg"
+                      alt="Star"
+                    />
+                  </div>
+                </div>
+                <div class="resultInfo">
+                  <div class="resultInfo-points">
+                    <h2 class="ft-base">TOTAL POINTS</h2>
+                    <div class="resultPoint">
+                      <h1 id="resultScore" class="ft-base ft-bold"></h1>
+                    </div>
+                  </div>
+                  <div class="resultInfo-percentage">
+                    <div class="percentage-bar">
+                      <div
+                        id="percentage-correct"
+                        class="percentage-bar-correct"
+                      ></div>
+                      <div
+                        id="percentage-wrong"
+                        class="percentage-bar-incorrect"
+                      ></div>
+                    </div>
+                    <div class="percentage-count">
+                      <div class="percentage-count-section">
+                        <p>Correct</p>
+                        <h2 id="value-correct">12</h2>
+                      </div>
+                      <div class="percentage-count-section">
+                        <p>Incorrect</p>
+                        <h2 id="value-wrong">3</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="resultAction">
+                <div id="buttonReplay" class="btn modal-btn">Play Again</div>
+                <div class="divider"></div>
+                <p>Share to:</p>
+                <ul>
+                  <li id="buttonFacebook" class="buttonClick fitImg">
+                    <img alt="Facebook" src="img/btn-facebook.svg" />
+                  </li>
+                  <li id="buttonTwitter" class="buttonClick fitImg">
+                    <img alt="Twitter" src="img/btn-twitter.svg" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENT END-->
+    <script type="text/javascript">
+      if (
+        navigator.userAgent.indexOf('Trident/') > 0 ||
+        navigator.userAgent.indexOf('MSIE ') > 0
+      ) {
+        document.body.style.position = 'relative';
+        document.getElementById('browserWarning').style.display = 'flex';
+      } else {
+        document.getElementById('browserWarning').style.display = 'none';
+      }
+    </script>
+
+    <script type="text/javascript" src="js/dist/bundle.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/vendor/jquery-ui.min.js"><\/script>');
+    </script>
+
+    <script src="js/vendor/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/vendor/detect.min.js"></script>
+    <script src="js/vendor/detectmobilebrowser.js"></script>
+    <script src="js/vendor/createjs-2015.11.26.min.js"></script>
+    <script src="js/vendor/TweenMax.min.js"></script>
+    <script src="js/vendor/lodash.min.js"></script>
+    <script src="js/vendor/confetti.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/score.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-86567323-39"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-86567323-13');
+  </script>
+</html>

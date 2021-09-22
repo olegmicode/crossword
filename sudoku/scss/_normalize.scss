@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body,
+html {
+  font-family: $font-base;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}

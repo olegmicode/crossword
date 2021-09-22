@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku Game</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MD44XGV');</script>
+    <!-- End Google Tag Manager -->
+    
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui"
+    />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <script>
+    if ( window.location !== window.parent.location ) {
+      // The page is in an iframe
+    } else {
+      console.log('opening game not in YLC iframe');
+      console.log('window.location: ' + window.location);
+      console.log('window.parent.location: ' + window.parent.location);
+    }
+    </script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD44XGV"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="browserWarning" class="browserWarning bg-primary">
+      <p>
+        You can't play with IE browser, please play the game with Chrome, Safari
+        or Firefox browser
+      </p>
+    </div>
+
+    <div id="topBar" class="topbar d-none">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <div class="topbar__score fadeIn" id="scoreWrapper">
+          <img src="./img/icon/trophy-icon.svg" alt="Score" />
+          <span
+            id="scoreText"
+            class="topbar__score__text ml-1 h5 text-white text-bold"
+            >3000</span
+          >
+        </div>
+        <p class="topbar__title h3 text-white mx-auto">Sudoku</p>
+        <img
+          id="btnReset"
+          src="./img/icon/reset-icon.svg"
+          alt="Reset"
+          class="clickable fadeIn"
+        />
+      </div>
+    </div>
+
+    <div id="main" class="main">
+      <div class="ellipse-top">
+        <img src="./img/ellipse-top.png" alt="Ornament">
+      </div>
+      <div class="ellipse-bottom">
+        <img src="./img/ellipse-bottom.png" alt="Ornament">
+      </div>
+      <div class="main__wrapper container-fluid flex-column">
+        <div id="setting" class="setting fadeIn">
+          <button id="btnSetting" class="btn btn--icon btn--purple tooltiped">
+            <img src="./img/icon/cog-icon.svg" alt="Setting" />
+            <div class="tooltip tooltip--left">SETTING</div>
+          </button>
+          <div id="settingDropdown" class="setting__dropdown">
+            <button
+              id="btnSound"
+              class="btn btn--icon btn--yellow mb-2 tooltiped"
+            >
+              <img src="./img/icon/mute-icon.svg" alt="Sound" />
+              <div class="tooltip tooltip--left">MUTE</div>
+            </button>
+            <button id="btnHelp" class="btn btn--icon btn--yellow mb-1 tooltiped">
+              <img src="./img/icon/help-icon.svg" alt="Help" />
+              <div class="tooltip tooltip--left">HELP</div>
+            </button>
+            <!-- <button id="btnAscending" class="btn btn--icon btn--yellow mb-1">
+              <img src="./img/icon/asc-icon.svg" alt="Ascending" />
+            </button>
+            <button id="btnDescending" class="btn btn--icon btn--yellow mb-1">
+              <img src="./img/icon/desc-icon.svg" alt="Descending" />
+            </button> -->
+          </div>
+        </div>
+
+        <div
+          id="intro"
+          class="intro my-auto flex-column align-items-center d-none"
+        >
+          <img
+            class="logo"
+            src="./img/logo.svg"
+            alt="Sudoku"
+          />
+          <img
+            class="logo-secondary"
+            src="./img/logo-secondary.svg"
+            alt="Sudoku"
+          />
+          <img
+            class="logo-bottom"
+            src="./img/logo.svg"
+            alt="Sudoku"
+          />
+          <div
+            id="progressWrapper"
+            class="intro__loader align-self-center mt-auto"
+          >
+            <div class="intro__loader__wrapper">
+              <div id="progressBar" class="intro__loader__progress-bar"></div>
+              <div
+                id="progressPercentage"
+                class="intro__loader__percentage text-bold text-white"
+              ></div>
+            </div>
+          </div>
+          <div class="intro__action mt-auto">
+            <button
+              id="btnStart"
+              href="#"
+              class="btn btn--lg btn--yellow fadeIn"
+            >
+              START
+            </button>
+          </div>
+        </div>
+
+        <div id="level" class="level flex-column d-none flex-fill">
+          <div class="level__header align-items-center">
+            <img
+              src="./img/logo-secondary.svg"
+              alt="Sudoku"
+              class="level__header__game-logo mr-2"
+            />
+          </div>
+          <div id="todayText" class="container-fluid level__date h3 text-white">
+            Friday, 5 June 2020
+          </div>
+          <div
+            id="levelWrapper"
+            class="level__list d-flex flex-wrap py-3"
+          ></div>
+        </div>
+
+        <div id="game" class="game flex-column flex-fill d-none">
+          <div class="game__header align-items-center justify-content-between">
+            <button class="btn timer">
+              <div
+                id="timerText"
+                class="timer__wrapper flex-fill align-items-center justify-content-center h4 text-bold align-self-stretch"
+              >
+                00:00:00
+              </div>
+              <div class="tooltiped">
+                <img
+                  id="btnTimer"
+                  src="./img/icon/pause-icon.svg"
+                  alt="Pause"
+                />
+                <div class="tooltip tooltip--right">PAUSE</div>
+              </div>
+            </button>
+          </div>
+
+          <div class="game__wrapper d-flex flex-column flex-md-row flex-fill">
+            <div id="boardWrapper" class="game__board">
+              <div
+                id="board"
+                class="d-flex justify-content-between align-items-center flex-wrap"
+              ></div>
+            </div>
+            <div class="game__control">
+              <div class="d-flex flex-column">
+                <div
+                  class="game__control__number d-flex flex-md-wrap justify-content-between"
+                >
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">1</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">2</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">3</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">4</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">5</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">6</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">7</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">8</div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div class="btn btn--control btn-number-selector">9</div>
+                  </div>
+                </div>
+                <div
+                  class="game__control__tools d-flex flex-md-wrap justify-content-between"
+                >
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div
+                      id="btnNote"
+                      class="btn btn--control btn-tools tooltiped"
+                    >
+                      <img src="./img/icon/note-icon.svg" alt="Toggle Note" />
+                      <div id="noteIndicator" class="btn--control--indicator">
+                        OFF
+                      </div>
+                      <div class="tooltip tooltip--top">TOGGLE NOTE</div>
+                    </div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div
+                      id="btnUndo"
+                      class="btn btn--control btn-tools tooltiped"
+                    >
+                      <img src="./img/icon/undo-icon.svg" alt="Undo" />
+                      <div class="tooltip tooltip--top">UNDO</div>
+                    </div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div
+                      id="btnHint"
+                      class="btn btn--control btn-tools tooltiped"
+                    >
+                      <img src="./img/icon/bulb-icon.svg" alt="Hint" />
+                      <div class="tooltip tooltip--top">HINT</div>
+                    </div>
+                  </div>
+                  <div
+                    class="game__control__wrapper d-flex justify-content-center"
+                  >
+                    <div
+                      id="btnErase"
+                      class="btn btn--control btn-tools tooltiped"
+                    >
+                      <img src="./img/icon/eraser-icon.svg" alt="Remove" />
+                      <div class="tooltip tooltip--top">ERASE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="result" class="result d-none">
+          <div class="result__wrapper flex-fill">
+            <div class="result__header">
+              <canvas
+                id="confettiWrapper"
+                class="result__header__confetti"
+              ></canvas>
+              <div
+                class="result__header__title d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/icon/result-trophy-icon.svg" alt="Trophy" />
+                <h1 class="text-bold text-center h2 mx-3">GAME FINISHED</h1>
+                <img src="./img/icon/result-trophy-icon.svg" alt="Trophy" />
+              </div>
+              <!-- <div class="result__header__stars d-flex justify-content-center">
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+                <img
+                  src="./img/icon/result-star-icon.svg"
+                  alt="Rate Star"
+                  class="mx-1 rateStar"
+                />
+              </div> -->
+              <div
+                class="result__header__score d-flex flex-column align-items-center justify-content-center"
+              >
+                <h2 class="h3 mb-2 text-bolder">TOTAL POINTS</h2>
+                <div class="result-score h1 text-bolder" id="scoreResultText">
+                  401
+                </div>
+              </div>
+            </div>
+
+            <div class="result__action d-flex flex-column">
+              <button
+                id="btnReplay"
+                class="btn btn--result mt-2 align-self-md-center"
+              >
+                Play Again
+              </button>
+              <div class="result__action__divider"></div>
+              <span class="align-self-center text-small text-grey"
+                >Share to:</span
+              >
+              <div
+                class="result__action__share d-flex justify-content-center align-self-center mt-3"
+              >
+                <button id="btnFacebook" class="btn btn--icon btn--facebook mx-2">
+                    <img
+                      src="./img/icon/facebook-icon.svg"
+                      alt="Share to Facebook"
+                    />
+                </button>
+                <button id="btnTwitter" class="btn btn--icon btn--twitter mx-2">
+                  <img
+                    src="./img/icon/twitter-icon.svg"
+                    alt="Share to Twitter"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal onboard -->
+      <div class="modal modal--help" id="modalOnboard">
+        <div class="modal__wrapper d-flex flex-column align-items-center">
+          <div class="modal--help__content d-none flex-column align-items-center">
+            <h1>How do you gain points?</h1>
+            <img src="./img/onboard-stars.svg" alt="">
+            <ul>
+              <li class="list">For each correct entry you score 5 times a multiplier. The multiplier starts at 20 and is decremented every 15 seconds.<li />
+              <li class="list">For each incorrect entry, points are deducted according to the same formula but are multiplied by an error count. You are severly punished for incorrect entries to discourage guessing.</li>
+              <li class="list">If you complete the puzzle within the allotted time, you score a bonus 500 points plus 2 points for every second left.</li>
+              <li class="list">Using the pencil does not affect point scoring in any way.</li>
+            </ul>
+          </div>
+          <div class="modal--help__content d-none flex-column align-items-center">
+            <h1>Timer</h1>
+            <img src="./img/onboard-timer.svg" alt="">
+            <p>Your time will be recorded here. If you want to take a break or surrender, simply press the button and the time will be paused.</p>
+          </div>
+          <div class="modal--help__content d-none flex-column align-items-center">
+            <h1>Hints</h1>
+            <img src="./img/onboard-hints.svg" alt="">
+            <p class="mb-3">There are some tools you can use to solve the game:</p>
+            <ul>
+              <li class="list"><strong>Pencil</strong><br>
+                This will help you to take some notes.<li />
+              <li class="list"><strong>Hint</strong><br>
+                Will help you to fill the tile with the right number.</li>
+              <li class="list"><strong>Eraser</strong><br>
+                  Use this to correct the number.</li>
+            </ul>
+          </div>
+          <div class="modal--help__action d-flex">
+            <a id="btnOnboardModalSkip" href="#" class="btn btn--onboard btn--onboard--outlined mx-1">Close</a>
+            <a id="btnOnboardModalNext" href="#" class="btn btn--onboard mx-1">Next</a>
+            <a id="btnOnboardModalStart" href="#" class="btn btn--onboard mx-1">Continue</a>
+          </div>
+          <div class="modal--help__indicator d-flex justify-content-center">
+            <div class="modal--help__indicator__item active mx-1"></div>
+            <div class="modal--help__indicator__item mx-1"></div>
+            <div class="modal--help__indicator__item mx-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal modal--pause" id="modalPause">
+        <div
+          class="modal__wrapper d-flex flex-column align-items-center justify-content-between"
+        >
+          <div class="modal__title text-bold h4">Game Paused</div>
+          <div class="modal__action d-flex flex-column mt-3">
+            <button
+              id="btnContinue"
+              href="#"
+              class="btn btn--modal btn--modal--yellow mb-3"
+            >
+              CONTINUE
+            </button>
+            <button
+              id="btnSurrender"
+              href="#"
+              class="btn btn--modal btn--modal--yellow"
+            >
+              SURRENDER
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal modal--reset" id="modalReset">
+        <div
+          class="modal__wrapper d-flex flex-column align-items-center justify-content-between"
+        >
+          <div class="modal__title text-bold text-center h4">
+            You're about to reset the game.<br />All your progress will be
+            lost.<br />Do you want to proceed?
+          </div>
+          <div class="modal__action d-flex mt-3 d-flex">
+            <button
+              id="btnResetYes"
+              href="#"
+              class="btn btn--modal btn--modal--yellow mx-1"
+            >
+              YES
+            </button>
+            <button
+              id="btnResetNo"
+              href="#"
+              class="btn btn--modal btn--modal--grey mx-1"
+            >
+              NO
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal__backdrop" id="modalBackdrop"></div>
+    </div>
+
+    <script type='text/javascript'>
+      if (navigator.userAgent.indexOf('Trident/') > 0 || navigator.userAgent.indexOf('MSIE ') > 0) {
+        document.getElementById('browserWarning').style.display = 'flex';
+      } else {
+        document.getElementById('browserWarning').style.display = 'none';
+      }
+    </script>
+    <script type="text/javascript" src="./js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="./js/moment.min.js"></script>
+    <script type="text/javascript" src="./js/createjs.min.js"></script>
+    <script type="text/javascript" src="./js/confetti.min.js"></script>
+    <script type="text/javascript" src="./js/gamedata.js"></script>
+    <script type="text/javascript" src="./js/gameSettings.js"></script>
+    <script type="text/javascript" src="./js/score.js"></script>
+    <script type="text/javascript" src="./js/user.js"></script>
+    <script type="text/javascript" src="./js/timer.js"></script>
+    <script type="text/javascript" src="./js/history.js"></script>
+    <script type="text/javascript" src="./js/sound.js"></script>
+    <script type="text/javascript" src="./js/loader.js"></script>
+    <script type="text/javascript" src="./js/board.js"></script>
+    <script type="text/javascript" src="./js/action.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>

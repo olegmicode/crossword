@@ -1,0 +1,28 @@
+{
+  "name": "sudoku-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve"
+  },
+  "author": "Pandu Wijaya",
+  "license": "ISC",
+  "dependencies": {
+    "@createjs/easeljs": "^2.0.0-beta.4",
+    "bootstrap-4-grid": "^3.4.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "webpack-stream": "^5.2.1"
+  }
+}

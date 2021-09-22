@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+// @import url("https://id.allfont.net/allfont.css?fonts=badaboom-bb");
+
+@font-face {
+  font-family: "BadaBoom BB";
+  src: url("./../fonts/badabb__-webfont.woff2") format("woff2"),
+    url("./../fonts/badabb__-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-base: "Source Sans Pro", sans-serif;
+$font-button: "BadaBoom BB";
+
+$black: #4f4f4f;
+$white: #ffffff;
+$grey: #e0e0e0;
+$grey-dark: #828282;
+
+$blue-cell: #289fc8;
+$blue-light: #c6f0ff;
+$blue-lighter: #a6d2e5;
+
+$blue: #0064D2;
+
+$primary: #FA3CBA;
+$primary-shade: #D02D99;
+
+$purple: #9396F5;
+$purple-shade:#7073DF;
+
+$yellow: #FEDD01;
+$yellow-shade: #d1941c;
+
+$green: #8fd24c;
+$green-shade: #7bca2d;
+
+$tosca: #4cd2c9;
+$tosca-shade: #2dcac0;
+
+$brick: #d27c4c;
+$brick-shade: #ca652d;
+
+$red: #d24c4c;
+$red-shade: #ca2d2d;
+
+$highlight: #ffebd9;
+$selected: #ffcea1;
+$selected-border: #ff8b1e;
+$correct: #55ff99;
+$correct-border: #007a31;
+$wrong: #ffbcbb;
+$wrong-border: #ff201e;
+
+$orange: #ff8a1e;
+
+$facebook: #3b5998;
+$facebook-shade: #335192;
+
+$twitter: #00acee;
+$twitter-shade: #0091c9;
