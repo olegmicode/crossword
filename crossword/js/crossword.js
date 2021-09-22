@@ -686,14 +686,14 @@ function resize() {
     var tmpSelectedY = selectedCell.gridY;
   }
 
-  // gridContainer.removeAllChildren();
-  // for (var x = 0; x < cellMap.length; x++) {
-  //   for (var y = 0; y < cellMap[x].length; y++) {
-  //     if (cellMap[x][y]) {
-  //       cellMap[x][y] = null;
-  //     }
-  //   }
-  // }
+  gridContainer.removeAllChildren();
+  for (var x = 0; x < cellMap.length; x++) {
+    for (var y = 0; y < cellMap[x].length; y++) {
+      if (cellMap[x][y]) {
+        cellMap[x][y] = null;
+      }
+    }
+  }
 
   setCanvasDimensions();
   createCrosswordGrid();
