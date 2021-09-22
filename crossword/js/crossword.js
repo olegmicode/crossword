@@ -1922,7 +1922,6 @@ function goPage(page) {
   switch (page) {
     case 'intro':
       $('#loader').fadeOut('fast', function () {
-        console.log('aaa')
         $('#intro').fadeIn('fast');
       });
       break;

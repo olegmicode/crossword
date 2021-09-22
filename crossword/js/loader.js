@@ -217,21 +217,20 @@ const permalinkHandler = () => {
   }
 
   if (gameLevel) {
-    goPage('intro');
-    // getScore();
+    getScore();
 
-    // difficulty.id = parseInt(gameLevel.id);
-    // difficulty.grid = parseInt(gameLevel.width);
-    // fetchQuestions(parseInt(gameLevel.id), parseInt(gameLevel.width));
-    // gameData.levelId = parseInt(gameLevel.id);
-    // gameData.boardJSON = gameLevel.board_json;
+    difficulty.id = parseInt(gameLevel.id);
+    difficulty.grid = parseInt(gameLevel.width);
+    fetchQuestions(parseInt(gameLevel.id), parseInt(gameLevel.width));
+    gameData.levelId = parseInt(gameLevel.id);
+    gameData.boardJSON = gameLevel.board_json;
 
-    // let loaderTimer = setInterval(() => {
-    //   if(isOnTheGame){
-    //     $('#loader').fadeOut('fast', function () {});
-    //     clearInterval(loaderTimer);
-    //   }
-    // }, 1000);
+    let loaderTimer = setInterval(() => {
+      if(isOnTheGame){
+        $('#loader').fadeOut('fast', function () {});
+        clearInterval(loaderTimer);
+      }
+    }, 1000);
   } else {
     goPage('intro');
   }
