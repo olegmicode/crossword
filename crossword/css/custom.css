@@ -4383,7 +4383,7 @@ nav {
 
 .simple-keyboard {
   position: absolute !important;
-  bottom: -100%;
+  /*bottom: -100%;*/
   z-index: 999 !important;
   border-radius: 0 !important; }
   .simple-keyboard.show {
