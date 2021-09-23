@@ -4382,12 +4382,13 @@ nav {
     transform: rotate(90deg); } }
 
 .simple-keyboard {
+  display: none;
   position: absolute !important;
-  /*bottom: -100%;*/
+  bottom: 0;
   z-index: 999 !important;
   border-radius: 0 !important; }
   .simple-keyboard.show {
-    bottom: 0; }
+    display: block; }
   .simple-keyboard .hg-button {
     height: 30px; }
 

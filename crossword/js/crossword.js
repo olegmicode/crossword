@@ -1486,7 +1486,7 @@ function openMobileKeyboard() {
   // key_interceptor.click();
   // key_interceptor.select();
   bottomInfo.show();
-  // $('.simple-keyboard').addClass('show');
+  $('.simple-keyboard').addClass('show');
   // bottomInfo.css('bottom', $('.simple-keyboard').height());
   clearTimeout(bottomInfoTimeout);
   bottomInfoTimeout = setTimeout(() => {
@@ -1495,6 +1495,7 @@ function openMobileKeyboard() {
 }
 
 function keyboardOnPress(e) {
+  console.log(e)
   if (e == '{close}') {
     clearTimeout(bottomInfoTimeout);
     deselectWord();
